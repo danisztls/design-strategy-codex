@@ -860,3 +860,7 @@ html.dark .vp-doc[ class*='_components' ] img {
 
 /* stylelint-enable selector-class-pattern */
 
+/* Fix navbar alignment */
+.cdx-docs-font-mode-selector {
+	display: inline-flex;
+}
