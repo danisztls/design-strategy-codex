@@ -7,7 +7,6 @@
 	-->
 	<layout :dir="isComponentPage ? undefined : 'ltr'" :class="layoutClasses">
 		<template #nav-bar-title-after>
-			<cdx-docs-beta-tag />
 		</template>
 		<template #nav-bar-content-after>
 			<cdx-docs-appearance-menu
@@ -45,7 +44,6 @@
 import { computed, ref, onMounted, onUnmounted, watch, provide } from 'vue';
 import { useRoute, useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
-import CdxDocsBetaTag from '../beta-tag/BetaTag.vue';
 import CdxDocsAppearanceMenu from '../appearance-menu/AppearanceMenu.vue';
 import CdxDocsVersionBanner from '../version-banner/VersionBanner.vue';
 import CdxDocsReturnToTop from '../return-to-top/ReturnToTop.vue';
