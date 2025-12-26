@@ -26,10 +26,11 @@ export default defineConfigWithTheme<CustomConfig>( {
 	},
 
 	themeConfig: {
+		siteTitle: 'Design Strategy',
 		logo: {
 			light: '/logo.svg',
 			dark: '/logo-inverted.svg',
-			alt: 'Design at Wikimedia'
+			alt: 'Design Strategy at Wikimedia'
 		},
 
 		sidebar: {
@@ -45,7 +46,7 @@ export default defineConfigWithTheme<CustomConfig>( {
 				{
 					text: 'Initiatives',
 					link: '/initiatives/',
-					collapsed: true,
+					collapsed: false,
 					items: [
 						{ text: 'Powered by People', link: '/initiatives/powered-by-people' },
 						{ text: 'Online Social Behavior', link: '/initiatives/online-social-behavior' },
