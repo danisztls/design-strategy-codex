@@ -15,6 +15,10 @@
   "devDependencies": {
     "@wikimedia/codex": "^2.3.3",
     "@wikimedia/codex-icons": "^2.3.3",
+    "less": "^4.5.1",
     "vitepress": "^2.0.0-alpha.15"
+  },
+  "dependencies": {
+    "@wikimedia/codex-design-tokens": "^2.3.3"
   }
 }
