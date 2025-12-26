@@ -14,13 +14,6 @@
 				v-model:font-mode="fontMode"
 				:dir="isComponentPage ? 'ltr' : undefined"
 			/>
-			<a
-				href="https://github.com/wikimedia/design-codex"
-				class="cdx-docs-github-link"
-				aria-label="Codex on GitHub"
-			>
-				<span class="cdx-docs-github-link__icon vpi-social-github" />
-			</a>
 		</template>
 		<template #doc-before>
 			<cdx-docs-version-banner v-if="!frontmatter.isHomepage" />
@@ -136,21 +129,6 @@ html.cdx-docs-color-mode {
 
 	&--x-large {
 		.cdx-mode-x-large();
-	}
-}
-
-.cdx-docs-github-link {
-	margin-left: @spacing-75;
-
-	// Use the VitePress GitHub link on small screens since it's placed within the menu there.
-	@media ( max-width: 767px ) {
-		display: none;
-	}
-
-	&__icon {
-		display: block;
-		width: @size-125;
-		height: @size-125;
 	}
 }
 </style>
