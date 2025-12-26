@@ -2,8 +2,6 @@
 title: Collaborators 
 ---
 
-# {{ $frontmatter.title }}
-
 The Design Strategy group at the Wikimedia Foundation often works with outside researchers and firms to augment it's capacity - in order to provide the insights our Product teams need to make informed decisions. The Design Strategy team is grateful for the opportunity to learn from other practitioners.
 
 [AfriqInsights](https://www.afriqinsights.com/) is a market research agency that operates across Africa. AfriqInsights supported the Foundation on the 2021 African context Emerging Education report.

@@ -8,6 +8,7 @@
 	<layout :dir="isComponentPage ? undefined : 'ltr'" :class="layoutClasses">
 		<template #nav-bar-title-after>
 		</template>
+
 		<template #nav-bar-content-after>
 			<cdx-docs-appearance-menu
 				v-model:color-mode="colorMode"
@@ -15,9 +16,15 @@
 				:dir="isComponentPage ? 'ltr' : undefined"
 			/>
 		</template>
+
 		<template #doc-before>
-			<cdx-docs-version-banner v-if="!frontmatter.isHomepage" />
+			<header class="doc-header vp-doc" role="banner">
+				<h1 v-if="frontmatter.title">
+					{{ frontmatter.title }}
+				</h1>
+			</header>
 		</template>
+
 		<template v-if="showReturnToTopButton && !isTopOfPage" #doc-bottom>
 			<cdx-docs-return-to-top />
 		</template>
