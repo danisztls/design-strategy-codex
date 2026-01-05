@@ -1,5 +1,5 @@
 {
-  "name": "design-research-codex",
+  "name": "design-strategy-codex",
   "version": "1.0.0",
   "description": "A remake of [Design Strategy](https://design.wikimedia.org/strategy/) static site to use [Codex](https://doc.wikimedia.org/codex/latest/). Made with [Vitepress](https://vitepress.dev/).",
   "license": "",
