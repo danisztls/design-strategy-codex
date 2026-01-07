@@ -5,10 +5,12 @@ import {
   cdxIconLogoWikimedia,
   cdxIconMessage
 } from '@wikimedia/codex-icons'
+import { githubIcon } from '../utils/custom-icons'
 
 const ICONS: Record<string, IconDefinition> = {
   wikimedia: cdxIconLogoWikimedia,
-  message: cdxIconMessage
+  message: cdxIconMessage,
+  github: githubIcon,
 }
 
 const props = defineProps({

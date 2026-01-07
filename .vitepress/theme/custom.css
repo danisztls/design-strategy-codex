@@ -909,4 +909,5 @@ html.dark .vp-doc[ class*='_components' ] img {
 .team-links {
 	display: inline-flex;
 	justify-content: center;
+	gap: 1rem;
 }

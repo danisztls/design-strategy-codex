@@ -66,6 +66,7 @@ const data = [
 		name: 'Design Research',
 		title: 'Contact Us',
 		links: {
+			wikimedia: "https://meta.wikimedia.org/wiki/User:CLo_(WMF)",
 			message: 'mailto:desresadmin@wikimedia.org'
 		}
 	}
