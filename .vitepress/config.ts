@@ -25,6 +25,16 @@ export default defineConfigWithTheme<CustomConfig>( {
 		theme: 'dracula'
 	},
 
+	vite: {
+		css: {
+			preprocessorOptions: {
+				less: {
+					javascriptEnabled: true
+				}
+			}
+		}
+	},
+
 	themeConfig: {
 		siteTitle: 'Design Strategy',
 		logo: {

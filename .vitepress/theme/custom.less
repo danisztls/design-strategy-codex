@@ -1,6 +1,5 @@
 /* Codex design tokens and rules for VitePress docs. */
 @import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
-/* TODO: Use a pre-processor. */
 
 /* stylelint-disable selector-class-pattern */
 
@@ -316,8 +315,8 @@ body {
 	height: auto;
 	border-radius: var( --border-radius-base );
 	padding: 0 var( --spacing-horizontal-button );
-	transition-property: @transition-property-base;
-	transition-duration: @transition-duration-base;
+	transition-property: var(--transition-property-base);
+	transition-duration: var(--transition-duration-base);
 }
 
 .VPNavBar .VPNavBarHamburger:hover {
@@ -480,8 +479,8 @@ body {
 	height: var( --min-size-interactive-pointer );
 	border-radius: var( --border-radius-base );
 	padding: 0 var( --spacing-horizontal-button );
-	transition-property: @transition-property-base;
-	transition-duration: @transition-duration-base;
+	transition-property: var(--transition-property-base);
+	transition-duration: var(--transition-duration-base);
 
 	@media screen and ( min-width: 960px ) {
 		/* Override VitePress fixed size, which is an accessibility no-go. */
