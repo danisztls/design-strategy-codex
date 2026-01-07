@@ -9,13 +9,14 @@
 		<template #nav-bar-title-after>
 		</template>
 
-		<template #nav-bar-content-after>
-			<cdx-docs-appearance-menu
-				v-model:color-mode="colorMode"
-				v-model:font-mode="fontMode"
-				:dir="isComponentPage ? 'ltr' : undefined"
-			/>
-		</template>
+		<!-- FIXME: Temporarily disable because styles aren't being rendered. -->
+		<!-- <template #nav-bar-content-after> -->
+		<!-- 	<cdx-docs-appearance-menu -->
+		<!-- 		v-model:color-mode="colorMode" -->
+		<!-- 		v-model:font-mode="fontMode" -->
+		<!-- 		:dir="isComponentPage ? 'ltr' : undefined" -->
+		<!-- 	/> -->
+		<!-- </template> -->
 
 		<template #doc-before>
 			<header class="doc-header vp-doc" role="banner">
@@ -45,7 +46,6 @@ import { computed, ref, onMounted, onUnmounted, watch, provide } from 'vue';
 import { useRoute, useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import CdxDocsAppearanceMenu from '../appearance-menu/AppearanceMenu.vue';
-import CdxDocsVersionBanner from '../version-banner/VersionBanner.vue';
 import CdxDocsReturnToTop from '../return-to-top/ReturnToTop.vue';
 
 const { Layout } = DefaultTheme;
