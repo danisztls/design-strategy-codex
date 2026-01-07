@@ -64,21 +64,21 @@ const props = defineProps({
 	.team-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, 250px);
-		gap: 16px;
-		padding: 32px;
+		gap: var(--spacing-100);
+		padding: var(--spacing-200);
 	}
 
 	.team-card {
 		display: grid;
 		grid-auto-columns: auto;
-		padding: 16px;
+		padding: var(--spacing-100);
 		text-align: center;
-		border: 1px solid var(--cdx-border-color-subtle);
+		border: var(--border-width-base) solid var(--border-color-subtle);
 		border-radius: 8px;
 	}
 
 	.team-avatar {
-		margin: 0 auto 12px;
+		margin: 0 auto var(--spacing-75);
 		border-radius: 50%;
 		overflow: hidden;
 
@@ -89,22 +89,22 @@ const props = defineProps({
 	}
 
 	.team-name {
-		margin: 0;
-		font-weight: 600;
-		font-size: 1.05em;
+		margin: var(--spacing-35) 0;
+		font-weight: var(--font-weight-bold);
+		font-size: var(--font-size-large);
 	}
 
 	.team-what, .team-where {
 		color: var(--color-subtle);
-		font-size: 0.95em;
+		font-size: var(--font-size-small);
 	}
 
 	.team-links {
 		display: inline-flex;
 		align-self: end;
 		justify-content: center;
-		gap: 12px;
-		margin: 6px 0;
+		gap: var(--spacing-75);
+		margin: var(--spacing-35) 0;
 	}
 
 	a:hover {
