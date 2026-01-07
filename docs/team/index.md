@@ -6,68 +6,65 @@ title: Team
 <script setup>
 const data = [
 	{
-		avatar: 'margeigh.jpg',
-		name: 'Margeigh Novotny',
-		title: 'Vice President @ Product Design & Strategy',
+		avatar: "kumar.webp",
+		name: "Debra Kumar",
+		what: "Design Research Manager",
 		links: {
-			wikimedia: 'https://meta.wikimedia.org/wiki/User:MNovotny_(WMF)'
+			wikimedia: "https://meta.wikimedia.org/wiki/User:DKumar-WMF"
 		}
 	},
 	{
-		avatar: 'gescalante.jpg',
-		name: 'Gabriel Escalante',
-		title: 'Manager @ Design Strategy',
+		avatar: "bethany.webp",
+		name: "Bethany Gerdemann",
+		what: "Program Manager",
+		where: "Design Strategy",
 		links: {
-			wikimedia: 'https://meta.wikimedia.org/wiki/User:GEscalante_(WMF)'
+			wikimedia: "https://meta.wikimedia.org/wiki/User:BGerdemann_(WMF)"
 		}
 	},
 	{
-		avatar: 'bethany.png',
-		name: 'Bethany Gerdemann',
-		title: 'Program Manager @ Design Strategy',
+		avatar: "eli.webp",
+		name: "Eli Asikin-Garmager",
+		what: "Design Research Principal",
+		where: "Languages & Inuka",
 		links: {
-			wikimedia: 'https://meta.wikimedia.org/wiki/User:BGerdemann_(WMF)'
+			wikimedia: "https://meta.wikimedia.org/wiki/User:EAsikingarmager_(WMF)"
 		}
 	},
 	{
-		avatar: 'eli.jpg',
-		name: 'Eli Asikin-Garmager',
-		title: 'Design Research Principal @ Languages & Inuka',
+		avatar: "mike.webp",
+		name: "Michael Raish",
+		what: "Design Research Lead",
+		where: "Core Experiences",
 		links: {
-			wikimedia: 'https://meta.wikimedia.org/wiki/User:EAsikingarmager_(WMF)'
+			wikimedia: "https://meta.wikimedia.org/wiki/User:MRaish_(WMF)"
 		}
 	},
 	{
-		avatar: 'mike.jpg',
-		name: 'Michael Raish',
-		title: 'Vice President @ Product Design & Strategy',
+		avatar: "daisy.webp",
+		name: "Daisy Chen",
+		what: "Senior Design Researcher",
+		where: "Product Design",
 		links: {
-			wikimedia: 'https://meta.wikimedia.org/wiki/User:MRaish_(WMF)'
+			wikimedia: "https://meta.wikimedia.org/wiki/User:Dchen_(WMF)"
 		}
 	},
 	{
-		avatar: 'daisy.jpg',
-		name: 'Daisy Chen',
-		title: 'Senior Design Researcher @ Product Design',
+		avatar: "claudia.webp",
+		name: "Claudia Lo",
+		what: "Senior Design Researcher",
+		where: "Anti-harassment Tools",
 		links: {
-			wikimedia: 'https://meta.wikimedia.org/wiki/User:Dchen_(WMF)'
+			wikimedia: "https://meta.wikimedia.org/wiki/User:CLo_(WMF)"
 		}
 	},
 	{
-		avatar: 'claudia.jpg',
-		name: 'Claudia Lo',
-		title: 'Senior Design Researcher @ Anti-harassment Tools',
+		avatar: "barnstar.webp",
+		name: "Design Research",
+		what: "Contact Us",
 		links: {
-			wikimedia: 'https://meta.wikimedia.org/wiki/User:CLo_(WMF)'
-		}
-	},
-	{
-		avatar: 'barnstar.png',
-		name: 'Design Research',
-		title: 'Contact Us',
-		links: {
-			wikimedia: "https://meta.wikimedia.org/wiki/User:CLo_(WMF)",
-			message: 'mailto:desresadmin@wikimedia.org'
+			wikimedia: "https://www.mediawiki.org/wiki/Wikimedia_Research/Design_Research",
+			message: "mailto:desresadmin@wikimedia.org"
 		}
 	}
 ]

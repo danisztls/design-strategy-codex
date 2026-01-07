@@ -38,7 +38,8 @@ const props = defineProps({
       />
 
       <h3 class="team-name">{{ member.name }}</h3>
-      <p class="team-role">{{ member.title }}</p>
+      <p :v-if="member.what" class="team-what">{{ member.what }}</p>
+      <p :v-if="member.where" class="team-where">{{ member.where }}</p>
 
       <div class="team-links">
 		<a
@@ -90,17 +91,24 @@ const props = defineProps({
 	.team-name {
 		margin: 0;
 		font-weight: 600;
+		font-size: 1.05em;
 	}
 
-	.team-role {
-		font-size: 0.875rem;
-		color: var(--cdx-color-subtle);
+	.team-what, .team-where {
+		color: var(--color-subtle);
+		font-size: 0.95em;
 	}
 
 	.team-links {
 		display: inline-flex;
+		align-self: end;
 		justify-content: center;
 		gap: 12px;
 		margin: 6px 0;
+	}
+
+	a:hover {
+		color: var( --color-progressive--hover );
+		fill: var( --color-progressive--hover );
 	}
 </style>
