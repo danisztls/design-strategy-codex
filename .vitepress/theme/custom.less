@@ -1,6 +1,3 @@
-/* Codex design tokens and rules for VitePress docs. */
-@import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
-
 /* stylelint-disable selector-class-pattern */
 
 /*
@@ -866,3 +863,9 @@ html.dark .vp-doc[ class*='_components' ] img {
 .cdx-docs-font-mode-selector {
 	display: inline-flex;
 }
+
+/* Fix popover */
+.cdx-popover {
+	max-height: fit-content !important;
+}
+

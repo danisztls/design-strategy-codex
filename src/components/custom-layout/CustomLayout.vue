@@ -9,14 +9,13 @@
 		<template #nav-bar-title-after>
 		</template>
 
-		<!-- FIXME: Temporarily disable because styles aren't being rendered. -->
-		<!-- <template #nav-bar-content-after> -->
-		<!-- 	<cdx-docs-appearance-menu -->
-		<!-- 		v-model:color-mode="colorMode" -->
-		<!-- 		v-model:font-mode="fontMode" -->
-		<!-- 		:dir="isComponentPage ? 'ltr' : undefined" -->
-		<!-- 	/> -->
-		<!-- </template> -->
+		<template #nav-bar-content-after>
+			<cdx-docs-appearance-menu
+				v-model:color-mode="colorMode"
+				v-model:font-mode="fontMode"
+				:dir="isComponentPage ? 'ltr' : undefined"
+			/>
+		</template>
 
 		<template #doc-before>
 			<header class="doc-header vp-doc" role="banner">
