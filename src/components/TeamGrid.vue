@@ -58,3 +58,49 @@ const props = defineProps({
     </div>
   </div>
 </template>
+
+<style scoped lang="less">
+	.team-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, 250px);
+		gap: 16px;
+		padding: 32px;
+	}
+
+	.team-card {
+		display: grid;
+		grid-auto-columns: auto;
+		padding: 16px;
+		text-align: center;
+		border: 1px solid var(--cdx-border-color-subtle);
+		border-radius: 8px;
+	}
+
+	.team-avatar {
+		margin: 0 auto 12px;
+		border-radius: 50%;
+		overflow: hidden;
+
+		:deep(img) {
+			aspect-ratio: 1/1;
+			object-fit: cover;
+		}
+	}
+
+	.team-name {
+		margin: 0;
+		font-weight: 600;
+	}
+
+	.team-role {
+		font-size: 0.875rem;
+		color: var(--cdx-color-subtle);
+	}
+
+	.team-links {
+		display: inline-flex;
+		justify-content: center;
+		gap: 12px;
+		margin: 6px 0;
+	}
+</style>

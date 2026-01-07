@@ -1,7 +1,6 @@
 /* Codex design tokens and rules for VitePress docs. */
 @import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
 /* TODO: Use a pre-processor. */
-@import ( reference ) '@wikimedia/codex/mixins/link.less';
 
 /* stylelint-disable selector-class-pattern */
 
@@ -867,47 +866,4 @@ html.dark .vp-doc[ class*='_components' ] img {
 /* Fix navbar alignment */
 .cdx-docs-font-mode-selector {
 	display: inline-flex;
-}
-
-/* TeamGrid */
-.team-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, 250px);
-	gap: 16px;
-	padding: 32px;
-}
-
-.team-card {
-	display: flex;
-	flex-flow: column nowrap;
-	padding: 16px;
-	text-align: center;
-	border: 1px solid var(--cdx-border-color-subtle);
-	border-radius: 8px;
-}
-
-.team-avatar {
-	margin: 0 auto 12px;
-	border-radius: 50%;
-	overflow: hidden;
-}
-
-.team-avatar img {
-	aspect-ratio: 1/1;
-	object-fit: cover;
-}
-
-.team-name {
-	margin: 0;
-}
-
-.team-role {
-	font-size: 0.875rem;
-	color: var(--cdx-color-subtle);
-}
-
-.team-links {
-	display: inline-flex;
-	justify-content: center;
-	gap: 1rem;
 }
