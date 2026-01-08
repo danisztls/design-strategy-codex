@@ -1,7 +1,6 @@
 import DefaultTheme from 'vitepress/theme';
 import { Theme } from 'vitepress';
 import CustomLayout from '../../src/components/custom-layout/CustomLayout.vue';
-import TeamGrid from '../../src/components/TeamGrid.vue';
 
 import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
 import '@wikimedia/codex/dist/codex.style.css';
@@ -12,7 +11,25 @@ const customTheme: Theme = {
 	...DefaultTheme,
 	Layout: CustomLayout,
 	enhanceApp( { app, router } ) {
-		app.component( 'TeamGrid', TeamGrid );
+		const components = import.meta.glob('../../src/components/**/*.vue', {
+			eager: true
+		});
+
+		for (const path in components) {
+			const component = components[path].default;
+
+			if (!component) continue;
+
+			// Use filename as component name
+			const name = path
+				.split('/')
+				.pop()
+				?.replace('.vue', '');
+
+			if (name) {
+				app.component(`Local${name}`, component);
+			}
+		}
 	}
 };
 

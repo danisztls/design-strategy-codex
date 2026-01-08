@@ -4,7 +4,7 @@ title: Team
 ---
 
 <script setup>
-const data = [
+const team = [
 	{
 		avatar: "kumar.webp",
 		name: "Debra Kumar",
@@ -70,4 +70,4 @@ const data = [
 ]
 </script>
 
-<TeamGrid :data="data" />
+<LocalTeamGrid :team="team" />

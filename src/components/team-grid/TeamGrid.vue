@@ -5,7 +5,7 @@ import {
   cdxIconLogoWikimedia,
   cdxIconMessage
 } from '@wikimedia/codex-icons'
-import { githubIcon } from '../utils/custom-icons'
+import { githubIcon } from '../../utils/custom-icons'
 
 const ICONS: Record<string, IconDefinition> = {
   wikimedia: cdxIconLogoWikimedia,
@@ -14,7 +14,7 @@ const ICONS: Record<string, IconDefinition> = {
 }
 
 const props = defineProps({
-  data: {
+  team: {
     type: Array,
     required: true
   }
@@ -24,7 +24,7 @@ const props = defineProps({
 <template>
   <div class="team-grid">
     <div
-      v-for="member in props.data"
+      v-for="member in props.team"
       :key="member.name"
       class="team-card"
     >
