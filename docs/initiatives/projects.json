@@ -1,0 +1,226 @@
+[
+	{
+		"title": "Centralized Contributions for Moderation",
+		"description": "Discover if experienced editors want a centralized hub to discover and find new contribution suggestions, and if so, what should be on it to encourage its use.",
+		"url": "https://meta.wikimedia.org/wiki/Research:Centralized_contributions_for_moderation_activity",
+		"date": "2025-06",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Watchlist and Task Prioritization",
+		"description": "Understanding how moderators and patrollers use their watchlist page and how they discover, organize and prioritize their on-wiki work.",
+		"url": "https://commons.wikimedia.org/wiki/File:(Report)_Research_findings_for_Watchlist_and_Task_Prioritization.pdf",
+		"date": "2025-05",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Understanding the usage and impact of the Flagged Revisions extension",
+		"description": "As part of the Research group, the Design Research team supports Product Design by delivering insights that help product teams make informed and inspired decisions.",
+		"url": "https://meta.wikimedia.org/wiki/Research:FlaggedRevisions_investigation",
+		"date": "2025-03",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Wikipedia Administrator Experiences",
+		"description": "Causes behind human administration recruiting, retention, and departure patterns.",
+		"url": "https://meta.wikimedia.org/wiki/Research:Wikipedia_Administrator_Recruitment,_Retention,_and_Attrition/Report",
+		"date": "2024-10",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "WikiProject Survey",
+		"description": "Design, distribute, and analyze a survey of WikiProject contributors in order to identify projects for impact.",
+		"url": "https://meta.wikimedia.org/wiki/Campaigns/WikiProjects#Definition:_What_do_we_mean_by_WikiProject_or_other_Collaborative_editing_initatives",
+		"date": "2024-10",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Patroller Work Habits Survey",
+		"description": "Surveying the contributions and working habits of patrollers, to better guide future efforts to aid this group.",
+		"url": "https://commons.wikimedia.org/wiki/File:Patroller_Work_Habits_Survey_Results.pdf",
+		"date": "2024-06",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Commons Impact Metrics",
+		"description": "Understanding affiliates data and metrics needs in the Commons space.",
+		"url": "https://upload.wikimedia.org/wikipedia/commons/archive/0/02/20231219010653%21%28Report%29_Commons_impact_metrics_Report_Dec_2023.pdf",
+		"date": "2023-10",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Commons Administrator Interviews",
+		"description": "Research to understand Commons Administrators workflows, the challenges they face in moderating content, and their ideas for reducing deletions.",
+		"url": "https://commons.wikimedia.org/wiki/File:Commons_Upload_Wizard_Improvements_Research_-_27Sep23-_Preliminary_results_Summary.pdf",
+		"date": "2023-10",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Campaign Event Discovery Survey",
+		"description": "Survey on most common and most effective campaign event discoverability pathways.",
+		"url": "https://meta.wikimedia.org/wiki/Campaigns/Foundation_Product_Team/Event_Discovery",
+		"date": "2023-09",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Commons Uploader Experience",
+		"description": "A project to understand the user experience of uploading images to Commons, with the purpose of improving the upload process while reducing deletion requests...",
+		"url": "https://commons.wikimedia.org/wiki/Commons:WMF_support_for_Commons/Upload_Wizard_Improvements",
+		"date": "2023-07",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Journey Transitions",
+		"description": "This project explores what and whether notable moments cause users to deepen and expand their use of and/or contributions to Wikipedia.",
+		"url": "https://www.mediawiki.org/wiki/Journey_transitions",
+		"date": "2023-05",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Wikistories Early Adopters Research",
+		"description": "A project about Wikistory adopters, both creators and readers, focusing on their motivations and experiences creating and sharing stories.",
+		"url": "https://meta.wikimedia.org/wiki/Research:Wikistories_Early_Adopters_Research",
+		"date": "2023-01",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Event Organizers: A Study in 4 African Countries",
+		"description": "This exploratory research project focused on organizations in four african countries to learn about the particular challenges faced event organizers and the strategies they have developed to succeed in growing their communities.",
+		"url": "https://commons.wikimedia.org/wiki/File:UX_Research_Campaigns_Event_Organizers.pdf",
+		"date": "2022-03",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Content Moderation in Medium-Sized Wikimedia Projects",
+		"description": "This project aims to fill knowledge gaps in our understanding of how editors curate and moderate content on Wikimedia projects outside the largest and most well-researched communities.",
+		"url": "content-mod-medium-wikis.html",
+		"date": "2022-03",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Communications and Mentorship",
+		"description": "Understanding the wiki-related communications ecosystem, both on and off Wiki, that embedded community members employ for their Wiki related work.",
+		"url": "communications-mentorship.html",
+		"date": "2021-12",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Understanding Perspectives on Digital Education in African Contexts",
+		"description": "Qualitative research examining the perspectives on the future of education from experts, students, teachers, and parents.",
+		"url": "emerging-education.html",
+		"date": "2021-05",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "How Do News Organizations Use Wikipedia?",
+		"description": "A literature review that seeks to understand more about how and why media and news organizations use Wikipedia.",
+		"url": "https://commons.wikimedia.org/wiki/File:How_News_Media_Orgs_Use_Wikipedia_Working_Paper_30_June_2020.pdf",
+		"date": "2020-06",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Free Knowledge Movement Personas",
+		"description": "This is a collection of all personas developed to date for desktop and mobile readers, new and veteran contributors, institutional curators and Movement organizers.",
+		"url": "https://www.mediawiki.org/wiki/Personas_for_product_development",
+		"date": "2020-05",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Content Moderation Explained",
+		"description": "An overview of how a global community of volunteer moderators determine which contributions to Wikipedia are accepted and rejected.",
+		"url": "https://design.wikimedia.org/blog/2020/07/30/content-moderation-anti-vandalism-wikipedia.html",
+		"date": "2020-06",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "CheckUser Workflow & Tools",
+		"description": "CheckUser is a critical tool for moderators in anti-vandalism efforts on Wikipedia. This research surfaces the pain points in the CheckUser workflow and opportunities to improve the tool.",
+		"url": "check-user.html",
+		"date": "2020-04",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Why Do People Edit Wikipedia?",
+		"description": "This literature review examines the drivers of engagement and the motivators of sustained involvement in Wikipedia. It provides an overview of academic research on Wikipedia production and editor motivations, highlighting the themes and queries of scholarship in this area.",
+		"url": "why-do-people-edit-wikipedia.html",
+		"date": "2020-02",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "WMF Remote Worker Experience",
+		"description": "This is a lean, inward-facing research project that surfaced the challenges and highlights of working remotely for the Foundation and offered opportunities for the Foundation and non-remote staff to improve the work lives and for its globally distributed staff.",
+		"url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Remote_Worker_Experience%2C_All-hands_2020.pdf",
+		"date": "2020-01",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "New Page Patrol",
+		"description": "Content integrity on Wikipedia relies on editors who patrol articles and respond to vandalism. This research brings to light the workflows of editors who patrol on Wikipedia(s) and the tools used in the course of their work.",
+		"url": "https://meta.wikimedia.org/wiki/Research:Patrolling_on_Wikipedia",
+		"date": "2019-09",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Movement Organizers",
+		"description": "The Movement Organizer Study sought to understand the life cycle of contributors by documenting paths, practices, challenges, and risks faced by successful organizers throughout the Free Knowledge",
+		"url": "movement-organizers.html",
+		"date": "2019-06",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Contribution Workflow Taxonomy",
+		"description": "This project details the workflow of contributors and assesses the level of difficulty they encounter with each step in the workflow in order to understand what contributes to editors' retention or burn-out.",
+		"url": "https://www.mediawiki.org/wiki/Wikimedia_Product/Contribution_taxonomy",
+		"date": "2018",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "New Editor Experiences",
+		"description": "This study sought to understand the experiences, needs and challenges of new editors on midsize Wikipedias with the goal of learning how best to support and retain them.",
+		"url": "https://www.mediawiki.org/wiki/New_Editor_Experiences",
+		"date": "2017",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "New Readers",
+		"description": "This study sought to understand potential Wikimedia readers in countries where access to the internet is quickly growing.",
+		"url": "https://meta.wikimedia.org/wiki/File:Wikimedia_Foundation_and_Reboot_New_Readers_Research_-_Nigeria_%26_India_Highlights_-_July_2016.pdf",
+		"date": "2016",
+		"lead": "",
+		"category": "Powered by People"
+	},
+	{
+		"title": "Contribution Taxonomy Project",
+		"description": "This project creates a taxonomy of the contributions made by Wikimedia communities, measure the contributions in that taxonomy, and elicit trends in volunteer contributions to the projects.",
+		"url": "https://meta.wikimedia.org/wiki/Research:Contribution_Taxonomy_Project",
+		"date": "2012",
+		"lead": "",
+		"category": "Powered by People"
+	}
+]

@@ -34,8 +34,4 @@ const props = defineProps({
 	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 	gap: 16px;
 }
-
-a.cdx-card:hover {
-	text-decoration: none;
-}
 </style>
