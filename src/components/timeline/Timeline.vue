@@ -73,8 +73,8 @@ const sortedYears = computed(() =>
 				>
 					<h3 class="timeline-item-title">{{ item.title }}</h3>
 					<p class="timeline-item-description">{{ item.description }}</p>
-					<p class="timeline-item-lead">Lead: {{ item.lead }}</p>
-					<div class="timeline-item-category"><CdxInfoChip :data-category="slugify(item.category)">{{ item.category }}</CdxInfoChip></div>
+					<p v-if="item.lead" class="timeline-item-lead">Lead: {{ item.lead }}</p>
+					<div v-if="item.category" class="timeline-item-category"><CdxInfoChip :data-category="slugify(item.category)">{{ item.category }}</CdxInfoChip></div>
 				</component>
 			</ul>
 		</div>
@@ -113,10 +113,10 @@ const sortedYears = computed(() =>
 		text-decoration: none;
 	}
 
-	&:hover {
-		.timeline-item-title {
-			color: var(--color-link--hover);
-		}
+}
+a.timeline-item:hover {
+	.timeline-item-title {
+		color: var(--color-link--hover);
 	}
 }
 
