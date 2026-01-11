@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Team 
+aside: false
 ---
 
 <script setup>
