@@ -869,6 +869,13 @@ html.dark .vp-doc[ class*='_components' ] img {
 	max-height: fit-content !important;
 }
 
+/* Disable text decoration on cdx-card with link */
 a.cdx-card:hover {
 	text-decoration: none;
+}
+
+/* Override style from codex-docs which prevent <strong> elements from showing as bold */
+.vp-doc a {
+	/* Use `initial` to reset VitePress' opinionated font weight to browser default. */
+	font-weight: inherit;
 }
