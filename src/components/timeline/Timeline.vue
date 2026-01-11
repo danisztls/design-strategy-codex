@@ -13,6 +13,7 @@ interface TimelineItem {
 
 const props = defineProps<{
 	items: TimelineItem[];
+	year?: string;
 }>();
 
 function slugify(value: string): string {
@@ -30,13 +31,13 @@ const groupedByYear = computed(() => {
 	const map: Record<string, TimelineItem[]> = {};
 
 	(props.items as TimelineItem[]).forEach(item => {
-		const year = item.date.split('-')[0];
+		const itemYear = item.date.split('-')[0];
 
-		if (!map[year]) {
-			map[year] = [];
+		if (!map[itemYear]) {
+			map[itemYear] = [];
 		}
 
-		map[year].push(item);
+		map[itemYear].push(item);
 	});
 
 	// Sort items within each year by date (newest first)
@@ -46,48 +47,28 @@ const groupedByYear = computed(() => {
 
 	return map;
 });
-
-/**
- * Years sorted descending
- */
-const sortedYears = computed(() =>
-	Object.keys(groupedByYear.value).sort((a, b) => b.localeCompare(a))
-);
 </script>
 
 <template>
-	<section class="timeline-section">
-		<div
-			v-for="year in sortedYears"
-			:key="year"
-			class="timeline-year-section"
+	<ul
+		class="timeline-list"
+		:key="year"
+	>
+		<component
+			:is="item.url ? 'a' : 'div'"
+			:href="item.url || undefined"
+			v-for="item in groupedByYear[year]"
+			class="timeline-item"
 		>
-			<h2>{{ year }}</h2>
-
-			<ul class="timeline-list">
-				<component
-					:is="item.url ? 'a' : 'div'"
-					:href="item.url || undefined"
-					v-for="item in groupedByYear[year]"
-					class="timeline-item"
-				>
-					<h3 class="timeline-item-title">{{ item.title }}</h3>
-					<p class="timeline-item-description">{{ item.description }}</p>
-					<p v-if="item.lead" class="timeline-item-lead">Lead: {{ item.lead }}</p>
-					<div v-if="item.category" class="timeline-item-category"><CdxInfoChip :data-category="slugify(item.category)">{{ item.category }}</CdxInfoChip></div>
-				</component>
-			</ul>
-		</div>
-	</section>
+			<h3 class="timeline-item-title">{{ item.title }}</h3>
+			<p class="timeline-item-description">{{ item.description }}</p>
+			<p v-if="item.lead" class="timeline-item-lead">Lead: {{ item.lead }}</p>
+			<div v-if="item.category" class="timeline-item-category"><CdxInfoChip :data-category="slugify(item.category)">{{ item.category }}</CdxInfoChip></div>
+		</component>
+	</ul>
 </template>
 
 <style scoped>
-.timeline-section {
-	display: flex;
-	flex-flow: column nowrap;
-	gap: var(--spacing-75);
-}
-
 .timeline-list {
 	padding: 0;
 	margin: 0;
