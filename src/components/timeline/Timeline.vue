@@ -93,15 +93,16 @@ const sortedYears = computed(() =>
 	margin: 0;
 	display: flex;
     flex-flow: column nowrap;
-	gap: var(--spacing-75);
+	gap: var(--spacing-150);
 }
 
 .timeline-item {
-	padding: 0;
-	margin: 0;
 	display: flex;
 	flex-flow: column nowrap;
 	gap: var(--spacing-35);
+	border-left: 5px solid transparent; 
+	padding-left: 15px;
+	margin-left: -15px;
 
 	p {
 		line-height: var(--line-height-x-small);
@@ -115,13 +116,15 @@ const sortedYears = computed(() =>
 
 }
 a.timeline-item:hover {
+	border-color: var(--color-link--hover);
+
 	.timeline-item-title {
 		color: var(--color-link--hover);
 	}
 }
 
 .timeline-item-title {
-	margin: var(--spacing-75) 0 0 0;
+	margin: 0;
 	font-size: var(--font-size-large);
 }
 
