@@ -156,7 +156,7 @@ a.timeline-item:hover {
 	background-color: #259948;
 }
 
-:deep(.cdx-info-chip[data-category="numeric-exploitation"]) {
+:deep(.cdx-info-chip[data-category="numeric-exploration"]) {
 	background-color: #d46926;
 }
 </style>

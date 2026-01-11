@@ -84,7 +84,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Volunteer_Archetypes",
 		"date": "2024-10",
 		"lead": "Michael Raish, Tanja Andic, Sneha Patel, and Rita Ho",
-		"category": "Numeric Exploitation"
+		"category": "Numeric Exploration"
 	},
 	{
 		"title": "Wikipedia is an Antidote to Disinformation",
@@ -99,7 +99,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Volunteer_Archetypes_v1-2024-07.pdf",
 		"date": "2024-07",
 		"lead": "Michael Raish, Tanja Andic, Sneha Patel, and Rita Ho",
-		"category": "Numeric Exploitation"
+		"category": "Numeric Exploration"
 	},
 	{
 		"title": "Patroller Work Habits Survey",
@@ -314,7 +314,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Momentum_(Design_Strategy).pdf",
 		"date": "2022-10",
 		"lead": "Jim Maddock with Michael Raish, Mikhail Popov, Isaac Johnson, and Margeigh Novotny",
-		"category": "Numeric Exploitation"
+		"category": "Numeric Exploration"
 	},
 	{
 		"title": "IP Editing on Japanese Wikipedia",
@@ -345,7 +345,7 @@
 		"description": "A project that combines usage data and in-depth interviews with Commons users to understand the current state of the platform.",
 		"date": "2022-07",
 		"lead": "Jeff Howard with Jim Maddock and Margeigh Novotny",
-		"category": "Numeric Exploitation"
+		"category": "Numeric Exploration"
 	},
 	{
 		"title": "The Future of IP-based editing",
@@ -391,7 +391,7 @@
 		"url": "https://dl.acm.org/doi/pdf/10.1145/3491102.3517523",
 		"date": "2022-05",
 		"lead": "Andrew Kuznetsov, Margeigh Novotny, Jessica Klein, Diego Saez-Trumper, Aniket Kittur",
-		"category": "Numeric Exploitation"
+		"category": "Numeric Exploration"
 	},
 	{
 		"title": "HabLatAm",
@@ -517,7 +517,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Long_Tail_Topic_Ontology",
 		"date": "2021-06",
 		"lead": "",
-		"category": "Numeric Exploitation"
+		"category": "Numeric Exploration"
 	},
 	{
 		"title": "Understanding Perspectives on Digital Education in African Contexts",
@@ -610,7 +610,7 @@
 		"description": "The goal of this work is to develop systems for automatically detecting and characterizing the editorial debates behind Wikipedia articles for the purpose of surfacing indications of trustworthiness to the reader. This project is a collaboration between the Wikimedia Foundation and the CMU Human Computer Interaction Institute.",
 		"date": "2020-09",
 		"lead": "Andrew Kuznetsov of the Carnegie Mellon Human Computer Interaction Institute, with Margeigh Novotny",
-		"category": "Numeric Exploitation"
+		"category": "Numeric Exploration"
 	},
 	{
 		"title": "Trusted: Signals, Inferences & Indicators",
@@ -736,7 +736,7 @@
 		"description": "This initiative, lead by Neil Shah-Quinn, established a baseline for comparing key characteristics of 732 wiki projects (number of editors, amount of content, readers, readers by platform, etc).",
 		"date": "2019-12",
 		"lead": "Neil Shah-Quinn",
-		"category": "Numeric Exploitation"
+		"category": "Numeric Exploration"
 	},
 	{
 		"title": "New Page Patrol",
