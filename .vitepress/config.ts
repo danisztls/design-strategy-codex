@@ -1,8 +1,7 @@
 import { defineConfigWithTheme, DefaultTheme } from 'vitepress'
 
-const base = process.env.CODEX_DOC_ROOT ?? '/';
-
 export default defineConfigWithTheme<CustomConfig>( {
+	base: '/',
 	srcDir: 'docs',
 	lang: 'en-US',
 	// Tell VitePress not to set dir="ltr" on the `<html>` element, as this breaks our
@@ -11,16 +10,15 @@ export default defineConfigWithTheme<CustomConfig>( {
 	dir: 'auto',
 	title: 'Wikimedia Design Strategy',
 	description: "As part of the Research group, The Design Strategy team supports Product Design at the Foundation by providing the qualitative and quantitative studies that allow Product teams to make informed and inspired decisions. From explanations of what people do and want, to evaluations of what they experience, to experiments with new and emerging technologies, the research team answers the most urgent and impactful questions that stand in the way of delivering the “sum of all knowledge, to all the world’s people, for free, forever.”",
-	base,
 	// Don't show the color mode switcher; we add our own in CustomLayout.vue.
 	appearance: false,
 	// Prevent build from failing
 	ignoreDeadLinks: true,
 
 	head: [
-		[ 'link', { rel: 'icon', href: `${ base }favicon.ico`, type: 'image/x-icon', sizes: '32x32' } ],
-		[ 'link', { rel: 'icon', href: `${ base }favicon.svg`, type: 'image/svg+xml' } ],
-		[ 'link', { rel: 'icon', href: `${ base }favicon-32x32.png`, type: 'image/png' } ],
+		[ 'link', { rel: 'icon', href: `/favicon.ico`, type: 'image/x-icon', sizes: '32x32' } ],
+		[ 'link', { rel: 'icon', href: `/favicon.svg`, type: 'image/svg+xml' } ],
+		[ 'link', { rel: 'icon', href: `/favicon-32x32.png`, type: 'image/png' } ],
 	],
 
 	markdown: {
