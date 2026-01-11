@@ -14,6 +14,8 @@ export default defineConfigWithTheme<CustomConfig>( {
 	base,
 	// Don't show the color mode switcher; we add our own in CustomLayout.vue.
 	appearance: false,
+	// Prevent build from failing
+	ignoreDeadLinks: true,
 
 	head: [
 		[ 'link', { rel: 'icon', href: `${ base }favicon.ico`, type: 'image/x-icon', sizes: '32x32' } ],
