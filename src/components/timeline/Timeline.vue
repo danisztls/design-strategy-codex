@@ -134,11 +134,45 @@ a.timeline-item:hover {
 	color: var(--color-subtle);
 }
 
+.timeline-item-category {
+	line-height: 1;
+}
+
 .timeline-item-category :deep(.cdx-info-chip) {
-	line-height: 1.5;
+	border: none;
 
 	:deep(.cdx-info-chip__text) {
-		font-size: var(--font-size-x-small);
+		line-height: 1.5;
+		color: #f8f9fa;
+		/* font-size: var(--font-size-x-small); */
+		padding: 0 var(--spacing-6);
+		font-weight: 600;
+		text-transform: uppercase;
+		font-size: x-small;
 	}
+}
+
+:deep(.cdx-info-chip[data-category="powered-by-people"]) {
+	background-color: #f54739;
+}
+
+:deep(.cdx-info-chip[data-category="online-social-behavior"]) {
+	background-color: #8d7ebd;
+}
+
+:deep(.cdx-info-chip[data-category="machine-augmentation"]) {
+	background-color: #6485d1;
+}
+
+:deep(.cdx-info-chip[data-category="sentiment--perception"]) {
+	background-color: #b5739e;
+}
+
+:deep(.cdx-info-chip[data-category="research--development"]) {
+	background-color: #259948;
+}
+
+:deep(.cdx-info-chip[data-category="numeric-exploitation"]) {
+	background-color: #d46926;
 }
 </style>
