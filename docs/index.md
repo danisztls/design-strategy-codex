@@ -1,7 +1,6 @@
 ---
 title: "Wikimedia Design Strategy"
-aside: true 
-sidebar: true
+aside: false
 isHomepage: true
 ---
 
@@ -12,9 +11,9 @@ The Design Strategy group supports [Product Design](https://design.wikimedia.org
 
 
 <script setup>
-import initiativesCategories from './initiatives/categories.json';
+import initiatives from './initiatives/initiatives.json';
 </script>
 
 ## Initiatives
 
-<LocalCardGroup :group="initiativesCategories" />
+<LocalInitiativesList :list="initiatives" />

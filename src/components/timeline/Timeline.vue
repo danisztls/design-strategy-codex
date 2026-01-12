@@ -8,11 +8,11 @@ interface TimelineItem {
 	url: string;
 	date: string; // YYYY-MM
 	lead: string;
-	category: string;
+	initiative: string;
 }
 
 const props = defineProps<{
-	items: TimelineItem[];
+	list: TimelineItem[];
 	year?: string;
 }>();
 
@@ -30,7 +30,7 @@ function slugify(value: string): string {
 const groupedByYear = computed(() => {
 	const map: Record<string, TimelineItem[]> = {};
 
-	(props.items as TimelineItem[]).forEach(item => {
+	(props.list as TimelineItem[]).forEach(item => {
 		const itemYear = item.date.split('-')[0];
 
 		if (!map[itemYear]) {
@@ -63,7 +63,7 @@ const groupedByYear = computed(() => {
 			<h3 class="timeline-item-title">{{ item.title }}</h3>
 			<p class="timeline-item-description">{{ item.description }}</p>
 			<p v-if="item.lead" class="timeline-item-lead">Lead: {{ item.lead }}</p>
-			<div v-if="item.category" class="timeline-item-category"><CdxInfoChip :data-category="slugify(item.category)">{{ item.category }}</CdxInfoChip></div>
+			<div v-if="item.initiative" class="timeline-item-initiative"><CdxInfoChip :data-initiative="slugify(item.initiative)">{{ item.initiative }}</CdxInfoChip></div>
 		</component>
 	</ul>
 </template>
@@ -118,11 +118,11 @@ a.timeline-item:hover {
 	color: var(--color-subtle);
 }
 
-.timeline-item-category {
+.timeline-item-initiative {
 	line-height: 1;
 }
 
-.timeline-item-category :deep(.cdx-info-chip) {
+.timeline-item-initiative :deep(.cdx-info-chip) {
 	border: none;
 
 	:deep(.cdx-info-chip__text) {
@@ -136,27 +136,27 @@ a.timeline-item:hover {
 	}
 }
 
-:deep(.cdx-info-chip[data-category="powered-by-people"]) {
+:deep(.cdx-info-chip[data-initiative="powered-by-people"]) {
 	background-color: #f54739;
 }
 
-:deep(.cdx-info-chip[data-category="online-social-behavior"]) {
+:deep(.cdx-info-chip[data-initiative="online-social-behavior"]) {
 	background-color: #8d7ebd;
 }
 
-:deep(.cdx-info-chip[data-category="machine-augmentation"]) {
+:deep(.cdx-info-chip[data-initiative="machine-augmentation"]) {
 	background-color: #6485d1;
 }
 
-:deep(.cdx-info-chip[data-category="sentiment--perception"]) {
+:deep(.cdx-info-chip[data-initiative="sentiment--perception"]) {
 	background-color: #b5739e;
 }
 
-:deep(.cdx-info-chip[data-category="research--development"]) {
+:deep(.cdx-info-chip[data-initiative="research--development"]) {
 	background-color: #259948;
 }
 
-:deep(.cdx-info-chip[data-category="numeric-exploration"]) {
+:deep(.cdx-info-chip[data-initiative="numeric-exploration"]) {
 	background-color: #d46926;
 }
 </style>

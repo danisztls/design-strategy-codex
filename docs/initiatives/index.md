@@ -1,4 +1,10 @@
 ---
 title: Initiatives 
-aside: true 
+aside: false
 ---
+
+<script setup>
+import initiatives from './initiatives.json';
+</script>
+
+<LocalInitiativesList :list="initiatives" />

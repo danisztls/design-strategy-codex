@@ -2,7 +2,7 @@
 import { CdxCard } from '@wikimedia/codex';
 
 const props = defineProps({
-  group: {
+  list: {
     type: Array,
     required: true
   }
@@ -10,26 +10,26 @@ const props = defineProps({
 </script>
 
 <template>
-<div class="card-group">
+<div class="initiatives-list">
 	<cdx-card
-		v-for="card in group"
-		:key="card.title"
-		:url="`${card.url}`"
+		v-for="item in list"
+		:key="item.title"
+		:url="`${item.url}`"
 		clickable
 	>
 		<template #title>
-			{{ card.title }}
+			{{ item.title }}
 		</template>
 
 		<template #description>
-			{{ card.description }}
+			{{ item.description }}
 		</template>
 	</cdx-card>
 </div>
 </template>
 
 <style scoped lang="less">
-.card-group {
+.initiatives-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 	gap: 16px;
