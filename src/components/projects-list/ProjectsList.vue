@@ -85,46 +85,53 @@ function formatDate(input: string, locale = 'en-US'): string {
 </template>
 
 <style lang="less">
+
+
 .projects-list {
 	position: relative;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-auto-rows: 1fr;
 	gap: var(--spacing-75);
+	--card-height: 200px;
 }
 
 .project-card-wrapper {
 	position: relative;
-	height: 180px;
+	height: var(--card-height);
 	z-index: 0;
 	overflow: hidden;
 }
 
-
 .cdx-card {
-	height: 180px;
+	height: var(--card-height);
+	min-height: var(--card-height);
 	transition: transform 800ms cubic-bezier(.2, .8, .2, 1);
+
+	.cdx-card__text__title {
+		font-size: var(--font-size-large);
+	}
 
 	.project-time {
 		color: var(--color-subtle);
-		font-size: var(--font-size-x-small);
-		text-transform: uppercase;
+		font-size: var(--font-size-small);
+		/* text-transform: uppercase; */
 	}
 
 	.project-description {
 		overflow: hidden;
-		font-size: var(--font-size-small);
+		font-size: var(--font-size-normal);
 		display: -webkit-box;
-		-webkit-line-clamp: 3;
+		-webkit-line-clamp: 4;
 		-webkit-box-orient: vertical;
 		line-height: var(--line-height-small);
 	}
 
 	.project-lead {
 		display: none;
-		font-size: var(--font-size-small);
+		font-size: var(--font-size-normal);
 		font-style: italic;
-		line-height: var(--line-height-x-small);
+		line-height: var(--line-height-small);
 	}
 
 	p {
@@ -149,6 +156,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 			overflow: visible;
 			position: absolute;
 			height: max-content;
+			border-width: 2px;
 		}
 
 		.project-description {
