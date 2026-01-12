@@ -61,62 +61,96 @@ function formatDate(input: string, locale = 'en-US'): string {
 
 <template>
 	<div class="projects-list">
-		<CdxCard
+		<div
 			v-for="item in filteredItems"
-			:key="item.title"
-			:clickable="Boolean(item.url)"
-			:url="item.url"
+			class="project-card-wrapper"
 		>
-			<template #title>
-				{{ item.title }}
-			</template>
+			<CdxCard
+				:key="item.title"
+				:clickable="Boolean(item.url)"
+				:url="item.url"
+			>
+				<template #title>
+					{{ item.title }}
+				</template>
 
-			<template #description>
-				<time class="project-time" :datetime="item.date">{{ formatDate(item.date) }}</time>
-				<p class="project-description">{{ item.description }}</p>
-				<p class="project-lead">{{ item.lead }}</p>
-			</template>
-		</CdxCard>
+				<template #description>
+					<time class="project-time" :datetime="item.date">{{ formatDate(item.date) }}</time>
+					<p class="project-description">{{ item.description }}</p>
+					<p class="project-lead">Lead: {{ item.lead }}</p>
+				</template>
+			</CdxCard>
+		</div>
 	</div>
 </template>
 
-<style scoped lang="less">
+<style lang="less">
 .projects-list {
+	position: relative;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-	gap: 16px;
-
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	grid-auto-rows: 1fr;
+	gap: var(--spacing-75);
 }
-/* @supports (display: masonry) { */
-/* 	.projects-list { */
-/* 		display: masonry; */
-/* 		masonry-template-columns: repeat(auto-fill, minmax(280px, 1fr)); */
-/* 	} */
-/* } */
 
-.project-time {
-	color: var(--color-subtle);
-	font-size: var(--font-size-small);
+.project-card-wrapper {
+	position: relative;
+	height: 180px;
+	z-index: 0;
+	overflow: hidden;
 }
+
 
 .cdx-card {
-	transition: all 1s;
-	/* transition: -webkit-line-clamp display 1s; */
+	height: 180px;
+	transition: transform 800ms cubic-bezier(.2, .8, .2, 1);
+
+	.project-time {
+		color: var(--color-subtle);
+		font-size: var(--font-size-x-small);
+		text-transform: uppercase;
+	}
 
 	.project-description {
+		overflow: hidden;
 		font-size: var(--font-size-small);
 		display: -webkit-box;
 		-webkit-line-clamp: 3;
 		-webkit-box-orient: vertical;
-		overflow: hidden;
+		line-height: var(--line-height-small);
 	}
 
 	.project-lead {
 		display: none;
 		font-size: var(--font-size-small);
+		font-style: italic;
+		line-height: var(--line-height-x-small);
 	}
 
+	p {
+		margin: 0;
+	}
+
+	.cdx-card__text__description {
+		display: flex;
+		flex-flow: column nowrap;
+		gap: var(--spacing-50);
+		margin: var(--spacing-25) 0 0 0;
+	}
+}
+
+.project-card-wrapper {
 	&:hover, &:focus-within {
+		z-index: 10;
+		transform: scale(1.05);
+		overflow: visible;
+
+		.cdx-card {
+			overflow: visible;
+			position: absolute;
+			height: max-content;
+		}
+
 		.project-description {
 			-webkit-line-clamp: none;
 		}
