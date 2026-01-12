@@ -77,7 +77,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 				<template #description>
 					<time class="project-time" :datetime="item.date">{{ formatDate(item.date) }}</time>
 					<p class="project-description">{{ item.description }}</p>
-					<p class="project-lead">Lead: {{ item.lead }}</p>
+					<p v-if="item.lead" class="project-lead">Lead: {{ item.lead }}</p>
 				</template>
 			</CdxCard>
 		</div>
