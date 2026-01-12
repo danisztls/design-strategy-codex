@@ -19,5 +19,5 @@ import projects from '../projects.json';
 
 <LocalProjectsList
 	:list="projects"
-	category="Sentiment & Perception"
+	initiative="Sentiment & Perception"
 />
