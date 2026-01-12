@@ -4,7 +4,7 @@
 		"description": "Documenting local help and support structures, especially for conflict resolution, across four wikis to inform recommendations for the Incident Reporting System.",
 		"date": "2025-09",
 		"lead": "Claudia Lo with Katie Coleman, for the Product Safety and Integrity team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Understanding User Needs for Deep Reading",
@@ -12,7 +12,7 @@
 		"url": "https://meta.wikimedia.org/wiki/File:Understanding_User_Needs_for_Deep_Reading_Report.pdf",
 		"date": "2025-08",
 		"lead": "Tara Rooks with Viviana Ortiz, Eli Asikin-Garmager, and Debra Kumar for the Readers team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Centralized Contributions for Moderation",
@@ -20,7 +20,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Centralized_contributions_for_moderation_activity",
 		"date": "2025-06",
 		"lead": "Claudia Lo, Jahnavi Mirashi for the Moderator Tools Team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Watchlist and Task Prioritization",
@@ -28,7 +28,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:(Report)_Research_findings_for_Watchlist_and_Task_Prioritization.pdf",
 		"date": "2025-05",
 		"lead": "Daisy Chen for the Moderator Tools Team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Peacock Check Concept Testing",
@@ -36,7 +36,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:(Editing)_Peacock_Check_exploratory_interviews.pdf",
 		"date": "2025-05",
 		"lead": "Michael Raish with the Editing Team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Collaborative Translation",
@@ -44,7 +44,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Collaborative_Translation_Research",
 		"date": "2025-04",
 		"lead": "Eli Asikin-Garmager and Jahnavi Mirashi",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Reading and Editing in the iOS Wikipedia App",
@@ -52,7 +52,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Reading_and_Editing_on_the_iOS_App_-_Apr2025.pdf",
 		"date": "2025-04",
 		"lead": "Bethany Gerdemann, Mike Raish, Project Kobo K.K. with Haley Nordeen and the Mobile Apps team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Understanding the usage and impact of the Flagged Revisions extension",
@@ -60,7 +60,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:FlaggedRevisions_investigation",
 		"date": "2025-03",
 		"lead": "Claudia Lo, Tara Rooks for the Moderator Tools Team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "WikiProject Survey",
@@ -68,7 +68,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Campaigns/WikiProjects#Definition:_What_do_we_mean_by_WikiProject_or_other_Collaborative_editing_initatives",
 		"date": "2024-10",
 		"lead": "Michael Raish and Alex Stinson for the Campaigns team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Wikipedia Administrator Experiences",
@@ -76,7 +76,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Wikipedia_Administrator_Recruitment,_Retention,_and_Attrition/Report",
 		"date": "2024-10",
 		"lead": "Eli Asikin-Garmager, Yu-Ming Liou, Claudia Lo, Caroline Myrick, with Bethany Gerdemann and Daisy Chen",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Volunteer Archetypes V2",
@@ -84,14 +84,14 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Volunteer_Archetypes",
 		"date": "2024-10",
 		"lead": "Michael Raish, Tanja Andic, Sneha Patel, and Rita Ho",
-		"category": "Numeric Exploration"
+		"initiative": "Numeric Exploration"
 	},
 	{
 		"title": "Wikipedia is an Antidote to Disinformation",
 		"description": "Literature review highlighting the place of Wikipedia as a key part of the internet information ecosystem, in the fight against disinformation.",
 		"date": "2024-09",
 		"lead": "Claudia Lo, Martin Gerlach, Pablo Aragón, Diego Saez-Trumper, Leila Zia for the Global Advocacy Team",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Volunteer Archetypes V1",
@@ -99,7 +99,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Volunteer_Archetypes_v1-2024-07.pdf",
 		"date": "2024-07",
 		"lead": "Michael Raish, Tanja Andic, Sneha Patel, and Rita Ho",
-		"category": "Numeric Exploration"
+		"initiative": "Numeric Exploration"
 	},
 	{
 		"title": "Patroller Work Habits Survey",
@@ -107,7 +107,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Patroller_Work_Habits_Survey_Results.pdf",
 		"date": "2024-06",
 		"lead": "Claudia Lo, for the Moderator Tools Team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Current Usage and Future Adoption of Wikifunctions",
@@ -115,7 +115,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Connecting_Wikifunctions_to_Wikipedia_Opportunities_and_Challenges.pdf",
 		"date": "2024-05",
 		"lead": "Andrew Russell Green and Amin Al Hazwani, for the Abstract Wiki team",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Cross-Wiki Uploads",
@@ -123,7 +123,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:English-Arabic-Cross-Wiki-Uploads-April2024.pdf",
 		"date": "2024-04",
 		"lead": "Bethany Gerdemann with Eman Yahia for the Structured Content team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Wikipedia Subscription",
@@ -131,7 +131,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:WMF_Wikipedia_Subscriptions_Survey_%26_Diary_Studies_Report_2024.pdf",
 		"date": "2024-04",
 		"lead": "Gabriel Escalante and Purity Waigi, for the Inuka Team",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "iOS Navigation Refresh",
@@ -139,7 +139,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:IOS_Navigation_Refresh_Usability_Tests_(2024).pdf",
 		"date": "2024-03",
 		"lead": "Olga Tichonova, with Bethany Gerdemann and Eman Yahia for the Apps team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "MinT (Machine in Translation) Research",
@@ -147,7 +147,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:MinT_(Machine_in_Translation)_Research",
 		"date": "2024-02",
 		"lead": "Eli Asikin-Garmager in collaboration with Pau Giner and Anagram Research",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Non-Editing Participation",
@@ -155,7 +155,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Non-Editing_Participation_(WMF).pdf",
 		"date": "2024-02",
 		"lead": "Mike Raish and Eman Yahia, for the Core Experiences teams",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Edit Check",
@@ -163,7 +163,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Edit_Check_Sub-Saharan_Africa_(public_copy).pdf",
 		"date": "2024-01",
 		"lead": "Mike Raish, Sandra Abrouk, and the Editing Team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Community Configuration",
@@ -171,7 +171,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Community_Configuration_interviews_with_admins.pdf",
 		"date": "2023-12",
 		"lead": "Mike Raish for the Growth team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Wikimedia Preview Wordpress Plugin",
@@ -179,7 +179,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Wikipedia_Wordpress_Preview_Plugin_Report_-_User_Research.pdf",
 		"date": "2023-11",
 		"lead": "Hureo, with Eli Asikin-Garmager, Bethany Gerdemann, and the Inuka Team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Commons Administrator Interviews",
@@ -187,7 +187,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Commons_Upload_Wizard_Improvements_Research_-_27Sep23-_Preliminary_results_Summary.pdf",
 		"date": "2023-10",
 		"lead": "Bethany Gerdemann, with the Structured Content team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Commons Impact Metrics",
@@ -195,7 +195,7 @@
 		"url": "https://upload.wikimedia.org/wikipedia/commons/archive/0/02/20231219010653%21%28Report%29_Commons_impact_metrics_Report_Dec_2023.pdf",
 		"date": "2023-10",
 		"lead": "Daisy Chen for the Data Products team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Campaign Event Discovery Survey",
@@ -203,7 +203,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Campaigns/Foundation_Product_Team/Event_Discovery",
 		"date": "2023-09",
 		"lead": "Claudia Lo with Bethany Gerdemann and Gregory Onyeahialam, for the Campaigns team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Incident reporting system",
@@ -211,7 +211,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Findings_Report_Incident_Reporting_2023.pdf",
 		"date": "2023-08",
 		"lead": "Daisy Chen. Requestors: Aishwarya Vardhana, Madalina Ana from Trust & Safety team.",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Non Editing Participation Literature Review",
@@ -219,7 +219,7 @@
 		"url": "https://upload.wikimedia.org/wikipedia/commons/1/11/NEP_WMF_Literature_Review.pdf",
 		"date": "2023-08",
 		"lead": "Mike Raish, with YUX and the Core Experiences teams",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Non Editing Participation Report",
@@ -227,7 +227,7 @@
 		"url": "https://upload.wikimedia.org/wikipedia/commons/1/11/NEP_WMF_Literature_Review.pdf",
 		"date": "2023-08",
 		"lead": "Mike Raish, with YUX and the Core Experiences teams",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Commons Uploader Experience",
@@ -235,7 +235,7 @@
 		"url": "https://commons.wikimedia.org/wiki/Commons:WMF_support_for_Commons/Upload_Wizard_Improvements",
 		"date": "2023-07",
 		"lead": "Claudia Lo, with Bethany Gerdemann, Criba Research and the Structured Content team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "IP Masking Prototype Usability Testing",
@@ -243,7 +243,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:IP_masking_usability_tests_-_WMF_Design_Research_-_En,_Ja,_Es,_Ar.pdf",
 		"date": "2023-07",
 		"lead": "Mike Raish with Naoko Sato, and the Growth & Core Experiences teams",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Future Learning Vectors",
@@ -251,7 +251,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Future_Learning_Vectors_(WMF).pdf",
 		"date": "2023-07",
 		"lead": "Mike Raish, with Shobha S V and the Core Experiences teams",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Trust & Wikipedia",
@@ -259,7 +259,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Trust_%26_Wikipedia.pdf",
 		"date": "2023-06",
 		"lead": "Mike Raish, with Laura Stigliano and the Web team",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Journey Transitions",
@@ -267,7 +267,7 @@
 		"url": "https://www.mediawiki.org/wiki/Journey_transitions",
 		"date": "2023-05",
 		"lead": "Daisy Chen with Mike Raish and the Core Experiences product group",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Reading Wikipedia",
@@ -275,7 +275,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Reading_Wikipedia_-Full_Report-May_2023.pdf",
 		"date": "2023-05",
 		"lead": "Mike Raish with YUX for the Core Experiences product group",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Translatable Pages",
@@ -283,14 +283,14 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Translatable_Pages_Research",
 		"date": "2023-04",
 		"lead": "Eli Asikin-Garmager, and the Language Team",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Image Suggestions for Article Sections",
 		"description": "Usability tests for a feature that suggests images to experienced contributors to add to an article section.",
 		"date": "2023-03",
 		"lead": "Daisy Chen, with the Structured Content team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "New Page Patrollers",
@@ -298,7 +298,7 @@
 		"url": "https://en.wikipedia.org/wiki/Wikipedia:Page_Curation/2023_Moderator_Tools_project/Interview_research",
 		"date": "2023-02",
 		"lead": "Claudia Lo, with the Moderator Tools team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Wikistories Early Adopters Research",
@@ -306,7 +306,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Wikistories_Early_Adopters_Research",
 		"date": "2023-01",
 		"lead": "Eli Asikin-Garmager and Claudia Lo",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Momentum: Contribution, Content, & Reading in Wiki Growth",
@@ -314,7 +314,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Momentum_(Design_Strategy).pdf",
 		"date": "2022-10",
 		"lead": "Jim Maddock with Michael Raish, Mikhail Popov, Isaac Johnson, and Margeigh Novotny",
-		"category": "Numeric Exploration"
+		"initiative": "Numeric Exploration"
 	},
 	{
 		"title": "IP Editing on Japanese Wikipedia",
@@ -322,7 +322,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:(Design_Strategy)_JaWiki_IP_Editing_Survey.pdf",
 		"date": "2022-07",
 		"lead": "Michael Raish and the Growth team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Newcomer Positive Reinforcement",
@@ -330,7 +330,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:(GROWTH)_Positive_Reinforcement_Synthesis.pdf",
 		"date": "2022-07",
 		"lead": "Mary Grace Reich with Michael Raish and the Growth team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Campaigns Event Registration Page User Testing",
@@ -338,28 +338,28 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Dec2022_Usabilitytest-V2DM1.pdf",
 		"date": "2022-07",
 		"lead": "YUX with the Campaigns Team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Wikimedia Commons User Interviews and Data",
 		"description": "A project that combines usage data and in-depth interviews with Commons users to understand the current state of the platform.",
 		"date": "2022-07",
 		"lead": "Jeff Howard with Jim Maddock and Margeigh Novotny",
-		"category": "Numeric Exploration"
+		"initiative": "Numeric Exploration"
 	},
 	{
 		"title": "The Future of IP-based editing",
 		"description": "A project that investigates the difficulties with moderating anonymous edits and how best to mitigate those issues.",
 		"date": "2022-06",
 		"lead": "Claudia Lo with the Anti-Harassment Tools team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "HabLatAm",
 		"description": "A cross country study on the internet skills, habits, and behaviors of youth in Latin America.",
 		"date": "2022-05",
 		"lead": "Ana Chang & Eli Asikin-Garmager, with the Berkman Klein Center for Internet and Society",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Section Translation Feedback Survey",
@@ -367,7 +367,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Section_Translation_Feedback_Survey_(Final_report).pdf",
 		"date": "2022-05",
 		"lead": "Eli Asikin-Garmager with the Language team",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Special Search Improvements: Spanish User Testing",
@@ -375,7 +375,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Criba_Research_report_on_special_search_improvements.pdf",
 		"date": "2022-05",
 		"lead": "Mike Raish, Daisy Chen, Sneha Patel, UserTestingArabic, and Criba Research",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Special Search Improvements: Arabic User Testing",
@@ -383,7 +383,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:User_research_findings_arabic_special_search_-_usertestingarabic_wmf.pptx_1.pdf",
 		"date": "2022-05",
 		"lead": "Mike Raish, Daisy Chen, Sneha Patel, UserTestingArabic, and Criba Research",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Templates and Trust-o-meters: Towards a widely deployable indicator of trust in Wikipedia",
@@ -391,14 +391,14 @@
 		"url": "https://dl.acm.org/doi/pdf/10.1145/3491102.3517523",
 		"date": "2022-05",
 		"lead": "Andrew Kuznetsov, Margeigh Novotny, Jessica Klein, Diego Saez-Trumper, Aniket Kittur",
-		"category": "Numeric Exploration"
+		"initiative": "Numeric Exploration"
 	},
 	{
 		"title": "HabLatAm",
 		"description": "A collaboration between the WMF and the Berkman Klein Center for Internet and Society to research the internet habits, preferences, and beliefs of youth across Latin America.",
 		"date": "2022-04",
 		"lead": "",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Readability on Wikipedia",
@@ -406,7 +406,7 @@
 		"url": "readability-on-wp.html",
 		"date": "2022-04",
 		"lead": "Taryn Bipat",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Content Moderation in Medium-Sized Wikimedia Projects",
@@ -414,7 +414,7 @@
 		"url": "content-mod-medium-wikis.html",
 		"date": "2022-03",
 		"lead": "Claudia Lo, with Sam Walton and the Moderator Tools pilot team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Event Organizers: A Study in 4 African Countries",
@@ -422,7 +422,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:UX_Research_Campaigns_Event_Organizers.pdf",
 		"date": "2022-03",
 		"lead": "YUX with the Campaigns team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Section Translation Post Improvements Testing",
@@ -430,7 +430,7 @@
 		"url": "sectionx-thai.html",
 		"date": "2022-02",
 		"lead": "Eli Asikin-Garmager, with Teak Research and the Language team.",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Wikifunctions: Usability of Bangla Prototype",
@@ -438,7 +438,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Wikifunctions-usability-bangla-report.pdf",
 		"date": "2022-02",
 		"lead": "UserHub with Aishwarya Vardhana and Daisy Chen",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Wikistories Africa Research",
@@ -446,7 +446,7 @@
 		"url": "wikistories-africa.html",
 		"date": "2022-02",
 		"lead": "Eli Asikin-Garmager, with Qhala Digital Consultancy, the Inuka Team, and Wikistories Team.",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Wikistories Indonesia Concept Testing",
@@ -454,7 +454,7 @@
 		"url": "wikistories-indonesia.html",
 		"date": "2022-02",
 		"lead": "Eli Asikin-Garmager, with Ari Natarina.",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Communications and Mentorship",
@@ -462,7 +462,7 @@
 		"url": "communications-mentorship.html",
 		"date": "2021-12",
 		"lead": "Daisy Chen, with the Growth and Editing teams",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Section Translation Entry Points",
@@ -470,7 +470,7 @@
 		"url": "sx-entry-points.html",
 		"date": "2021-08",
 		"lead": "Eli Asikin-Garmager, with Pau Giner, Anagram Research, and the Language team",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Wikifunctions, phases 1 & 2",
@@ -485,7 +485,7 @@
 		"url": "digital-spaces.html",
 		"date": "2021-07",
 		"lead": "Michael Raish",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Media Matching",
@@ -493,7 +493,7 @@
 		"url": "media-matching.html",
 		"date": "2021-07",
 		"lead": "Michael Raish, with the Structured Data team, Community Ambassadors and Project Kobo",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Targets of Harassment",
@@ -501,7 +501,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Universal_Code_of_Conduct/2021_consultations/Research",
 		"date": "2021-06",
 		"lead": "Claudia Lo, with the Anti-Harassment Tools team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Wikimail Harassment",
@@ -509,7 +509,7 @@
 		"url": "wikimail.html",
 		"date": "2021-06",
 		"lead": "Jeff Howard",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Long Tail Topic & Influence Ontology",
@@ -517,7 +517,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Long_Tail_Topic_Ontology",
 		"date": "2021-06",
 		"lead": "",
-		"category": "Numeric Exploration"
+		"initiative": "Numeric Exploration"
 	},
 	{
 		"title": "Understanding Perspectives on Digital Education in African Contexts",
@@ -525,7 +525,7 @@
 		"url": "emerging-education.html",
 		"date": "2021-05",
 		"lead": "Ana Chang, with AfriqInsights",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Verifiability on Wikipedia",
@@ -533,7 +533,7 @@
 		"url": "verifiability-on-wp.html",
 		"date": "2021-05",
 		"lead": "Ana Chang, with Sam Walton (WMF), Spiegel Institut, and Wikipedia Library team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "WikiFunctions, phases 1 & 2",
@@ -541,7 +541,7 @@
 		"url": "wikifunctions.html",
 		"date": "2021-05",
 		"lead": "",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Section Translation Usability Testing",
@@ -549,7 +549,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Section_Translation_Usability_Testing_(Bengali_Wikipedia)",
 		"date": "2021-03",
 		"lead": "Eli Asikin-Garmager, with the Language team",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Table of Contents & Sticky Header",
@@ -557,21 +557,21 @@
 		"url": "https://commons.wikimedia.org/wiki/File:DIP_Collated_FInal_Reports.pdf",
 		"date": "2021-03",
 		"lead": "Daisy Chen, with Criba Research, Urika Research, and Monafina F Silitonga",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Taxonomy of Harassment",
 		"description": "A taxonomy of negative social interactions on Wiki projects and a methodology to prioritize those in need of intervention.",
 		"date": "2021-01",
 		"lead": "Claudia Lo, with the Anti-Harassment Tools team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Decision-making & Influence",
 		"description": "A collaboration to map the different types of group decision-making required to manage and improve a crowd-sourced content platform like Wikipedia and understand contributor communities as discrete social groups.",
 		"date": "2021",
 		"lead": "",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Usability of the Wikipedia KaiOS app",
@@ -579,7 +579,7 @@
 		"url": "kaios.html",
 		"date": "2020-12",
 		"lead": "Daisy Chen, with Hureo and the Inuka team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Multilingual Editor Experiences in Small Wikis",
@@ -587,7 +587,7 @@
 		"url": "multilingual-editor-x.html",
 		"date": "2020-11",
 		"lead": "Eli Asikin-Garmager, with Anagram Research and the Language team",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Patrolling Anonymous Edits",
@@ -595,7 +595,7 @@
 		"url": "https://meta.wikimedia.org/wiki/IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/IP_Info_feature#25_Mar,_2021",
 		"date": "2020-10",
 		"lead": "Claudia Lo, with the Anti-Harassment Tools team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "CheckUser Improvements",
@@ -603,21 +603,21 @@
 		"url": "https://meta.wikimedia.org/wiki/IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/CheckUser_Improvements",
 		"date": "2020-10",
 		"lead": "Claudia Lo, with the Anti-Harassment Tools team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Trusted: Signals, Inferences & Indicators",
 		"description": "The goal of this work is to develop systems for automatically detecting and characterizing the editorial debates behind Wikipedia articles for the purpose of surfacing indications of trustworthiness to the reader. This project is a collaboration between the Wikimedia Foundation and the CMU Human Computer Interaction Institute.",
 		"date": "2020-09",
 		"lead": "Andrew Kuznetsov of the Carnegie Mellon Human Computer Interaction Institute, with Margeigh Novotny",
-		"category": "Numeric Exploration"
+		"initiative": "Numeric Exploration"
 	},
 	{
 		"title": "Trusted: Signals, Inferences & Indicators",
 		"description": "Researchers are analyzing which types of cues work best to help readers understand the true quality of an article and scraping talk pages for the signals and inferences that can drive these cues.",
 		"date": "2020-08",
 		"lead": "",
-		"category": "Research & Development"
+		"initiative": "Research & Development"
 	},
 	{
 		"title": "Content Moderation Explained",
@@ -625,7 +625,7 @@
 		"url": "https://design.wikimedia.org/blog/2020/07/30/content-moderation-anti-vandalism-wikipedia.html",
 		"date": "2020-06",
 		"lead": "",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "How Do News Organizations Use Wikipedia?",
@@ -633,7 +633,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:How_News_Media_Orgs_Use_Wikipedia_Working_Paper_30_June_2020.pdf",
 		"date": "2020-06",
 		"lead": "Anna Rader",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Interpersonal Communication on Wikipedia",
@@ -641,7 +641,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Interpersonal_communication_and_coordination_in_Wikipedia_Working_Paper_30_June_2020.pdf",
 		"date": "2020-06",
 		"lead": "Anna Rader",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Content Moderation Explained",
@@ -649,7 +649,7 @@
 		"url": "https://design.wikimedia.org/blog/2020/07/30/content-moderation-anti-vandalism-wikipedia.html",
 		"date": "2020-06",
 		"lead": "Claudia Lo, with Lucy Blackwell",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Machine Translation Meets Human Perception",
@@ -657,7 +657,7 @@
 		"url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/MTMHP_Executive_Summary.pdf",
 		"date": "2020-06",
 		"lead": "Michael Raish, with Hureo and Bethany Gerdemann",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Android App Suggested Edits",
@@ -665,7 +665,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:(Android)_Suggested_Edits_v5_(June_2020)_Final_Report.pdf",
 		"date": "2020-06",
 		"lead": "Daisy Chen, with the Android App Team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Free Knowledge Movement Personas",
@@ -673,7 +673,7 @@
 		"url": "https://www.mediawiki.org/wiki/Personas_for_product_development",
 		"date": "2020-05",
 		"lead": "",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "CheckUser Workflow & Tools",
@@ -681,7 +681,7 @@
 		"url": "check-user.html",
 		"date": "2020-04",
 		"lead": "Claudia Lo, with the Anti-Harassment Tools team",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Content Translation Newcomer Survey",
@@ -689,7 +689,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Content_Translation_Newcomer_Survey,_India_2020",
 		"date": "2020-04",
 		"lead": "Eli Asikin-Garmager, with Pau Giner and Amir E. Aharoni",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Article Section Translation Study",
@@ -697,7 +697,7 @@
 		"url": "section-translation.html",
 		"date": "2020-03",
 		"lead": "Eli Asikin-Garmager, with the Language team and Pau Giner",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Why Do People Edit Wikipedia?",
@@ -705,7 +705,7 @@
 		"url": "why-do-people-edit-wikipedia.html",
 		"date": "2020-02",
 		"lead": "Anna Rader",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "WMF Remote Worker Experience",
@@ -713,7 +713,7 @@
 		"url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Remote_Worker_Experience%2C_All-hands_2020.pdf",
 		"date": "2020-01",
 		"lead": "",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Readers’ Perceptions of Desktop Wikipedia",
@@ -721,7 +721,7 @@
 		"url": "desktop-improvements.html",
 		"date": "2020-01",
 		"lead": "Daisy Chen, with Hureo and the Readers Web team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Micro-contributions on the Android App",
@@ -729,14 +729,14 @@
 		"url": "https://commons.wikimedia.org/wiki/File:Android_Microcontributions_Phase1%262_Findings_Report.pdf",
 		"date": "2019-12",
 		"lead": "Daisy Chen, with the Android team and Robin Schoenbaechler",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Wiki Comparison",
 		"description": "This initiative, lead by Neil Shah-Quinn, established a baseline for comparing key characteristics of 732 wiki projects (number of editors, amount of content, readers, readers by platform, etc).",
 		"date": "2019-12",
 		"lead": "Neil Shah-Quinn",
-		"category": "Numeric Exploration"
+		"initiative": "Numeric Exploration"
 	},
 	{
 		"title": "New Page Patrol",
@@ -744,7 +744,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Patrolling_on_Wikipedia",
 		"date": "2019-09",
 		"lead": "Jonathan Morgan",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Community Health Survey",
@@ -752,7 +752,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Community_health_initiative/Administrator_Confidence_Survey",
 		"date": "2019-09",
 		"lead": "Michael Raish, with the Anti-Harassment Tools Team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "IP Masking Impact Report",
@@ -760,7 +760,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:IP_masking_impact_report",
 		"date": "2019-07",
 		"lead": "Claudia Lo, with the Anti-Harassment Tools Team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Movement Organizers",
@@ -768,7 +768,7 @@
 		"url": "movement-organizers.html",
 		"date": "2019-06",
 		"lead": "Abbey Ripstra, The Community Engagement Team, and Ana Chang of Concept Hatchery",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Searching on Commons: Structured Data Across Wikimedia",
@@ -776,7 +776,7 @@
 		"url": "https://commons.wikimedia.org/wiki/File:(SDAW)_Search_on_Commons_Research_Report_(June_2020).pdf",
 		"date": "2019-06",
 		"lead": "Daisy Chen, with the Structured Data Team",
-		"category": "Sentiment & Perception"
+		"initiative": "Sentiment & Perception"
 	},
 	{
 		"title": "Ethical & Human-Centered AI",
@@ -784,7 +784,7 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Ethical_and_human-centered_AI",
 		"date": "2019-05",
 		"lead": "Jonathan Morgan",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Harassment on Arabic Wikipedia",
@@ -792,21 +792,21 @@
 		"url": "https://meta.wikimedia.org/wiki/Research:Arabic_Harassment_Netnography",
 		"date": "2019-02",
 		"lead": "Mike Raish, with the Anti-Harassment Tools Team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Reporting System Rubric for the Community Health Initiative",
 		"description": "A review of best practices in reporting systems for disputes and abuse across different platforms.",
 		"url": "https://commons.wikimedia.org/wiki/File:Reporting_Systems_Rubric,_Summary.pdf",
 		"date": "2019-02",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Steward Spambot Workflow",
 		"description": "An investigation into one of the most common tasks performed by stewards, global locks of suspected spambots that are active across multiple wikis.",
 		"date": "2018-12",
 		"lead": "Claudia Lo, with the Anti-Harassment Tools team",
-		"category": "Online Social Behavior"
+		"initiative": "Online Social Behavior"
 	},
 	{
 		"title": "Augmentation",
@@ -814,14 +814,14 @@
 		"url": "https://www.mediawiki.org/wiki/File:Augmentation.pdf",
 		"date": "2018-01",
 		"lead": "Wikimedia Foundation, with David Goldberg",
-		"category": "Machine Augmentation"
+		"initiative": "Machine Augmentation"
 	},
 	{
 		"title": "Contribution Workflow Taxonomy",
 		"description": "This project details the workflow of contributors and assesses the level of difficulty they encounter with each step in the workflow in order to understand what contributes to editors' retention or burn-out.",
 		"url": "https://www.mediawiki.org/wiki/Wikimedia_Product/Contribution_taxonomy",
 		"date": "2018",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "New Editor Experiences",
@@ -829,7 +829,7 @@
 		"url": "https://www.mediawiki.org/wiki/New_Editor_Experiences",
 		"date": "2017",
 		"lead": "Wikimedia Foundation, with Reboot",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "New Readers",
@@ -837,13 +837,13 @@
 		"url": "https://meta.wikimedia.org/wiki/File:Wikimedia_Foundation_and_Reboot_New_Readers_Research_-_Nigeria_%26_India_Highlights_-_July_2016.pdf",
 		"date": "2016",
 		"lead": "Wikimedia Foundation, with Reboot",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	},
 	{
 		"title": "Contribution Taxonomy Project",
 		"description": "This project creates a taxonomy of the contributions made by Wikimedia communities, measure the contributions in that taxonomy, and elicit trends in volunteer contributions to the projects.",
 		"url": "https://meta.wikimedia.org/wiki/Research:Contribution_Taxonomy_Project",
 		"date": "2012",
-		"category": "Powered by People"
+		"initiative": "Powered by People"
 	}
 ]
