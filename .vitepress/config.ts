@@ -67,10 +67,6 @@ export default defineConfigWithTheme<CustomConfig>( {
 					]
 				},
 				{
-					text: 'News',
-					link: '/news/',
-				},
-				{
 					text: 'Timeline',
 					link: '/timeline/',
 				},
@@ -81,6 +77,10 @@ export default defineConfigWithTheme<CustomConfig>( {
 				{
 					text: 'Collaborate',
 					link: '/collaborate/',
+				},
+				{
+					text: 'Design Blog',
+					link: 'https://design.wikimedia.org/blog/',
 				}
 			],
 		},
