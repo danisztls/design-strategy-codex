@@ -1,5 +1,6 @@
 ---
 title: Collaborators 
+aside: false
 ---
 
 The Design Strategy group at the Wikimedia Foundation often works with outside researchers and firms to augment it's capacity - in order to provide the insights our Product teams need to make informed decisions. The Design Strategy team is grateful for the opportunity to learn from other practitioners.
