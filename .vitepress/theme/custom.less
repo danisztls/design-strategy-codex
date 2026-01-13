@@ -879,3 +879,39 @@ a.cdx-card:hover {
 	/* Use `initial` to reset VitePress' opinionated font weight to browser default. */
 	font-weight: inherit;
 }
+
+/* Style header */
+.doc-header {
+	margin-bottom: var(--spacing-200);
+
+	h1 {
+		margin-bottom: var(--spacing-75);
+	}
+
+	.doc-description {
+		color: var(--color-subtle);
+		font-size: var(--font-size-large);
+		margin-bottom: var(--spacing-150);
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Style hero image */
+.doc-hero {
+	margin: var(--spacing-100) 0;
+	text-align: center;
+
+	img {
+		max-width: 100%;
+		border-radius: var(--spacing-50);
+	}
+
+	&-caption {
+		margin-top: var(--spacing-50);
+		font-size: var(--font-size-small);
+		color: var(--color-subtle);
+	}
+}

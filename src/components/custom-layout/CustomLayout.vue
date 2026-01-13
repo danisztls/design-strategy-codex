@@ -16,6 +16,24 @@
 				<h1 v-if="frontmatter.title">
 					{{ frontmatter.title }}
 				</h1>
+
+				<div v-if="frontmatter.description" class="doc-description">
+					{{ frontmatter.description }}
+				</div>
+
+				<figure v-if="frontmatter.hero?.image" class="doc-hero">
+					<img
+						:src="frontmatter.hero.image.src"
+						:alt="frontmatter.hero.image.alt || ''"
+					/>
+
+					<figcaption
+						class="doc-hero-caption"
+						v-if="frontmatter.hero.caption"
+						v-html="frontmatter.hero.caption"
+					>
+					</figcaption>
+				</figure>
 			</header>
 		</template>
 

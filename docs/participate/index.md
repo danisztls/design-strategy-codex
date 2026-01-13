@@ -1,6 +1,6 @@
 ---
-title: "Would you like to take part in research studies for Wikipedia and other Wikimedia projects?"
-description: "Join our research participant list to receive invitations to research studies."
+title: "Participate"
+description: "Would you like to take part in research studies for Wikipedia and other Wikimedia projects? Join our research participant list to receive invitations to research studies."
 ---
 
 ## [Sign up](https://airtable.com/appNd1Rm2PloP90vU/shrrlYUCN9B795mTx)

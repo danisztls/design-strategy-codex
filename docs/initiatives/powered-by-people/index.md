@@ -1,11 +1,14 @@
 ---
 title: "Powered by People"
 description: "Understanding the needs, motivations and challenges of the people who power the free knowledge movement"
+hero:
+    image:
+        src: "/initiatives/powered-by-people/hero.webp"
+        alt: "Participants of the Wikimedia Hackathon in 2024"
+    caption: >
+        <a href="https://commons.wikimedia.org/wiki/File:At_Wikimedia_Hackathon_(MP)_2024_001.jpg">Photo by Mike Peel</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>, via Wikimedia Commons
 aside: false
 ---
-
-![Photo by Mike Peel, CC-BY-SA-4.0, via Wikimedia Commons](hero.webp)
-_Photo by [Mike Peel](https://commons.wikimedia.org/wiki/File:At_Wikimedia_Hackathon_(MP)_2024_001.jpg), [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), via Wikimedia Commons_
 
 ## Overview
 

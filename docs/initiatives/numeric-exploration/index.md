@@ -1,11 +1,14 @@
 ---
 title: "Numeric Exploration"
 description: "Understanding reader, editor and wiki-specific phenomena through quantitative analysis"
+hero:
+    image:
+        src: "/initiatives/numeric-exploration/hero.webp"
+        alt: "Toronto Reference Library"
+    caption: >
+        <a href="https://commons.wikimedia.org/wiki/File:Toronto_Reference_Library_(01618).jpg">Photo by Rhododendrites</a>,  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>, via Wikimedia Commons
 aside: false
 ---
-
-![Photo by Rhododendrites, CC-BY-SA-4.0, via Wikimedia Commons](hero.webp)
-_Photo by [Rhododendrites](https://commons.wikimedia.org/wiki/File:Toronto_Reference_Library_(01618).jpg), [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), via Wikimedia Commons_
 
 ## Overview
 
