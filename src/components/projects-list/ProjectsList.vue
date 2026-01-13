@@ -84,9 +84,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 	</div>
 </template>
 
-<style lang="less">
-
-
+<style scoped lang="less">
 .projects-list {
 	position: relative;
 	display: grid;
@@ -103,13 +101,24 @@ function formatDate(input: string, locale = 'en-US'): string {
 	overflow: hidden;
 }
 
-.cdx-card {
+:deep(.cdx-card) {
 	height: var(--card-height);
 	min-height: var(--card-height);
 	transition: transform 800ms cubic-bezier(.2, .8, .2, 1);
 
+	p {
+		margin: 0;
+	}
+
 	.cdx-card__text__title {
 		font-size: var(--font-size-large);
+	}
+
+	.cdx-card__text__description {
+		display: flex;
+		flex-flow: column nowrap;
+		gap: var(--spacing-50);
+		margin: var(--spacing-25) 0 0 0;
 	}
 
 	.project-time {
@@ -133,17 +142,6 @@ function formatDate(input: string, locale = 'en-US'): string {
 		font-style: italic;
 		line-height: var(--line-height-small);
 	}
-
-	p {
-		margin: 0;
-	}
-
-	.cdx-card__text__description {
-		display: flex;
-		flex-flow: column nowrap;
-		gap: var(--spacing-50);
-		margin: var(--spacing-25) 0 0 0;
-	}
 }
 
 .project-card-wrapper {
@@ -152,7 +150,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 		transform: scale(1.05);
 		overflow: visible;
 
-		.cdx-card {
+		:deep(.cdx-card) {
 			overflow: visible;
 			position: absolute;
 			height: max-content;
