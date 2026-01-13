@@ -1,11 +1,5 @@
 <template>
-	<!--
-		On non-component pages, add dir="ltr" to make bidirectional styles work.
-		On component pages, we have to add dir="ltr" on the demo container instead, and separately
-		on each container that contains other components, because our bidirectional styles don't
-		support nesting multiple containers with dir attributes.
-	-->
-	<layout :dir="isComponentPage ? undefined : 'ltr'" :class="layoutClasses">
+	<layout dir="ltr" :class="layoutClasses">
 		<template #nav-bar-title-after>
 		</template>
 
@@ -13,7 +7,7 @@
 			<cdx-docs-appearance-menu
 				v-model:color-mode="colorMode"
 				v-model:font-mode="fontMode"
-				:dir="isComponentPage ? 'ltr' : undefined"
+				dir="ltr"
 			/>
 		</template>
 
@@ -25,7 +19,7 @@
 			</header>
 		</template>
 
-		<template v-if="showReturnToTopButton && !isTopOfPage" #doc-bottom>
+		<template v-if="!isTopOfPage" #doc-bottom>
 			<cdx-docs-return-to-top />
 		</template>
 	</layout>
@@ -55,13 +49,6 @@ const teleportTarget = ref<HTMLDivElement>();
 provide( 'CdxTeleportTarget', teleportTarget );
 provide( 'CdxTeleportMenus', true );
 
-// Set up return-to-top button.
-const isComponentPage = computed( () => route.path.includes( '/components/demos/' ) );
-const isLinkPage = computed( () => route.path.includes( '/components/mixins/link' ) );
-const isTooltipPage = computed( () => route.path.includes( '/components/directives/tooltip' ) );
-const showReturnToTopButton = computed(
-	() => isComponentPage.value || isLinkPage.value || isTooltipPage.value
-);
 // Initially hide the "return to top" button when at the top of the page.
 const isTopOfPage = ref( true );
 function handleScroll() {
