@@ -50,7 +50,6 @@ export default defineConfigWithTheme<CustomConfig>( {
 			'/': [
 				{
 					text: 'About',
-					link: '/about/',
 					collapsed: false,
 					items: [
 						{ text: 'Team', link: '/about/team/' },
@@ -59,7 +58,6 @@ export default defineConfigWithTheme<CustomConfig>( {
 				},
 				{
 					text: 'Initiatives',
-					link: '/initiatives/',
 					collapsed: false,
 					items: [
 						{ text: 'Timeline', link: '/initiatives/timeline/' },
