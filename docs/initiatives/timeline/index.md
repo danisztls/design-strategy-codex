@@ -5,7 +5,7 @@ aside: true
 ---
 
 <script setup>
-import projects from './initiatives/projects.json';
+import projects from '../projects.json';
 </script>
 
 ## 2025
