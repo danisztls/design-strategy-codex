@@ -63,9 +63,9 @@ const props = defineProps({
 <style scoped lang="less">
 	.team-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, 250px);
+		grid-template-columns: repeat(auto-fill, 240px);
 		gap: var(--spacing-100);
-		padding: var(--spacing-200);
+		margin: var(--spacing-200) 0;
 	}
 
 	.team-card {
@@ -85,6 +85,7 @@ const props = defineProps({
 		:deep(img) {
 			aspect-ratio: 1/1;
 			object-fit: cover;
+			margin-top: 0;
 		}
 	}
 
@@ -110,5 +111,9 @@ const props = defineProps({
 	a:hover {
 		color: var( --color-progressive--hover );
 		fill: var( --color-progressive--hover );
+	}
+
+	.vp-doc p {
+		margin: 0
 	}
 </style>
