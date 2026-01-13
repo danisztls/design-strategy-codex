@@ -44,13 +44,14 @@ export default defineConfigWithTheme<CustomConfig>( {
 		},
 
 		sidebar: {
-			"/": [
+			'/': [
 				{
 					text: 'About',
+					link: '/about/',
 					collapsed: false,
 					items: [
-						{ text: 'Team', link: '/team/' },
-						{ text: 'Collaborators', link: '/collaborators' }
+						{ text: 'Team', link: '/about/team/' },
+						{ text: 'Collaborators', link: '/about/collaborators/' }
 					]
 				},
 				{
@@ -58,31 +59,19 @@ export default defineConfigWithTheme<CustomConfig>( {
 					link: '/initiatives/',
 					collapsed: false,
 					items: [
-						{ text: 'Powered by People', link: '/initiatives/powered-by-people' },
-						{ text: 'Online Social Behavior', link: '/initiatives/online-social-behavior' },
-						{ text: 'Machine Augmentation', link: '/initiatives/machine-augmentation' },
-						{ text: 'Sentiment & Perception', link: '/initiatives/sentiment-and-perception' },
-						{ text: 'Research & Development', link: '/initiatives/research-and-development' },
-						{ text: 'Numeric Exploration', link: '/initiatives/numeric-exploration' }
+						{ text: 'Timeline', link: '/initiatives/timeline/' },
+						{ text: 'Powered by People', link: '/initiatives/powered-by-people/' },
+						{ text: 'Online Social Behavior', link: '/initiatives/online-social-behavior/' },
+						{ text: 'Machine Augmentation', link: '/initiatives/machine-augmentation/' },
+						{ text: 'Sentiment & Perception', link: '/initiatives/sentiment-and-perception/' },
+						{ text: 'Research & Development', link: '/initiatives/research-and-development/' },
+						{ text: 'Numeric Exploration', link: '/initiatives/numeric-exploration/' }
 					]
 				},
-				{
-					text: 'Timeline',
-					link: '/timeline/',
-				},
-				{
-					text: 'Participate',
-					link: '/participate/',
-				},
-				{
-					text: 'Collaborate',
-					link: '/collaborate/',
-				},
-				{
-					text: 'Design Blog',
-					link: 'https://design.wikimedia.org/blog/',
-				}
-			],
+				{ text: 'Participate', link: '/participate/' },
+				{ text: 'Collaborate', link: '/collaborate/' },
+				{ text: 'Design Blog', link: 'https://design.wikimedia.org/blog/' }
+			]
 		},
 
 		socialLinks: [
