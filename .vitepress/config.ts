@@ -22,7 +22,10 @@ export default defineConfigWithTheme<CustomConfig>( {
 	],
 
 	markdown: {
-		theme: 'dracula'
+		theme: 'dracula',
+		image: {
+		  lazyLoading: true
+		}
 	},
 
 	vite: {
