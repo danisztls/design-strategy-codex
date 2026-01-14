@@ -2,6 +2,7 @@
 title: "Wikimedia Design Strategy"
 aside: false
 isHomepage: true
+next: false
 hero:
     image:
         src: "/hero.webp"
