@@ -18,4 +18,4 @@ import initiatives from './initiatives/initiatives.json';
 
 ## Initiatives
 
-<LocalInitiativesList :list="initiatives" />
+<LocalCardsList :list="initiatives" />
