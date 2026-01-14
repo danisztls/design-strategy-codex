@@ -10,7 +10,7 @@ const props = defineProps({
 </script>
 
 <template>
-<div class="initiatives-list">
+<div class="initiatives-list cards-list">
 	<cdx-card
 		v-for="item in list"
 		:key="item.title"
@@ -27,11 +27,3 @@ const props = defineProps({
 	</cdx-card>
 </div>
 </template>
-
-<style scoped lang="less">
-.initiatives-list {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-	gap: 16px;
-}
-</style>
