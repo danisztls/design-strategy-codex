@@ -17,7 +17,7 @@ In 2018, the Wikimedia Foundation Product team identified [machine augmentation]
 ## Studies
 
 <script setup>
-import projects from '../projects.json';
+import projects from './projects.json';
 </script>
 
 <LocalProjectsList

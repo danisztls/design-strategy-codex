@@ -17,7 +17,7 @@ In addition to it's qualitative and experimental work, the Wikimedia Foundation 
 ## Studies
 
 <script setup>
-import projects from '../projects.json';
+import projects from './projects.json';
 </script>
 
 <LocalProjectsList

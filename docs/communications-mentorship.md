@@ -1,10 +1,12 @@
 ---
 title: "Communications and Mentorship"
 description: "How community members engage in the Wiki-related communications ecosystem"
+hero:
+    image:
+        src: "/communications-mentorship/hero.webp"
+        alt: "Wikipedia globe"
+    caption: "CC BY-SA 2.0."
 ---
-
-![Communications and Mentorship](hero.webp)  
-_CC BY-SA 2.0._
 
 ## Overview
 

@@ -17,7 +17,7 @@ The Open Knowledge Movement is a radical act of social innovation. In fact, inno
 ## Studies
 
 <script setup>
-import projects from '../projects.json';
+import projects from './projects.json';
 </script>
 
 <LocalProjectsList
