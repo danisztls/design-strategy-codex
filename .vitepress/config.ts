@@ -1,6 +1,5 @@
 import { defineConfigWithTheme, DefaultTheme } from 'vitepress'
-
-export default defineConfigWithTheme<CustomConfig>( {
+export default defineConfigWithTheme<CustomConfig>({
 	base: '/',
 	srcDir: 'docs',
 	lang: 'en-US',
@@ -107,18 +106,18 @@ export default defineConfigWithTheme<CustomConfig>( {
 		search: {
 			provider: 'local',
 			options: {
-				miniSearch: {
-					searchOptions: {
-						fuzzy: 0.2,
-						prefix: true,
-						boost: {
-							title: 50,
-							text: 2,
-							titles: 1
-						}
+				async _render(src, env, md) {
+					const html = await md.renderAsync(src, env)
+
+					if (env.frontmatter?.search === false) {
+						return ''
 					}
+
+					if (env.frontmatter?.title)
+						return await md.renderAsync(`# ${env.frontmatter.title}`) + html
+					return html
 				}
 			}
-		},
+		}
 	}
-} );
+});
