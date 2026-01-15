@@ -1,6 +1,6 @@
 import { defineConfigWithTheme, DefaultTheme } from 'vitepress'
 export default defineConfigWithTheme<CustomConfig>({
-	base: '/strategy',
+	base: '/',
 	cleanUrls: true,
 	srcDir: 'docs',
 	lang: 'en-US',
@@ -37,7 +37,8 @@ export default defineConfigWithTheme<CustomConfig>({
 	},
 
 	sitemap: {
-		hostname: 'https://design.wikimedia.org/strategy/'
+		// include base in the URL
+		hostname: 'https://design-strategy-codex.pages.dev/'
 	},
 
 	themeConfig: {
