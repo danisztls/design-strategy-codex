@@ -142,4 +142,41 @@ html.cdx-docs-color-mode {
 		.cdx-mode-x-large();
 	}
 }
+
+.doc-header {
+	margin-bottom: var(--spacing-200);
+
+	h1 {
+		margin-bottom: var(--spacing-75);
+	}
+
+	.doc-description {
+		color: var(--color-subtle);
+		font-size: var(--font-size-large);
+		margin-bottom: var(--spacing-150);
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.doc-hero {
+	margin: var(--spacing-100) 0;
+	text-align: center;
+
+	img {
+		max-width: 100%;
+		max-height: 25vh;
+		width: 100%;
+		object-fit: cover;
+		border-radius: var(--spacing-50);
+	}
+
+	&-caption {
+		margin-top: var(--spacing-50);
+		font-size: var(--font-size-small);
+		color: var(--color-subtle);
+	}
+}
 </style>
