@@ -91,19 +91,21 @@ function formatDate(input: string, locale = 'en-US'): string {
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-auto-rows: 1fr;
 	gap: var(--spacing-75);
-	--card-height: 200px;
+	/* --card-height: 91px ; */
 }
 
 .project-card-wrapper {
 	position: relative;
-	height: var(--card-height);
+	/* height: var(--card-height); */
 	z-index: 0;
 	overflow: hidden;
 }
 
 :deep(.cdx-card) {
-	height: var(--card-height);
-	min-height: var(--card-height);
+	height: -webkit-fill-available;
+	height: stretch;
+	/* height: var(--card-height); */
+	/* min-height: var(--card-height); */
 	transition: transform 800ms cubic-bezier(.2, .8, .2, 1);
 
 	p {
@@ -124,16 +126,16 @@ function formatDate(input: string, locale = 'en-US'): string {
 	.project-time {
 		color: var(--color-subtle);
 		font-size: var(--font-size-small);
-		/* text-transform: uppercase; */
 	}
 
 	.project-description {
 		overflow: hidden;
 		font-size: var(--font-size-normal);
-		display: -webkit-box;
-		-webkit-line-clamp: 4;
-		-webkit-box-orient: vertical;
 		line-height: var(--line-height-small);
+		display: none;
+		/* display: -webkit-box; */
+		/* -webkit-line-clamp: 4; */
+		/* -webkit-box-orient: vertical; */
 	}
 
 	.project-lead {
@@ -158,7 +160,8 @@ function formatDate(input: string, locale = 'en-US'): string {
 		}
 
 		.project-description {
-			-webkit-line-clamp: none;
+			display: inherit;
+			/* -webkit-line-clamp: none; */
 		}
 
 		.project-lead {
