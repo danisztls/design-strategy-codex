@@ -36,6 +36,10 @@ export default defineConfigWithTheme<CustomConfig>({
 		}
 	},
 
+	sitemap: {
+		hostname: 'https://design.wikimedia.org/strategy/'
+	},
+
 	themeConfig: {
 		siteTitle: 'Design Strategy',
 		logo: {
