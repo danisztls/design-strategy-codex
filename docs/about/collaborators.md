@@ -35,9 +35,9 @@ The Design Strategy group at the Wikimedia Foundation often works with outside r
 
 **[HumanCraft](https://www.humancraft.com/)** is a design research agency lead by [David Lubensky](https://www.linkedin.com/in/davidlubensky/) and [Rachel Lichte](https://www.linkedin.com/in/rachellichte/), who supported the Foundation on a quantitative sentiment analysis of machine-translated content.
 
-**[Hureo](http://hureo.com/)** is a user research company in Pune, India, that supported the Foundation on the following research: [Mobile Wikipedia Users in India](India_Mobile_Personas.html), Machine Translation Meets Human Perception: Hindi, [Desktop Refresh](Desktop_Refresh.html), and KaiOS App usability.
+**[Hureo](http://hureo.com/)** is a user research company in Pune, India, that supported the Foundation on the following research: Mobile Wikipedia Users in India, Machine Translation Meets Human Perception: Hindi, Desktop Refresh, and KaiOS App usability.
 
-**[Logic Department](https://logicdept.com/)** is a design research agency in Brooklyn, NY that supported the Foundation on an ethnographic study of [Mobile Readers and Editors of Wikipedia in the U.S.](US_Mobile_Personas.html)
+**[Logic Department](https://logicdept.com/)** is a design research agency in Brooklyn, NY that supported the Foundation on an ethnographic study of Mobile Readers and Editors of Wikipedia in the U.S.
 
 **[Jim Maddock](http://jmaddock.net/)** is a Human Computer Interaction researcher whose work intersects with computer science, communications, and computational social science. Jim worked with the Design Strategy team as a data analyst on Long Tail Topic Ontology, Momentum, and Commons Research.
 
@@ -45,7 +45,7 @@ The Design Strategy group at the Wikimedia Foundation often works with outside r
 
 **[Project Kobo](https://www.projectkobo.com/)** is a Japan based market and user research agency that supported the Foundation on the Japanese portion of the Media Matching project.
 
-**[Anna Rader](https://acrader.com/)** is an independent researcher, specializing in qualitative social science research, who has supported the Foundation on the studies: [Why Do People Edit Wikipedia?](why-do-people-edit-wikipedia.html), [How Do News Organizations Use Wikipedia?](https://upload.wikimedia.org/wikipedia/commons/2/2a/How_News_Media_Orgs_Use_Wikipedia_Working_Paper_30_June_2020.pdf), and [Interpersonal Communication on Wikipedia](https://upload.wikimedia.org/wikipedia/commons/7/74/Interpersonal_communication_and_coordination_in_Wikipedia_Working_Paper_30_June_2020.pdf).
+**[Anna Rader](https://acrader.com/)** is an independent researcher, specializing in qualitative social science research, who has supported the Foundation on the studies: [Why Do People Edit Wikipedia?](/projects/why-do-people-edit-wikipedia.html), [How Do News Organizations Use Wikipedia?](https://upload.wikimedia.org/wikipedia/commons/2/2a/How_News_Media_Orgs_Use_Wikipedia_Working_Paper_30_June_2020.pdf), and [Interpersonal Communication on Wikipedia](https://upload.wikimedia.org/wikipedia/commons/7/74/Interpersonal_communication_and_coordination_in_Wikipedia_Working_Paper_30_June_2020.pdf).
 
 **[Michael Raish](https://www.linkedin.com/in/michael-raish-77619ab2/)** is an independent researcher, applied linguist, and Arabic scholar, who supported the Foundation on the following projects: Machine Translation Meets Human Perception: Arabic, Hindi, Bahasa Indonesia, and a combined analysis of the three languages; [2019 Community Health Survey](https://meta.wikimedia.org/wiki/Community_health_initiative/Administrator_Confidence_Survey); and [Harassment on Arabic Wikipedia](https://meta.wikimedia.org/wiki/Research:Arabic_Harassment_Netnography). Mike joined the Foundation in February of 2021 as a lead design researcher.
 
