@@ -3,7 +3,7 @@ title: "Wikifunctions, phases 1 & 2"
 description: "Research interviews exploring the Wikifunctions concept and early prototype design."
 hero:
     image:
-        src: "/wikifunctions/hero.webp"
+        src: "/projects/wikifunctions/hero.webp"
         alt: "Desktop view of Wikifunctions tool"
 ---
 

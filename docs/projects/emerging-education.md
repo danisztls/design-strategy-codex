@@ -3,7 +3,7 @@ title: "Understanding Perspectives on Digital Education in African Contexts"
 description: "Qualitative research examining the perspectives on the future of education from experts, students, teachers, and parents."
 hero:
     image:
-        src: "/emerging-education/hero.webp"
+        src: "/projects/emerging-education/hero.webp"
         alt: "A group of students using a computer laptop"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:Students_using_a_computer_laptop.jpg">Kwameghana(Bright Kwame Ayisi)</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0</a>, via Wikimedia Commons 
 ---

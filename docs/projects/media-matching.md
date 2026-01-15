@@ -3,7 +3,7 @@ title: "Media Matching"
 description: "Identifying barriers faced by experienced editors in English, Arabic, and Japanese Wikipedias when adding media to Wikipedia Articles."
 hero:
     image:
-        src: "/media-matching/hero.webp"
+        src: "/projects/media-matching/hero.webp"
         alt: "Desktop view of a Wikipedia article being edited"
 ---
 

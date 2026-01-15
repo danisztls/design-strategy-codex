@@ -3,7 +3,7 @@ title: "Article Section Translation"
 description: "Evaluating new designs for tools that help editors translate article sections and receive translation support on mobile devices."
 hero:
     image:
-        src: "/section-translation/hero.webp"
+        src: "/projects/section-translation/hero.webp"
         alt: "Desktop and mobile views of the Wikipedia translation tool"
 ---
 

@@ -3,7 +3,7 @@ title: "Section Translation Entry Points"
 description: "Improving discoverability of translation tools on Wikipedia."
 hero:
     image:
-        src: "/sx-entry-points/hero.webp"
+        src: "/projects/sx-entry-points/hero.webp"
         alt: "Section translation entry points within a Wikipedia article"
 ---
 

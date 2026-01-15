@@ -17,7 +17,7 @@ This initiative focuses on understanding a wide range of social behaviors on the
 ## Studies
 
 <script setup>
-import projects from './projects.json';
+import projects from '../projects/projects.json';
 </script>
 
 <LocalProjectsList

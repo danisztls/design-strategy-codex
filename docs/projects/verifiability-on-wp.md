@@ -3,7 +3,7 @@ title: "Verifiability on Wikipedia"
 description: "This three-language study provides foundational understanding for how editors work with available resources to meet the standards required for article quality."
 hero:
     image:
-        src: "/verifiability-on-wp/hero.webp"
+        src: "/projects/verifiability-on-wp/hero.webp"
         alt: "3D printed puchar Wikipedia"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:3D_Printed_Puchar_Wikipedia_10_cm.stl_01.jpg">Fawaz.tairou</a>. <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, via Wikimedia Commons
 ---

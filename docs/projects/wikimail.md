@@ -3,7 +3,7 @@ title: "Wikimail Harassment"
 description: "An analysis of community initiatives regarding Wikimail abuse over the past five years and general perspectives on harassment."
 hero:
     image:
-        src: "/wikimail/hero.webp"
+        src: "/projects/wikimail/hero.webp"
         alt: "Hands in latex gloves typing on keyboard"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:Clean_Keyboard_(50031805138).jpg">Blue Mountains Library</a>. <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en">CC BY-SA 2.0</a>, viw Wikimedia Commons 
 ---

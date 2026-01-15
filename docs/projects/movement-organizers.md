@@ -3,7 +3,7 @@ title: "Movement Organizers"
 description: "Understanding the people who power the movement."
 hero:
     image:
-        src: "/movement-organizers/hero.webp"
+        src: "/projects/movement-organizers/hero.webp"
         alt: "Movement Organizers"
     caption: Photo by Ana Chang, <a href="https://creativecommons.org/licenses/by/4.0/deed.en" target="_blank">CC BY 4.0</a>, via Wikimedia Commons 
 ---

@@ -3,7 +3,7 @@ title: "Readers’ Perceptions of Desktop Wikipedia"
 description: "Understanding the experience of new and casual readers; how they feel about the site and how they use the site."
 hero:
     image:
-        src: "/desktop-improvements/hero.webp"
+        src: "/projects/desktop-improvements/hero.webp"
         alt: "Desktop view of a Wikipedia article"
 ---
 

@@ -59,7 +59,6 @@ export default defineConfigWithTheme<CustomConfig>({
 					text: 'Initiatives',
 					collapsed: false,
 					items: [
-						{ text: 'Timeline', link: '/initiatives/timeline/' },
 						{ text: 'Powered by People', link: '/initiatives/powered-by-people/' },
 						{ text: 'Online Social Behavior', link: '/initiatives/online-social-behavior/' },
 						{ text: 'Machine Augmentation', link: '/initiatives/machine-augmentation/' },
@@ -68,6 +67,7 @@ export default defineConfigWithTheme<CustomConfig>({
 						{ text: 'Numeric Exploration', link: '/initiatives/numeric-exploration/' }
 					]
 				},
+				{ text: 'Timeline', link: '/timeline/' },
 				{ text: 'Participate', link: '/participate/' },
 				{ text: 'Collaborate', link: '/collaborate/' },
 				{ text: 'Design Blog', link: 'https://design.wikimedia.org/blog/' }

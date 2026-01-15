@@ -3,7 +3,7 @@ title: "Digital Spaces // Topical Neighborhoods"
 description: "This project combined conversations with WMF employees and global volunteers with a literature review to support the internal conversation around the Digital Spaces // Topical Neighborhoods proposal."
 hero:
     image:
-        src: "/digital-spaces/hero.webp"
+        src: "/projects/digital-spaces/hero.webp"
         alt: "An aerial view of housing developments near Markham"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:Markham-suburbs_aerial-edit2.jpg">IDuke</a>, <a href="https://creativecommons.org/licenses/by-sa/2.5/deed.en">CC BY-SA 2.5</a>, via Wikimedia Commons 
 ---

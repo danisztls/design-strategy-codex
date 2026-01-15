@@ -3,7 +3,7 @@ title: "Readability on Wikipedia"
 description: "The web factors that affect reading on the internet."
 hero:
     image:
-        src: "/readability-on-wp/hero.webp"
+        src: "/projects/readability-on-wp/hero.webp"
         alt: "Person reading a Wikipedia article on a tablet device"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:Rafael_using_his_tablet.webp">ARipstra (WMF)</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, via Wikimedia Commons</a> 
 ---

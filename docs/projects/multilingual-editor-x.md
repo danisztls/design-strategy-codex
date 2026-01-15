@@ -3,7 +3,7 @@ title: "Multilingual Editor Experiences in Small Wikis"
 description: "Supporting multilingual editors in small Wikipedias who are leveraging translation to contribute across knowledge and content gaps."
 hero:
     image:
-        src: "/multilingual-editor-x/hero.webp"
+        src: "/projects/multilingual-editor-x/hero.webp"
         alt: "Desktop and mobile views of the Multilingual editor tool"
 ---
 

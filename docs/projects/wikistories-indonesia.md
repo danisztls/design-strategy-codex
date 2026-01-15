@@ -3,7 +3,7 @@ title: "Wikistories Indonesia Concept Testing"
 description: "Concept testing in the Indonesian wiki editor communities."
 hero:
     image:
-        src: "/wikistories-indonesia/hero.webp"
+        src: "/projects/wikistories-indonesia/hero.webp"
         alt: "Four mobile views of the Wikistories Indonesia tool"
 ---
 
