@@ -128,7 +128,6 @@ a.timeline-item:hover {
 	:deep(.cdx-info-chip__text) {
 		line-height: 1.5;
 		color: #f8f9fa;
-		/* font-size: var(--font-size-x-small); */
 		padding: 0 var(--spacing-6);
 		font-weight: 600;
 		text-transform: uppercase;
@@ -137,7 +136,7 @@ a.timeline-item:hover {
 }
 
 :deep(.cdx-info-chip[data-initiative="powered-by-people"]) {
-	background-color: #f54739;
+	background-color: #fd7865;
 }
 
 :deep(.cdx-info-chip[data-initiative="online-social-behavior"]) {
@@ -145,11 +144,11 @@ a.timeline-item:hover {
 }
 
 :deep(.cdx-info-chip[data-initiative="machine-augmentation"]) {
-	background-color: #6485d1;
+	background-color: #4b77d6;
 }
 
 :deep(.cdx-info-chip[data-initiative="sentiment--perception"]) {
-	background-color: #b5739e;
+	background-color: #c690b4;
 }
 
 :deep(.cdx-info-chip[data-initiative="research--development"]) {
@@ -157,6 +156,6 @@ a.timeline-item:hover {
 }
 
 :deep(.cdx-info-chip[data-initiative="numeric-exploration"]) {
-	background-color: #d46926;
+	background-color: #edb537;
 }
 </style>
