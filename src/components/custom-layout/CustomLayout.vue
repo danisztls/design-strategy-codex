@@ -23,7 +23,7 @@
 
 				<figure v-if="frontmatter.hero?.image" class="doc-hero">
 					<img
-						:src="frontmatter.hero.image.src"
+						:src="withBase(frontmatter.hero.image.src)"
 						:alt="frontmatter.hero.image.alt || ''"
 					/>
 
@@ -54,7 +54,7 @@
 
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted, watch, provide } from 'vue';
-import { useRoute, useData } from 'vitepress';
+import { useRoute, useData, withBase } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import CdxDocsAppearanceMenu from '../appearance-menu/AppearanceMenu.vue';
 import CdxDocsReturnToTop from '../return-to-top/ReturnToTop.vue';

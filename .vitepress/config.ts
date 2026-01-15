@@ -1,6 +1,7 @@
 import { defineConfigWithTheme, DefaultTheme } from 'vitepress'
 export default defineConfigWithTheme<CustomConfig>({
-	base: '/',
+	base: '/strategy',
+	cleanUrls: true,
 	srcDir: 'docs',
 	lang: 'en-US',
 	// Tell VitePress not to set dir="ltr" on the `<html>` element, as this breaks our

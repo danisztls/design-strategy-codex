@@ -30,7 +30,7 @@ const props = defineProps({
     >
       <cdx-image
         class="team-avatar"
-        :src="`${member.avatar}`"
+        :src="member.avatar"
         :alt="member.name"
         loading="lazy"
         width="200"
