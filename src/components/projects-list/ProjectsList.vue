@@ -185,8 +185,11 @@ function formatDate(input: string, locale = 'en-US'): string {
 .project-card-wrapper {
 	&:hover, &:focus-within {
 		z-index: 10;
-		transform: scale(1.05);
 		overflow: visible;
+
+		@media (min-width: 640px) {
+			transform: scale(1.05);
+		}
 
 		:deep(.cdx-card) {
 			overflow: visible;
