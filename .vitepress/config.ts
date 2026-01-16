@@ -46,6 +46,7 @@ export default defineConfigWithTheme<CustomConfig>({
 			alt: 'Design Strategy at Wikimedia'
 		},
 
+		/* For prev/next navigation to work properly pages must be under page-name/index.md */
 		sidebar: {
 			'/': [
 				{

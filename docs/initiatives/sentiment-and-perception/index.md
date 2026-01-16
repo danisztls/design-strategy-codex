@@ -17,7 +17,7 @@ The Wikimedia Foundation Product Design and Strategy team has an ongoing series 
 ## Studies
 
 <script setup>
-import projects from '../projects/projects.json';
+import projects from '../../projects/projects.json';
 </script>
 
 <LocalProjectsList
