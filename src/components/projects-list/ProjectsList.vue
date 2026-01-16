@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { CdxCard } from '@wikimedia/codex';
+import { CdxCard, CdxIcon } from '@wikimedia/codex';
+import { externalLinkIcon } from '../../utils/custom-icons';
 
 interface ProjectItem {
 	title: string;
@@ -67,11 +68,13 @@ function formatDate(input: string, locale = 'en-US'): string {
 		>
 			<CdxCard
 				:key="item.title"
-				:clickable="Boolean(item.url)"
-				:url="item.url"
 			>
+
 				<template #title>
-					{{ item.title }}
+					<span class="project-title">{{ item.title }}</span>
+					<a v-if="item.url" :href="item.url" class="project-link" target="_blank">
+						<cdx-icon :icon="externalLinkIcon" size="small" />
+					</a>
 				</template>
 
 				<template #description>
@@ -79,6 +82,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 					<p class="project-description">{{ item.description }}</p>
 					<p v-if="item.lead" class="project-lead">Lead: {{ item.lead }}</p>
 				</template>
+
 			</CdxCard>
 		</div>
 	</div>
@@ -87,33 +91,66 @@ function formatDate(input: string, locale = 'en-US'): string {
 <style scoped lang="less">
 .projects-list {
 	position: relative;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-auto-rows: 1fr;
 	gap: var(--spacing-75);
-	/* --card-height: 91px ; */
+
+	@media (max-width: 640px - 1px) {
+		display: flex;
+		flex-flow: column nowrap;
+	}
+
+	@media (min-width: 640px) {
+		display: grid;
+		grid-auto-rows: 1fr;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+		:deep(.cdx-card) {
+			@supports (height: -webkit-fill-available) {
+				height: -webkit-fill-available;
+			}
+
+			@supports (height: stretch) {
+				height: stretch;
+			}
+		}
+	}
 }
 
 .project-card-wrapper {
 	position: relative;
-	/* height: var(--card-height); */
 	z-index: 0;
 	overflow: hidden;
 }
 
 :deep(.cdx-card) {
-	height: -webkit-fill-available;
-	height: stretch;
-	/* height: var(--card-height); */
-	/* min-height: var(--card-height); */
 	transition: transform 800ms cubic-bezier(.2, .8, .2, 1);
 
 	p {
 		margin: 0;
 	}
 
+	.cdx-card__text {
+		width: 100%;
+	}
+
 	.cdx-card__text__title {
+		display: grid;
+		grid: auto / auto minmax(20px, auto);
+		justify-content: space-between;
+		gap: 1em;
 		font-size: var(--font-size-large);
+	}
+
+	.project-link {
+		display: none;
+
+		.cdx-icon {
+			vertical-align: middle;
+			text-align: end;
+
+			&:hover {
+				color: var(--color-link-hover);
+			}
+		}
 	}
 
 	.cdx-card__text__description {
@@ -132,17 +169,16 @@ function formatDate(input: string, locale = 'en-US'): string {
 		overflow: hidden;
 		font-size: var(--font-size-normal);
 		line-height: var(--line-height-small);
-		display: none;
-		/* display: -webkit-box; */
-		/* -webkit-line-clamp: 4; */
-		/* -webkit-box-orient: vertical; */
 	}
 
 	.project-lead {
-		display: none;
 		font-size: var(--font-size-normal);
 		font-style: italic;
 		line-height: var(--line-height-small);
+	}
+
+	.project-icon, .project-description, .project-lead {
+		display: none;
 	}
 }
 
@@ -159,13 +195,8 @@ function formatDate(input: string, locale = 'en-US'): string {
 			border-width: 2px;
 		}
 
-		.project-description {
-			display: inherit;
-			/* -webkit-line-clamp: none; */
-		}
-
-		.project-lead {
-			display: inherit;
+		.project-link, .project-description, .project-lead {
+			display: block;
 		}
 	}
 }
