@@ -3,9 +3,15 @@ title: "Participate"
 description: "Would you like to take part in research studies for Wikipedia and other Wikimedia projects? Join our research participant list to receive invitations to research studies."
 ---
 
-## [Sign up](https://airtable.com/appNd1Rm2PloP90vU/shrrlYUCN9B795mTx)
+<script setup lang="ts">
+import { CdxButton } from '@wikimedia/codex';
+</script>
 
-You may remove yourself from the participant list at any time by submitting [this form](https://airtable.com/shr17PD5iVB0KFgzx). Please see our [privacy notice](https://foundation.wikimedia.org/wiki/Research_Participant_Database_Privacy_Notice).
+<a class="cta-button-wrapper" href="https://airtable.com/appNd1Rm2PloP90vU/shrrlYUCN9B795mTx" target="_blank" rel="noopener noreferrer">
+	<CdxButton weight="primary" action="progressive" size="large">Sign up</CdxButton>
+</a>
+
+_You may remove yourself from the participant list at any time by submitting [this form](https://airtable.com/shr17PD5iVB0KFgzx). Please see our [privacy notice](https://foundation.wikimedia.org/wiki/Research_Participant_Database_Privacy_Notice)._
 
 [Bahasa Indonesia](https://www.mediawiki.org/wiki/Wikimedia_Research/Design_Research/Research_Participant_Program/id) • 
 [Deutsch](https://www.mediawiki.org/wiki/Wikimedia_Research/Design_Research/Research_Participant_Program/de) • 

@@ -3,7 +3,13 @@ title: "Work With Us"
 description: "Seeking research professionals to partner with on our research projects."
 ---
 
-## [Join our list](https://forms.gle/4a9bf9UkXBWw1g9s7)
+<script setup lang="ts">
+import { CdxButton } from '@wikimedia/codex';
+</script>
+
+<a class="cta-button-wrapper" href="https://forms.gle/4a9bf9UkXBWw1g9s7" target="_blank" rel="noopener noreferrer">
+	<CdxButton weight="primary" action="progressive" size="large">Join our list</CdxButton>
+</a>
 
 ## Research Collaborations
 
