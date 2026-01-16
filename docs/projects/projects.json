@@ -411,7 +411,7 @@
 	{
 		"title": "Readability on Wikipedia",
 		"description": "A literature review of the web factors that affect text readability on the internet.",
-		"url": "readability-on-wp.html",
+		"url": "/projects/readability-on-wp.html",
 		"date": "2022-04",
 		"lead": "Taryn Bipat",
 		"initiative": "Research & Development"
@@ -419,7 +419,7 @@
 	{
 		"title": "Content Moderation in Medium-Sized Wikimedia Projects",
 		"description": "This project aims to fill knowledge gaps in our understanding of how editors curate and moderate content on Wikimedia projects outside the largest and most well-researched communities.",
-		"url": "content-mod-medium-wikis.html",
+		"url": "/projects/content-mod-medium-wikis.html",
 		"date": "2022-03",
 		"lead": "Claudia Lo, with Sam Walton and the Moderator Tools pilot team",
 		"initiative": "Powered by People"
@@ -435,7 +435,7 @@
 	{
 		"title": "Section Translation Post Improvements Testing",
 		"description": "Section Translation brings translation support to mobile device editors, and this project provided usability testing after a number of initial tool improvements and at a time when it was becoming available in a greater number of wikis, including Thai Wikipedia.",
-		"url": "sectionx-thai.html",
+		"url": "/projects/sectionx-thai.html",
 		"date": "2022-02",
 		"lead": "Eli Asikin-Garmager, with Teak Research and the Language team.",
 		"initiative": "Machine Augmentation"
@@ -451,7 +451,7 @@
 	{
 		"title": "Wikistories Africa Research",
 		"description": "This work provides a method for visualizing and comparing topical coverage from one wiki project to another for the purpose of better understanding where knowledge gaps and subject matter expertise exist across the Free Knowledge Movement.",
-		"url": "wikistories-africa.html",
+		"url": "/projects/wikistories-africa.html",
 		"date": "2022-02",
 		"lead": "Eli Asikin-Garmager, with Qhala Digital Consultancy, the Inuka Team, and Wikistories Team.",
 		"initiative": "Research & Development"
@@ -459,7 +459,7 @@
 	{
 		"title": "Wikistories Indonesia Concept Testing",
 		"description": "The goal of this project was to collaborate with Wikimedia Indonesia and gather feedback from Indonesian wiki editor communities on early concepts and designs for WikiStories, focusing on the experience of potential WikiStory creators.",
-		"url": "wikistories-indonesia.html",
+		"url": "/projects/wikistories-indonesia.html",
 		"date": "2022-02",
 		"lead": "Eli Asikin-Garmager, with Ari Natarina.",
 		"initiative": "Research & Development"
@@ -467,7 +467,7 @@
 	{
 		"title": "Communications and Mentorship",
 		"description": "Understanding the wiki-related communications ecosystem, both on and off Wiki, that embedded community members employ for their Wiki related work.",
-		"url": "communications-mentorship.html",
+		"url": "/projects/communications-mentorship.html",
 		"date": "2021-12",
 		"lead": "Daisy Chen, with the Growth and Editing teams",
 		"initiative": "Powered by People"
@@ -475,7 +475,7 @@
 	{
 		"title": "Section Translation Entry Points",
 		"description": "Improving discoverability of translation tools on Wikipedia.",
-		"url": "sx-entry-points.html",
+		"url": "/projects/sx-entry-points.html",
 		"date": "2021-08",
 		"lead": "Eli Asikin-Garmager, with Pau Giner, Anagram Research, and the Language team",
 		"initiative": "Machine Augmentation"
@@ -490,7 +490,7 @@
 	{
 		"title": "Digital Spaces // Topical Neighborhoods",
 		"description": "This project combined conversations with WMF employees and global volunteers with a literature review to support the internal conversation around the Digital Spaces // Topical Neighborhoods proposal.",
-		"url": "digital-spaces.html",
+		"url": "/projects/digital-spaces.html",
 		"date": "2021-07",
 		"lead": "Michael Raish",
 		"initiative": "Online Social Behavior"
@@ -498,7 +498,7 @@
 	{
 		"title": "Media Matching",
 		"description": "Conducted in support of the WMF Structured Data team, Media Matching attempted to identify barriers faced by experienced editors in English, Arabic, and Japanese Wikipedias.",
-		"url": "media-matching.html",
+		"url": "/projects/media-matching.html",
 		"date": "2021-07",
 		"lead": "Michael Raish, with the Structured Data team, Community Ambassadors and Project Kobo",
 		"initiative": "Research & Development"
@@ -514,7 +514,7 @@
 	{
 		"title": "Wikimail Harassment",
 		"description": "An analysis of community initiatives regarding Wikimail abuse over the past five years and general perspectives on harassment.",
-		"url": "wikimail.html",
+		"url": "/projects/wikimail.html",
 		"date": "2021-06",
 		"lead": "Jeff Howard",
 		"initiative": "Online Social Behavior"
@@ -530,7 +530,7 @@
 	{
 		"title": "Understanding Perspectives on Digital Education in African Contexts",
 		"description": "Qualitative research examining the perspectives on the future of education from experts, students, teachers, and parents.",
-		"url": "emerging-education.html",
+		"url": "/projects/emerging-education.html",
 		"date": "2021-05",
 		"lead": "Ana Chang, with AfriqInsights",
 		"initiative": "Powered by People"
@@ -538,7 +538,7 @@
 	{
 		"title": "Verifiability on Wikipedia",
 		"description": "This three-language study provides foundational understanding for how editors work with available resources to meet the standards required for article quality.",
-		"url": "verifiability-on-wp.html",
+		"url": "/projects/verifiability-on-wp.html",
 		"date": "2021-05",
 		"lead": "Ana Chang, with Sam Walton (WMF), Spiegel Institut, and Wikipedia Library team",
 		"initiative": "Sentiment & Perception"
@@ -546,7 +546,7 @@
 	{
 		"title": "WikiFunctions, phases 1 & 2",
 		"description": "A study that collects feedback on the function-builder prototype from technical users, nontechnical users, and those from outside of the Wikimedia ecosystem.",
-		"url": "wikifunctions.html",
+		"url": "/projects/wikifunctions.html",
 		"date": "2021-05",
 		"lead": "",
 		"initiative": "Research & Development"
@@ -578,13 +578,12 @@
 		"title": "Decision-making & Influence",
 		"description": "A collaboration to map the different types of group decision-making required to manage and improve a crowd-sourced content platform like Wikipedia and understand contributor communities as discrete social groups.",
 		"date": "2021",
-		"lead": "",
 		"initiative": "Research & Development"
 	},
 	{
 		"title": "Usability of the Wikipedia KaiOS app",
 		"description": "This research evaluates usability and user understanding of the basic app elements and workflows for the Wikipedia KaiOS app.",
-		"url": "kaios.html",
+		"url": "/projects/kaios.html",
 		"date": "2020-12",
 		"lead": "Daisy Chen, with Hureo and the Inuka team",
 		"initiative": "Sentiment & Perception"
@@ -592,7 +591,7 @@
 	{
 		"title": "Multilingual Editor Experiences in Small Wikis",
 		"description": "Supporting multilingual editors in small Wikipedias who are leveraging translation to contribute across knowledge and content gaps.",
-		"url": "multilingual-editor-x.html",
+		"url": "/projects/multilingual-editor-x.html",
 		"date": "2020-11",
 		"lead": "Eli Asikin-Garmager, with Anagram Research and the Language team",
 		"initiative": "Machine Augmentation"
@@ -624,7 +623,6 @@
 		"title": "Trusted: Signals, Inferences & Indicators",
 		"description": "Researchers are analyzing which types of cues work best to help readers understand the true quality of an article and scraping talk pages for the signals and inferences that can drive these cues.",
 		"date": "2020-08",
-		"lead": "",
 		"initiative": "Research & Development"
 	},
 	{
@@ -632,7 +630,6 @@
 		"description": "An overview of how a global community of volunteer moderators determine which contributions to Wikipedia are accepted and rejected.",
 		"url": "https://design.wikimedia.org/blog/2020/07/30/content-moderation-anti-vandalism-wikipedia.html",
 		"date": "2020-06",
-		"lead": "",
 		"initiative": "Powered by People"
 	},
 	{
@@ -680,13 +677,12 @@
 		"description": "This is a collection of all personas developed to date for desktop and mobile readers, new and veteran contributors, institutional curators and Movement organizers.",
 		"url": "https://www.mediawiki.org/wiki/Personas_for_product_development",
 		"date": "2020-05",
-		"lead": "",
 		"initiative": "Powered by People"
 	},
 	{
 		"title": "CheckUser Workflow & Tools",
 		"description": "CheckUser is a critical tool for moderators in anti-vandalism efforts on Wikipedia. This research surfaces the pain points in the CheckUser workflow and opportunities to improve the tool.",
-		"url": "check-user.html",
+		"url": "/projects/check-user.html",
 		"date": "2020-04",
 		"lead": "Claudia Lo, with the Anti-Harassment Tools team",
 		"initiative": "Powered by People"
@@ -702,7 +698,7 @@
 	{
 		"title": "Article Section Translation Study",
 		"description": "An evaluation of new designs for tools that help editors translate article sections and receive translation support on mobile devices.",
-		"url": "section-translation.html",
+		"url": "/projects/section-translation.html",
 		"date": "2020-03",
 		"lead": "Eli Asikin-Garmager, with the Language team and Pau Giner",
 		"initiative": "Machine Augmentation"
@@ -710,7 +706,7 @@
 	{
 		"title": "Why Do People Edit Wikipedia?",
 		"description": "This literature review examines the drivers of engagement and the motivators of sustained involvement in Wikipedia. It provides an overview of academic research on Wikipedia production and editor motivations, highlighting the themes and queries of scholarship in this area.",
-		"url": "why-do-people-edit-wikipedia.html",
+		"url": "/projects/why-do-people-edit-wikipedia.html",
 		"date": "2020-02",
 		"lead": "Anna Rader",
 		"initiative": "Powered by People"
@@ -720,13 +716,12 @@
 		"description": "This is a lean, inward-facing research project that surfaced the challenges and highlights of working remotely for the Foundation and offered opportunities for the Foundation and non-remote staff to improve the work lives and for its globally distributed staff.",
 		"url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Remote_Worker_Experience%2C_All-hands_2020.pdf",
 		"date": "2020-01",
-		"lead": "",
 		"initiative": "Powered by People"
 	},
 	{
 		"title": "Readers’ Perceptions of Desktop Wikipedia",
 		"description": "This study seeks to understand the experience and sentiment of new and casual readers on Wikipedia.",
-		"url": "desktop-improvements.html",
+		"url": "/projects/desktop-improvements.html",
 		"date": "2020-01",
 		"lead": "Daisy Chen, with Hureo and the Readers Web team",
 		"initiative": "Sentiment & Perception"
