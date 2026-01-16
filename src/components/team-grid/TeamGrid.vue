@@ -63,9 +63,18 @@ const props = defineProps({
 <style scoped lang="less">
 	.team-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, 240px);
 		gap: var(--spacing-100);
 		margin: var(--spacing-200) 0;
+		grid-template-columns: repeat(auto-fill, calc(100% / var(--n-cards) - (var(--n-cards) - 1) * var(--spacing-100)));
+		--n-cards: 1;
+
+		@media (min-width: 640px) {
+			--n-cards: 2;
+		}
+
+		@media (min-width: 1120px) {
+			--n-cards: 3;
+		}
 	}
 
 	.team-card {
