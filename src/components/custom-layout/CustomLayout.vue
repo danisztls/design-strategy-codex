@@ -13,13 +13,9 @@
 
 		<template #doc-before>
 			<header class="doc-header vp-doc" role="banner">
-				<h1 v-if="frontmatter.title">
-					{{ frontmatter.title }}
-				</h1>
+				<h1 v-if="frontmatter.title" v-html="frontmatter.title"></h1>
 
-				<div v-if="frontmatter.description" class="doc-description">
-					{{ frontmatter.description }}
-				</div>
+				<div v-if="frontmatter.description" v-html="frontmatter.description" class="doc-description"></div>
 
 				<figure v-if="frontmatter.hero?.image" class="doc-hero">
 					<img

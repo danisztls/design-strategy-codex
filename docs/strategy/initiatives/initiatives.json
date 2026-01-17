@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Powered by People",
+		"description": "Understanding the motivations, challenges, and strategies of the contributors to Wikimedia Projects.",
+		"url": "/strategy/initiatives/powered-by-people"
+	},
+	{
+		"title": "Online Social Behavior",
+		"description": "Examining the prosocial and disruptive dimensions of online culture - on and off-wiki.",
+		"url": "/strategy/initiatives/online-social-behavior.html"
+	},
+	{
+		"title": "Machine Augmentation",
+		"description": "Exploring machine-in-the-loop technologies to enable knowledge equity at scale.",
+		"url": "/strategy/initiatives/machine-augmentation"
+	},
+	{
+		"title": "Sentiment & Perception",
+		"description": "Understanding how our readers and contributors perceive and engage with our tools and processes.",
+		"url": "/strategy/initiatives/sentiment-and-perception"
+	},
+	{
+		"title": "Research & Development",
+		"description": "Exploring longer horizon vision through design-lead experiments and collaborations with third party partners.",
+		"url": "/strategy/initiatives/research-and-development"
+	},
+	{
+		"title": "Numeric Exploration",
+		"description": "Understanding reader, editor and wiki-specific phenomena through quantitative analysis.",
+		"url": "/strategy/initiatives/numeric-exploration"
+	}
+]

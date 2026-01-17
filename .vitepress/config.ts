@@ -5,7 +5,7 @@ export default defineConfigWithTheme<CustomConfig>({
 	srcDir: 'docs',
 	lang: 'en-US',
 	dir: 'ltr',
-	title: 'Wikimedia Design Strategy',
+	title: 'Design at Wikimedia Foundation',
 	description: "As part of the Research group, The Design Strategy team supports Product Design at the Foundation by providing the qualitative and quantitative studies that allow Product teams to make informed and inspired decisions. From explanations of what people do and want, to evaluations of what they experience, to experiments with new and emerging technologies, the research team answers the most urgent and impactful questions that stand in the way of delivering the “sum of all knowledge, to all the world’s people, for free, forever.”",
 	// Don't show the color mode switcher; we add our own in CustomLayout.vue.
 	appearance: false,
@@ -39,7 +39,7 @@ export default defineConfigWithTheme<CustomConfig>({
 	},
 
 	themeConfig: {
-		siteTitle: 'Design Strategy',
+		siteTitle: 'Design',
 		logo: {
 			light: '/logo.svg',
 			dark: '/logo-inverted.svg',
@@ -49,29 +49,35 @@ export default defineConfigWithTheme<CustomConfig>({
 		/* For prev/next navigation to work properly pages must be under page-name/index.md */
 		sidebar: {
 			'/': [
-				{
-					text: 'About',
+				{	text: 'Strategy',
+					link: '/strategy/',
 					collapsed: false,
 					items: [
-						{ text: 'Team', link: '/about/team/' },
-						{ text: 'Collaborators', link: '/about/collaborators/' }
+						{
+							text: 'About',
+							collapsed: false,
+							items: [
+								{ text: 'Collaborate', link: '/strategy/about/collaborate/' },
+								{ text: 'Collaborators', link: '/strategy/about/collaborators/' },
+								{ text: 'Participate', link: '/strategy/about/participate/' },
+								{ text: 'Team', link: '/strategy/about/team/' }
+							]
+						},
+						{
+							text: 'Initiatives',
+							collapsed: false,
+							items: [
+								{ text: 'Timeline', link: '/strategy/initiatives/timeline/' },
+								{ text: 'Powered by People', link: '/strategy/initiatives/powered-by-people/' },
+								{ text: 'Online Social Behavior', link: '/strategy/initiatives/online-social-behavior/' },
+								{ text: 'Machine Augmentation', link: '/strategy/initiatives/machine-augmentation/' },
+								{ text: 'Sentiment & Perception', link: '/strategy/initiatives/sentiment-and-perception/' },
+								{ text: 'Research & Development', link: '/strategy/initiatives/research-and-development/' },
+								{ text: 'Numeric Exploration', link: '/strategy/initiatives/numeric-exploration/' }
+							]
+						},
 					]
 				},
-				{
-					text: 'Initiatives',
-					collapsed: false,
-					items: [
-						{ text: 'Powered by People', link: '/initiatives/powered-by-people/' },
-						{ text: 'Online Social Behavior', link: '/initiatives/online-social-behavior/' },
-						{ text: 'Machine Augmentation', link: '/initiatives/machine-augmentation/' },
-						{ text: 'Sentiment & Perception', link: '/initiatives/sentiment-and-perception/' },
-						{ text: 'Research & Development', link: '/initiatives/research-and-development/' },
-						{ text: 'Numeric Exploration', link: '/initiatives/numeric-exploration/' }
-					]
-				},
-				{ text: 'Timeline', link: '/timeline/' },
-				{ text: 'Participate', link: '/participate/' },
-				{ text: 'Collaborate', link: '/collaborate/' },
 				{ text: 'Design Blog', link: 'https://design.wikimedia.org/blog/' }
 			]
 		},
