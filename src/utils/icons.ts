@@ -13,6 +13,7 @@ const externalLinkIcon: IconDefinition = {
 export const ICONS: Record<string, IconDefinition> = {
 	wikimedia: cdxIcons.cdxIconLogoWikimedia,
 	metawiki: cdxIcons.cdxIconLogoMetaWiki,
+	mediawiki: cdxIcons.cdxIconLogoMediaWiki,
 	message: cdxIcons.cdxIconMessage,
 	github: githubIcon,
 	externalLink: externalLinkIcon

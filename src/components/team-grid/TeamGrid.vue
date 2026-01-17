@@ -32,17 +32,18 @@ const props = defineProps({
 
       <div class="team-links">
 		<a
-			v-for="(href, key) in member.links"
+			v-for="item in member.links"
 			class="cdx-docs-link"
-			:key="key"
+			:key="item.link"
 			size="small"
 			weight="quiet"
-			:href="href"
+			:href="item.link"
 			target="_blank"
 			rel="noopener noreferrer"
-			:aria-label="`${member.name} external link`"
+			:title="item.ariaLabel"
+			:aria-label="item.ariaLabel"
 		>
-			<cdx-icon :icon="ICONS[key]" />
+			<cdx-icon :icon="ICONS[item.icon]" />
 		</a>
       </div>
     </div>
