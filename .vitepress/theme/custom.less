@@ -151,8 +151,8 @@ body {
 }
 
 .vp-doc a {
-	/* Use `initial` to reset VitePress' opinionated font weight to browser default. */
-	font-weight: initial;
+	// font-weight: initial;
+	font-weight: inherit;
 	text-decoration: var( --text-decoration-none );
 	transition-duration: 0s;
 }
@@ -213,11 +213,6 @@ body {
 
 .vp-doc h4 + p {
 	margin-top: var( --spacing-75 );
-}
-
-.vp-doc .cdx-demo-best-practice p,
-.vp-doc .cdx-demo-best-practices li {
-	line-height: var( --line-height-small );
 }
 
 .vp-doc table {
@@ -821,15 +816,6 @@ html.dark .vp-doc[ class*='_components' ] img {
 	}
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
-.cdx-docs-grid.cdx-docs-content-guidelines p {
-	margin: var( --spacing-100 ) 0 0;
-}
-
-.cdx-docs-content-guidelines ul,
-.cdx-docs-content-guidelines ol {
-	margin-bottom: 0;
-}
 
 /* Remove space between paragraph and list in content. */
 .vp-doc p + ul,
@@ -844,20 +830,11 @@ html.dark .vp-doc[ class*='_components' ] img {
 	margin: var( --spacing-50 ) 0;
 }
 
-@media ( min-width: 640px ) {
-	.cdx-docs-grid.cdx-docs-content-guidelines p {
-		margin: 0;
-	}
-}
-
 /* Customize target text highlight color. */
 ::target-text {
 	background-color: var( --background-color-target-text );
 }
 
-/* stylelint-enable selector-class-pattern */
-
-/* ALL ABOVE WAS COPIED FROM CODEX-DOCS REPO. ALL BELOW IS NEW. */
 
 /* Fix navbar alignment */
 .cdx-docs-font-mode-selector {
@@ -874,12 +851,6 @@ a.cdx-card:hover {
 	text-decoration: none;
 }
 
-/* Override style from codex-docs which prevent <strong> elements from showing as bold */
-.vp-doc a {
-	/* Use `initial` to reset VitePress' opinionated font weight to browser default. */
-	font-weight: inherit;
-}
-
 /* Anchor wrapper to call to action button */
 a.cta-button-wrapper {
     margin: 2em 0 1em 0;
@@ -889,3 +860,5 @@ a.cta-button-wrapper {
 .cta-button-wrapper + h2 {
 	margin-top: 1em;
 }
+
+/* stylelint-enable selector-class-pattern */
