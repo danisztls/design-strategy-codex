@@ -10,7 +10,7 @@ const team = [
 		name: "Debra Kumar",
 		what: "Design Research Manager",
 		links: {
-			wikimedia: "https://meta.wikimedia.org/wiki/User:DKumar-WMF"
+			metawiki: "https://meta.wikimedia.org/wiki/User:DKumar-WMF"
 		}
 	},
 	{
@@ -19,7 +19,7 @@ const team = [
 		what: "Program Manager",
 		where: "Design Strategy",
 		links: {
-			wikimedia: "https://meta.wikimedia.org/wiki/User:BGerdemann_(WMF)"
+			metawiki: "https://meta.wikimedia.org/wiki/User:BGerdemann_(WMF)"
 		}
 	},
 	{
@@ -28,7 +28,7 @@ const team = [
 		what: "Design Research Principal",
 		where: "Languages & Inuka",
 		links: {
-			wikimedia: "https://meta.wikimedia.org/wiki/User:EAsikingarmager_(WMF)"
+			metawiki: "https://meta.wikimedia.org/wiki/User:EAsikingarmager_(WMF)"
 		}
 	},
 	{
@@ -37,7 +37,7 @@ const team = [
 		what: "Design Research Lead",
 		where: "Core Experiences",
 		links: {
-			wikimedia: "https://meta.wikimedia.org/wiki/User:MRaish_(WMF)"
+			metawiki: "https://meta.wikimedia.org/wiki/User:MRaish_(WMF)"
 		}
 	},
 	{
@@ -46,7 +46,7 @@ const team = [
 		what: "Senior Design Researcher",
 		where: "Product Design",
 		links: {
-			wikimedia: "https://meta.wikimedia.org/wiki/User:Dchen_(WMF)"
+			metawiki: "https://meta.wikimedia.org/wiki/User:Dchen_(WMF)"
 		}
 	},
 	{
@@ -55,7 +55,7 @@ const team = [
 		what: "Senior Design Researcher",
 		where: "Anti-harassment Tools",
 		links: {
-			wikimedia: "https://meta.wikimedia.org/wiki/User:CLo_(WMF)"
+			metawiki: "https://meta.wikimedia.org/wiki/User:CLo_(WMF)"
 		}
 	},
 	{
@@ -63,7 +63,7 @@ const team = [
 		name: "Design Research",
 		what: "Contact Us",
 		links: {
-			wikimedia: "https://www.mediawiki.org/wiki/Wikimedia_Research/Design_Research",
+			metawiki: "https://www.mediawiki.org/wiki/Wikimedia_Research/Design_Research",
 			message: "mailto:desresadmin@wikimedia.org"
 		}
 	}
