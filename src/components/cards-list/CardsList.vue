@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { CdxCard, CdxIcon } from '@wikimedia/codex';
-import { externalLinkIcon } from '../../utils/custom-icons';
+import { ICONS } from '../../utils/icons'
 
 const props = defineProps({
   list: {
@@ -27,7 +27,7 @@ function isExternalUrl(url?: string): boolean {
 	>
 		<template #title>
 		  <span v-if="isExternalUrl(item.url)" class="card-title-with-icon">
-			{{ item.title }} <cdx-icon :icon="externalLinkIcon" size="small" />
+			{{ item.title }} <cdx-icon :icon="ICONS['externalLink']" size="small" />
 		  </span>
 		  <span v-else>
 			{{ item.title }}

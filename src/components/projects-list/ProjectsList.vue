@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { CdxCard, CdxIcon } from '@wikimedia/codex';
-import { externalLinkIcon } from '../../utils/custom-icons';
+import { ICONS } from '../../utils/icons'
 
 interface ProjectItem {
 	title: string;
@@ -73,7 +73,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 				<template #title>
 					<span class="project-title">{{ item.title }}</span>
 					<a v-if="item.url" :href="item.url" class="project-link" target="_blank">
-						<cdx-icon :icon="externalLinkIcon" size="small" />
+						<cdx-icon :icon="ICONS['externalLink']" size="small" />
 					</a>
 				</template>
 

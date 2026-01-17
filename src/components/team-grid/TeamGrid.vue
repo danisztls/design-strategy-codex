@@ -1,17 +1,6 @@
 <script setup lang="ts">
 import { CdxImage, CdxIcon } from '@wikimedia/codex';
-import type { IconDefinition } from '@wikimedia/codex'
-import {
-  cdxIconLogoWikimedia,
-  cdxIconMessage
-} from '@wikimedia/codex-icons'
-import { githubIcon } from '../../utils/custom-icons'
-
-const ICONS: Record<string, IconDefinition> = {
-  wikimedia: cdxIconLogoWikimedia,
-  message: cdxIconMessage,
-  github: githubIcon,
-}
+import { ICONS } from '../../utils/icons'
 
 const props = defineProps({
   team: {
