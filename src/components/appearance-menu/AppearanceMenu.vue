@@ -3,6 +3,7 @@
 		<cdx-toggle-button
 			ref="toggleButton"
 			v-model="showPopover"
+			title="Appearance options"
 			aria-label="Show appearance options"
 			quiet
 		>
@@ -116,13 +117,3 @@ export default defineComponent( {
 	}
 } );
 </script>
-
-<style lang="less">
-@import ( reference ) '@wikimedia/codex-design-tokens/theme-wikimedia-ui.less';
-
-.cdx-docs-font-mode-selector {
-	@media ( min-width: 768px ) {
-		margin-left: @spacing-100;
-	}
-}
-</style>

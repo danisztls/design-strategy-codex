@@ -82,22 +82,17 @@ export default defineConfigWithTheme<CustomConfig>({
 			]
 		},
 
-		socialLinks: [
-		// 	`as DefaultTheme.SocialLink` is needed because the type information from VitePress
-		// 	doesn't include the ariaLabel property
-		// 	Note: If we add more social links, we should undo the customization done for
-		// 	T345982, which hides a flyout menu for social links on medium-size screens.
+		cdxSocialLinks: [
 			{
-				icon: 'wikimediafoundation',
+				icon: 'wikimedia',
 				link: 'https://wikimediafoundation.org/',
 				ariaLabel: 'Wikimedia Foundation'
-			} as DefaultTheme.SocialLink,
-
+			},
 			{ 
-				icon: { svg: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><title>Mailing List</title><path d="M0 8v8a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-10 4z"/><path d="M2 2a2 2 0 0 0-2 2v2l10 4 10-4V4a2 2 0 0 0-2-2z"/></svg>' },
+				icon: 'message',
 				link: 'https://lists.wikimedia.org/mailman/listinfo/design',
-				ariaLabel: 'Mailing List'
-			} as DefaultTheme.SocialLink,
+				ariaLabel: 'Mailing list'
+			}
 		],
 
 		footer: {

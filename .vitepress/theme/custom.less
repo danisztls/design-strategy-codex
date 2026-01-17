@@ -274,13 +274,6 @@ body {
 	box-shadow: var( --box-shadow-medium );
 }
 
-/* Hide the social links navbar menu on medium/large screens since we add our own GitHub link for
-   those sizes. */
-.VPFlyout.VPNavBarExtra,
-.VPSocialLinks.VPNavBarSocialLinks {
-	display: none;
-}
-
 /* Main nav dropdown link. */
 .VPFlyout .link {
 	border-radius: var( --border-radius-base );
@@ -299,26 +292,9 @@ body {
 	background-color: var( --background-color-progressive-subtle );
 }
 
-/* Hamburger menu icon, styled to look like an icon-only quiet button. */
+/* Hamburger menu, disabled  */
 .VPNavBar .VPNavBarHamburger {
-	min-width: var( --min-size-interactive-pointer );
-	min-height: var( --min-size-interactive-pointer );
-	width: auto;
-	height: auto;
-	border-radius: var( --border-radius-base );
-	padding: 0 var( --spacing-horizontal-button );
-	transition-property: var(--transition-property-base);
-	transition-duration: var(--transition-duration-base);
-}
-
-.VPNavBar .VPNavBarHamburger:hover {
-	background-color: var( --background-color-interactive-subtle--hover );
-	border-color: var( --border-color-transparent );
-}
-
-.VPNavBar .VPNavBarHamburger:active {
-	background-color: var( --background-color-interactive-subtle--active );
-	border-color: var( --border-color-transparent );
+	display: none;
 }
 
 .VPNavBar .content-body {
@@ -460,6 +436,8 @@ body {
 /* Position search button with the nav menu. */
 .VPNavBarSearch {
 	flex-grow: 0;
+	padding: 0;
+	margin: 0;
 }
 
 /* Search button in the header, which we style to look like an icon-only quiet button. */
@@ -473,6 +451,7 @@ body {
 	padding: 0 var( --spacing-horizontal-button );
 	transition-property: var(--transition-property-base);
 	transition-duration: var(--transition-duration-base);
+	color: var(--color-base); 
 
 	@media screen and ( min-width: 960px ) {
 		/* Override VitePress fixed size, which is an accessibility no-go. */
@@ -503,6 +482,8 @@ body {
 	--icon: url( data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%0D%0A%09%3Cpath%20d%3D%22M12.2%2013.6a7%207%200%201%201%201.4-1.4l5.4%205.4-1.4%201.4zM3%208a5%205%200%201%200%2010%200A5%205%200%200%200%203%208%22%2F%3E%0D%0A%3C%2Fsvg%3E );
 	min-width: var( --min-size-icon-medium );
 	min-height: var( --min-size-icon-medium );
+    width: 20px;
+    height: 20px;
 	margin: 0;
 }
 
@@ -833,12 +814,6 @@ html.dark .vp-doc[ class*='_components' ] img {
 /* Customize target text highlight color. */
 ::target-text {
 	background-color: var( --background-color-target-text );
-}
-
-
-/* Fix navbar alignment */
-.cdx-docs-font-mode-selector {
-	display: inline-flex;
 }
 
 /* Fix popover */

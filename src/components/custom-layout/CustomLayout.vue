@@ -3,6 +3,23 @@
 		<template #nav-bar-title-after>
 		</template>
 
+		<template #nav-bar-content-before>
+			<div v-if="theme?.cdxSocialLinks" class="cdx-social-links">
+				<a
+					v-for="item in theme.cdxSocialLinks"
+					:key="item.link"
+					:href="item.link"
+					:aria-label="item.ariaLabel ? item.ariaLabel : undefined"
+					:title="item.ariaLabel ? item.ariaLabel : undefined"
+					class="cdx-social-link"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<cdx-icon :icon="ICONS[item.icon]" />
+				</a>
+			</div>
+		</template>
+
 		<template #nav-bar-content-after>
 			<cdx-docs-appearance-menu
 				v-model:color-mode="colorMode"
@@ -54,10 +71,12 @@ import { useRoute, useData, withBase } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import CdxDocsAppearanceMenu from '../appearance-menu/AppearanceMenu.vue';
 import CdxDocsReturnToTop from '../return-to-top/ReturnToTop.vue';
+import { CdxIcon } from '@wikimedia/codex';
+import { ICONS } from '../../utils/icons'
 
 const { Layout } = DefaultTheme;
 const route = useRoute();
-const { frontmatter, isDark } = useData();
+const { theme, frontmatter, isDark } = useData();
 
 const teleportTarget = ref<HTMLDivElement>();
 provide( 'CdxTeleportTarget', teleportTarget );
@@ -173,6 +192,42 @@ html.cdx-docs-color-mode {
 		margin-top: var(--spacing-50);
 		font-size: var(--font-size-small);
 		color: var(--color-subtle);
+	}
+}
+
+.VPNav .VPNavBar .content-body {
+	--nav-column-gap: var(--spacing-50);
+	column-gap: var(--nav-column-gap);
+
+	@media (max-width: 640px - 1px) {
+		--nav-column-gap: var(--spacing-35);
+	}
+}
+
+.cdx-social-links {
+	display: inline-flex;
+	column-gap: var(--nav-column-gap);
+
+	.cdx-social-link {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 32px;
+		height: 32px;
+
+		.cdx-icon {
+			color: var(--color-base); 
+		}
+
+		&:hover {
+			background-color: var( --background-color-interactive-subtle--hover );
+			border-color: var( --border-color-transparent );
+		}
+
+		&:active {
+			background-color: var( --background-color-interactive-subtle--active );
+			border-color: var( --border-color-transparent );
+		}
 	}
 }
 </style>
