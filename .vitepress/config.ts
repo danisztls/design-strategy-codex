@@ -88,23 +88,22 @@ export default defineConfigWithTheme<CustomConfig>({
 				link: 'https://wikimediafoundation.org/',
 				ariaLabel: 'Wikimedia Foundation'
 			},
+			{
+				icon: 'github',
+				link: 'https://github.com/wikimedia/',
+				ariaLabel: 'Wikimedia at Github'
+			},
 			{ 
 				icon: 'message',
 				link: 'https://lists.wikimedia.org/mailman/listinfo/design',
-				ariaLabel: 'Mailing list'
+				ariaLabel: 'Join our mailing list'
 			}
 		],
 
-		footer: {
-			// TODO: Extend footer
-			// Privacy policy
-			// https://wikimediafoundation.org/privacy-policy/
-			// Accessibility statement
-			// https://design.wikimedia.org/accessibility-statement.html
-			
-			// message: '',
-			copyright: 'Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. Code is available under the MIT license.', 
-		},
+		// cdxFooter: {
+		// 	message: '',
+		// 	copyright: 'Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. Code is available under the MIT license.', 
+		// },
 
 		search: {
 			provider: 'local',
