@@ -5,6 +5,7 @@ hero:
     image:
         src: "/strategy/projects/media-matching/hero.webp"
         alt: "Desktop view of a Wikipedia article being edited"
+next: false
 ---
 
 ## Overview

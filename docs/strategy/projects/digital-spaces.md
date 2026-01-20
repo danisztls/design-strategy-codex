@@ -6,6 +6,7 @@ hero:
         src: "/strategy/projects/digital-spaces/hero.webp"
         alt: "An aerial view of housing developments near Markham"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:Markham-suburbs_aerial-edit2.jpg">IDuke</a>, <a href="https://creativecommons.org/licenses/by-sa/2.5/deed.en">CC BY-SA 2.5</a>, via Wikimedia Commons 
+next: false
 ---
 
 ## Overview

@@ -5,6 +5,7 @@ hero:
     image:
         src: "/strategy/projects/desktop-improvements/hero.webp"
         alt: "Desktop view of a Wikipedia article"
+next: false
 ---
 
 ## Overview

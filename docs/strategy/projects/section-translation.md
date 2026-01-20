@@ -5,6 +5,7 @@ hero:
     image:
         src: "/strategy/projects/section-translation/hero.webp"
         alt: "Desktop and mobile views of the Wikipedia translation tool"
+next: false
 ---
 
 ## Overview

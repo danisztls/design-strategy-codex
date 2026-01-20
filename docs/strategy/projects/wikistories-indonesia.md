@@ -5,6 +5,7 @@ hero:
     image:
         src: "/strategy/projects/wikistories-indonesia/hero.webp"
         alt: "Four mobile views of the Wikistories Indonesia tool"
+next: false
 ---
 
 ## Overview

@@ -6,6 +6,7 @@ hero:
         src: "/strategy/projects/content-mod-medium-wikis/hero.webp"
         alt: "Dual Mic Amp"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:Amek_9098_EQ_closeup.jpg">zergonion</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, via Wikimedia Commons</a> 
+next: false
 ---
 
 ## Overview

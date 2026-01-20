@@ -6,6 +6,7 @@ hero:
         src: "/strategy/projects/kaios/hero.webp"
         alt: "KaiOS language change flow"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:KaiOS_Language_Change_Flow.png">SGautam (WMF)</a>, <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY 4.0</a>, via Wikimedia Commons 
+next: false
 ---
 
 ## Overview

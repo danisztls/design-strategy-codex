@@ -6,6 +6,7 @@ hero:
         src: "/strategy/projects/check-user/hero.webp"
         alt: "Vandalism on a street sign"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:A_vandalised_traffic_sign_in_Adana.jpg">Fatih Renkligil</a>, <a href="https://creativecommons.org/licenses/by/4.0/deed.en" target="_blank">CC BY 4.0</a>, via Wikimedia Commons
+next: false
 ---
 
 ## Overview

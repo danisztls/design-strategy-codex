@@ -6,6 +6,7 @@ hero:
         src: "/strategy/projects/communications-mentorship/hero.webp"
         alt: "Wikipedia globe"
     caption: "CC BY-SA 2.0."
+next: false
 ---
 
 ## Overview

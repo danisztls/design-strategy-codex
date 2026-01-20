@@ -5,6 +5,7 @@ hero:
     image:
         src: "/strategy/projects/sx-entry-points/hero.webp"
         alt: "Section translation entry points within a Wikipedia article"
+next: false
 ---
 
 ## Overview

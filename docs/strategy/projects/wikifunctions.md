@@ -5,6 +5,7 @@ hero:
     image:
         src: "/strategy/projects/wikifunctions/hero.webp"
         alt: "Desktop view of Wikifunctions tool"
+next: false
 ---
 
 ## Overview

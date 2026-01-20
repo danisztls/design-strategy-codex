@@ -6,6 +6,7 @@ hero:
         src: "/strategy/projects/why-do-people-edit-wikipedia/hero.webp"
         alt: "Wikipedian wearing a Wikipedia logo printed t-shirt"
     caption: Photo by <a href="https://commons.wikimedia.org/wiki/File:Wikipedian_Tahmid_from_Rajshahi_Bangladesh_posing_wearing_a_Wikipedia_logo_printed_t-shirt_(2).jpg" >NahidHossain</a>, <a href="https://creativecommons.org/licenses/by/4.0/deed.en" target="_blank">CC BY 4.0</a>, via Wikimedia Commons 
+next: false
 ---
 
 ## Overview

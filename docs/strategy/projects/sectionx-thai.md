@@ -5,6 +5,7 @@ hero:
     image:
         src: "/strategy/sectionx-thai/hero.webp"
         alt: "Section translation entry points within a Thai Wikipedia article"
+next: false
 ---
 
 ## Overview

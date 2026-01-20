@@ -5,6 +5,7 @@ hero:
     image:
         src: "/strategy/projects/multilingual-editor-x/hero.webp"
         alt: "Desktop and mobile views of the Multilingual editor tool"
+next: false
 ---
 
 
