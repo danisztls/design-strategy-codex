@@ -864,4 +864,20 @@ a.cta-button-wrapper {
 	margin-top: 1em;
 }
 
+
+/* Inline List */
+.inline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+	li {
+	  display: inline;
+	}
+
+	li:not(:last-child)::after {
+	  content: " · ";
+	}
+}
+
 /* stylelint-enable selector-class-pattern */

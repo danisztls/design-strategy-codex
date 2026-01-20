@@ -53,6 +53,29 @@
 		<template v-if="!isTopOfPage" #doc-bottom>
 			<cdx-docs-return-to-top />
 		</template>
+
+		<template #layout-bottom>
+			<footer id="footer" class="cdx-footer">
+				<div class="container">
+					<div class="content">
+						<div class="cdx-footer-copyright">
+							<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply.</p>
+							<p>Code is available under the  <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank">MIT License</a>.</p>
+						</div>
+
+						<ul class="inline-list cdx-footer-extra">
+							<li><a href="/accessibility-statement.html" target="_blank">Accessibility statement</a></li>
+							<li><a href="https://wikimediafoundation.org/privacy-policy/">Privacy policy</a></li>
+						</ul>
+
+						<!-- Tracking Pixel -->
+						<noscript>
+							<img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" />
+						</noscript>
+					</div>
+				</div>
+			</footer>
+		</template>
 	</layout>
 	<!--
 		Teleport target provided to any teleport-using components.
@@ -227,6 +250,46 @@ html.cdx-docs-color-mode {
 		&:active {
 			background-color: var( --background-color-interactive-subtle--active );
 			border-color: var( --border-color-transparent );
+		}
+	}
+}
+
+.cdx-footer {
+	width: 100%;
+    color: var(--vp-c-text-2);
+
+	a {
+		color: var(--vp-c-brand-1);
+
+		&:hover {
+			color: var(--vp-c-brand-2);
+			text-decoration: var(--text-decoration-underline);
+		}
+	}
+
+	.container {
+		margin: 0 0 0 auto;
+		padding: var(--spacing-200) 0;
+		text-align: center;
+		border-top: solid 1px var(--border-color-base);
+
+		.content {
+			margin: 0 var(--spacing-200);
+		}
+
+		.cdx-footer-extra  {
+			font-style: italic;
+		}
+
+		p:not(:first-child),
+		ul:not(:first-child) {
+			margin-top: var(--spacing-35);
+		}
+
+		// add padding to match layout 
+		@media (min-width: 960px) {
+			padding-left: calc((100% - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width));
+			padding-right: calc((100% - var(--vp-layout-max-width)) / 2);
 		}
 	}
 }
