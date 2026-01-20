@@ -294,7 +294,24 @@ body {
 
 /* Hamburger menu, disabled  */
 .VPNavBar .VPNavBarHamburger {
-	display: none;
+	min-width: var( --min-size-interactive-pointer );
+	min-height: var( --min-size-interactive-pointer );
+	width: auto;
+	height: auto;
+	border-radius: var( --border-radius-base );
+	padding: 0 var( --spacing-horizontal-button );
+	transition-property: var(--transition-property-base);
+	transition-duration: var(--transition-duration-base);
+}
+
+.VPNavBar .VPNavBarHamburger:hover {
+ 	background-color: var( --background-color-interactive-subtle--hover );
+ 	border-color: var( --border-color-transparent );
+}
+
+.VPNavBar .VPNavBarHamburger:active {
+	background-color: var( --background-color-interactive-subtle--active );
+	border-color: var( --border-color-transparent );
 }
 
 .VPNavBar .content-body {
@@ -396,9 +413,20 @@ body {
 }
 
 /* Style component categories. */
+.VPSidebarItem.level-0.collapsible > .item > .VPLink .text,
+.VPSidebarItem.level-1.is-link > .item > .VPLink .text,
+{
+	text-transform: uppercase;
+	color: var(--vp-c-text-1);
+}
+
 .VPSidebarItem.level-1.collapsible h3.text {
 	font-weight: var( --font-weight-bold );
 }
+
+// .VPSidebarItem.level-2 > .item > .VPLink .text {
+// 	color: var(--vp-c-text-3);
+// }
 
 /* Add space between groups. */
 .VPSidebarItem.collapsible:not( :last-child ) {

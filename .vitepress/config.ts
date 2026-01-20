@@ -47,8 +47,7 @@ export default defineConfigWithTheme<CustomConfig>({
 		},
 
 		/* For prev/next navigation to work properly pages must be under page-name/index.md */
-		sidebar: {
-			'/': [
+		sidebar: [
 				{	text: 'Strategy',
 					link: '/strategy/',
 					collapsed: false,
@@ -78,9 +77,14 @@ export default defineConfigWithTheme<CustomConfig>({
 						},
 					]
 				},
-				{ text: 'Design Blog', link: 'https://design.wikimedia.org/blog/' }
-			]
-		},
+				{ text: 'Blog', link: '/blog/' }
+		],
+
+		nav: [
+			{ text: 'Strategy', link: '/strategy/' },
+			{ text: 'Blog', link: '/blog/' },
+			{ text: 'Codex', link: 'https://doc.wikimedia.org/codex/latest/' }
+		],
 
 		cdxSocialLinks: [
 			{
