@@ -1,22 +1,22 @@
 {
-  "name": "design-strategy-codex",
-  "version": "1.0.0",
-  "description": "A remake of [Design Strategy](https://design.wikimedia.org/strategy/) static site to use [Codex](https://doc.wikimedia.org/codex/latest/). Made with [Vitepress](https://vitepress.dev/).",
-  "license": "",
-  "author": "",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
-  },
-  "devDependencies": {
-    "@wikimedia/codex": "^2.3.3",
-    "@wikimedia/codex-design-tokens": "^2.3.3",
-    "@wikimedia/codex-icons": "^2.3.3",
-    "less": "^4.5.1",
-    "vitepress": "^2.0.0-alpha.15"
-  }
+	"name": "wikimedia-design-landing-page",
+	"version": "1.0.0",
+	"description": "[Design at Wikimedia](https://design.wikimedia.org/) static site.",
+	"license": "MIT",
+	"author": "Daniel de Souza Telles <ddesouza-ctr@wikimedia.org>",
+	"engines": {
+		"node": ">=24 <25"
+	},
+	"scripts": {
+    	"docs:dev": "vitepress dev",
+    	"docs:build": "vitepress build",
+    	"docs:preview": "vitepress preview"
+	},
+	"devDependencies": {
+    	"@wikimedia/codex": "^2.3.3",
+    	"@wikimedia/codex-design-tokens": "^2.3.3",
+    	"@wikimedia/codex-icons": "^2.3.3",
+    	"less": "^4.5.1",
+    	"vitepress": "^2.0.0-alpha.15"
+	}
 }
