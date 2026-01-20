@@ -240,9 +240,19 @@ body {
 
 /* Navigation. ------------------------------------------------------------- */
 
-.Layout .VPSidebar {
-	background-color: var( --background-color-base );
-	border-right: var( --border-width-base ) var( --border-style-base ) var( --border-color-subtle );
+.Layout {
+	/* Force scrollbar to prevent layout changes between pages */
+	min-height: calc(100vh + 1px) !important;
+
+	/* Prevent layout changes between pages due to different container widths */
+	.VPDoc.has-aside .content-container {
+		max-width: unset;
+	}
+
+	.VPSidebar {
+		background-color: var( --background-color-base );
+		border-right: var( --border-width-base ) var( --border-style-base ) var( --border-color-subtle );
+	}
 }
 
 /* When the sidebar is not collapsed... */
