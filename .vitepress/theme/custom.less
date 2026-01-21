@@ -87,6 +87,9 @@ body {
 	 * WCAG 2.2 AA requirement for line height of at least 1.5.
 	 */
 	line-height: var( --line-height-medium );
+
+	/* Prevent search modal from causing a relayout */
+	overflow: initial !important;
 }
 
 .vp-doc h1,
@@ -489,7 +492,7 @@ body {
 	padding: 0 var( --spacing-horizontal-button );
 	transition-property: var(--transition-property-base);
 	transition-duration: var(--transition-duration-base);
-	color: var(--color-base); 
+	color: var(--color-base);
 
 	@media screen and ( min-width: 960px ) {
 		/* Override VitePress fixed size, which is an accessibility no-go. */
