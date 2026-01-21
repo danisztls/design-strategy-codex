@@ -97,17 +97,12 @@ export default defineConfigWithTheme<CustomConfig>({
 				link: 'https://github.com/wikimedia/',
 				ariaLabel: 'Wikimedia at Github'
 			},
-			{ 
+			{
 				icon: 'message',
 				link: 'https://lists.wikimedia.org/mailman/listinfo/design',
 				ariaLabel: 'Join our mailing list'
 			}
 		],
-
-		// cdxFooter: {
-		// 	message: '',
-		// 	copyright: 'Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. Code is available under the MIT license.', 
-		// },
 
 		search: {
 			provider: 'local',
