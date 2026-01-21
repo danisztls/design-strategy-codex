@@ -1,5 +1,4 @@
 import DefaultTheme from 'vitepress/theme-without-fonts';
-import { Theme } from 'vitepress';
 import CustomLayout from '../../src/components/custom-layout/CustomLayout.vue';
 
 import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
@@ -7,13 +6,11 @@ import '@wikimedia/codex/dist/codex.style.css';
 import './custom.less';
 import './syntax-highlighting-fixes.less';
 
-const customTheme: Theme = {
-	...DefaultTheme,
+export default {
+	extends: DefaultTheme,
 	Layout: CustomLayout,
 
-	enhanceApp(ctx) {
-		DefaultTheme.enhanceApp?.(ctx)
-		const { app } = ctx
+	enhanceApp({ app }) {
 		const components = import.meta.glob('../../src/components/**/*.vue', {
 			eager: true
 		});
@@ -35,5 +32,3 @@ const customTheme: Theme = {
 		}
 	}
 };
-
-export default customTheme;
