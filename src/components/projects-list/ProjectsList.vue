@@ -68,12 +68,13 @@ function formatDate(input: string, locale = 'en-US'): string {
 		>
 			<CdxCard
 				:key="item.title"
+				tabindex="0"
 			>
 
 				<template #title>
 					<span class="project-title">{{ item.title }}</span>
 					<a v-if="item.url" :href="item.url" class="project-link" target="_blank">
-						<cdx-icon :icon="ICONS['externalLink']" size="small" />
+						<cdx-icon :icon="ICONS['externalLink']" size="small" aria-label="Open project in new tab" tabindex="1" />
 					</a>
 				</template>
 
@@ -94,12 +95,15 @@ function formatDate(input: string, locale = 'en-US'): string {
 	gap: var(--spacing-75);
 
 	@media (max-width: 640px - 1px) {
-		display: flex;
-		flex-flow: column nowrap;
+		display: grid;
+		grid-template-columns: 1fr;
+
+		.project-card-wrapper {
+			transition: none;
+		}
 	}
 
 	@media (min-width: 640px) {
-		display: grid;
 		grid-auto-rows: 1fr;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
@@ -119,11 +123,10 @@ function formatDate(input: string, locale = 'en-US'): string {
 	position: relative;
 	z-index: 0;
 	overflow: hidden;
+	transition: transform 200ms ease;
 }
 
 :deep(.cdx-card) {
-	transition: transform 800ms cubic-bezier(.2, .8, .2, 1);
-
 	p {
 		margin: 0;
 	}
@@ -142,13 +145,22 @@ function formatDate(input: string, locale = 'en-US'): string {
 
 	.project-link {
 		display: none;
+		height: min-content;
 
 		.cdx-icon {
 			vertical-align: middle;
 			text-align: end;
+		}
 
-			&:hover {
-				color: var(--color-link-hover);
+		&:hover {
+			.cdx-icon {
+				color: var(--color-link--hover);
+			}
+		}
+
+		&:focus {
+			.cdx-icon {
+				color: var(--color-link--focus);
 			}
 		}
 	}
@@ -196,6 +208,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 			position: absolute;
 			height: max-content;
 			border-width: 2px;
+			border-color: var(--border-color-emphasized);
 		}
 
 		.project-link, .project-description, .project-lead {
