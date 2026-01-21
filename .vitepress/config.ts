@@ -61,8 +61,7 @@ export default defineConfig({
 	},
 
 	sitemap: {
-		// include base in the URL
-		hostname: 'https://design-strategy-codex.pages.dev/'
+		hostname: 'https://design.wikimedia.org/'
 	},
 
 	themeConfig: {
