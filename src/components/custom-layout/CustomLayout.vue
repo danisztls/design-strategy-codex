@@ -38,7 +38,7 @@
 					<img
 						:src="frontmatter.hero.image.src"
 						:alt="frontmatter.hero.image.alt || ''"
-						fetchpriority=high
+						fetchpriority="high"
 					/>
 
 					<figcaption
