@@ -70,7 +70,7 @@
 						</ul>
 
 						<!-- Tracking Pixel -->
-						<noscript v-if="!isDev">
+						<noscript>
 							<img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" />
 						</noscript>
 					</div>
@@ -101,7 +101,6 @@ import { ICONS } from '../../utils/icons'
 const { Layout } = DefaultTheme;
 const route = useRoute();
 const { theme, frontmatter, isDark } = useData();
-const isDev = import.meta.env.DEV
 
 const teleportTarget = ref<HTMLDivElement>();
 provide( 'CdxTeleportTarget', teleportTarget );
