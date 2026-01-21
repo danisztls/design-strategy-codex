@@ -1,0 +1,34 @@
+# syntax=docker-registry.wikimedia.org/repos/releng/blubber/buildkit:v1.3.0
+version: v4
+variants:
+    build-js:
+        base: docker-registry.wikimedia.org/releng/node24
+        builders:
+            - node:
+                requirements: [package.json, package-lock.json]
+                use-npm-ci: true
+
+    build-vitepress:
+        base: docker-registry.wikimedia.org/releng/node24
+        builders:
+            - custom:
+                command: [npm run docs:build]
+                requirements:
+                    - from: build-js
+                      source: /srv/app/node_modules
+                      destination: node_modules
+                    - from: local
+                      source: ./.
+                      destination: ./
+
+    production:
+        base: docker-registry.wikimedia.org/httpd
+        entrypoint: [./entrypoint.sh]
+        runs: { insecurely: false }
+        copies:
+            - from: local
+              source: ./production/.
+              destination: ./
+            - from: build-vitepress
+              source: /srv/app/.vitepress/dist
+              destination: html
