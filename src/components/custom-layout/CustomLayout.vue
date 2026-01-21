@@ -36,8 +36,9 @@
 
 				<figure v-if="frontmatter.hero?.image" class="doc-hero">
 					<img
-						:src="withBase(frontmatter.hero.image.src)"
+						:src="frontmatter.hero.image.src"
 						:alt="frontmatter.hero.image.alt || ''"
+						fetchpriority=high
 					/>
 
 					<figcaption
@@ -90,7 +91,7 @@
 
 <script setup lang="ts">
 import { computed, ref, onMounted, onUnmounted, watch, provide } from 'vue';
-import { useRoute, useData, withBase } from 'vitepress';
+import { useRoute, useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import CdxDocsAppearanceMenu from '../appearance-menu/AppearanceMenu.vue';
 import CdxDocsReturnToTop from '../return-to-top/ReturnToTop.vue';
@@ -240,7 +241,7 @@ html.cdx-docs-color-mode {
 		height: 32px;
 
 		.cdx-icon {
-			color: var(--color-base); 
+			color: var(--color-base);
 		}
 
 		&:hover {
@@ -287,7 +288,7 @@ html.cdx-docs-color-mode {
 			margin-top: var(--spacing-35);
 		}
 
-		// add padding to match layout 
+		// add padding to match layout
 		@media (min-width: 960px) {
 			padding-left: calc((100% - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width));
 			padding-right: calc((100% - var(--vp-layout-max-width)) / 2);
