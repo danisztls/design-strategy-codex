@@ -69,10 +69,11 @@
 							<li><a href="https://wikimediafoundation.org/privacy-policy/">Privacy policy</a></li>
 						</ul>
 
-						<!-- Tracking Pixel -->
-						<noscript>
-							<img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" />
-						</noscript>
+						<!-- TODO: Enable tracking pixel after it is configured. -->
+						<!-- Tracking Pixel fallback -->
+						<!-- <noscript> -->
+						<!-- 	<img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" /> -->
+						<!-- </noscript> -->
 					</div>
 				</div>
 			</footer>

@@ -1,4 +1,29 @@
-import { defineConfig,  DefaultTheme } from 'vitepress'
+import { defineConfig, DefaultTheme } from 'vitepress'
+
+// TODO: Enable tracking script after it is configured.
+// const isProd =
+// 	typeof process !== 'undefined' && process.env.NODE_ENV === 'production'
+const isProd = false
+
+const trackingScript: [string, Record<string, any>, string] = [
+	'script',
+	{},
+	`
+var _paq = window._paq = window._paq || [];
+_paq.push(['setDomains', ['*.design.wikimedia.org']]);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+  var u='https://piwik.wikimedia.org/';
+  _paq.push(['setTrackerUrl', u+'piwik.php']);
+  _paq.push(['setSiteId', '16']);
+  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+  g.async=true; g.defer=true; g.src=u+'piwik.js';
+  s.parentNode && s.parentNode.insertBefore(g,s);
+})();
+`.trim()
+]
+
 export default defineConfig({
 	base: '/',
 	cleanUrls: true,
@@ -14,6 +39,8 @@ export default defineConfig({
 		[ 'link', { rel: 'icon', href: `/favicon.ico`, type: 'image/x-icon', sizes: '32x32' } ],
 		[ 'link', { rel: 'icon', href: `/favicon.svg`, type: 'image/svg+xml' } ],
 		[ 'link', { rel: 'icon', href: `/favicon-32x32.png`, type: 'image/png' } ],
+		// Tracking script (prod only)
+		...(isProd ? [trackingScript] : [])
 	],
 
 	markdown: {
