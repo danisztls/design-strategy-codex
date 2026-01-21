@@ -123,7 +123,7 @@ export default defineConfig({
 		}
 	} satisfies DefaultTheme.Config,
 
-	// FIXME: Attempt to optimize LCP
+	// Optimize hero LCP
 	transformHead({ pageData }) {
 		const hero = pageData.frontmatter?.hero
 		if (!hero?.image?.src) return []
