@@ -1,5 +1,5 @@
-import { defineConfigWithTheme, DefaultTheme } from 'vitepress'
-export default defineConfigWithTheme<CustomConfig>({
+import { defineConfig,  DefaultTheme } from 'vitepress'
+export default defineConfig({
 	base: '/',
 	cleanUrls: true,
 	srcDir: 'docs',
@@ -114,11 +114,29 @@ export default defineConfigWithTheme<CustomConfig>({
 						return ''
 					}
 
-					if (env.frontmatter?.title)
+					if (env.frontmatter?.title) {
 						return await md.renderAsync(`# ${env.frontmatter.title}`) + html
+					}
 					return html
 				}
 			}
 		}
+	} satisfies DefaultTheme.Config,
+
+	// FIXME: Attempt to optimize LCP
+	transformHead({ pageData }) {
+		const hero = pageData.frontmatter?.hero
+		if (!hero?.image?.src) return []
+
+		return [
+			[
+				'link',
+				{
+					rel: 'preload',
+					as: 'image',
+					href: hero.image.src
+				}
+			]
+		]
 	}
 });

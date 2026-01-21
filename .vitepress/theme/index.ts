@@ -10,7 +10,10 @@ import './syntax-highlighting-fixes.less';
 const customTheme: Theme = {
 	...DefaultTheme,
 	Layout: CustomLayout,
-	enhanceApp( { app, router } ) {
+
+	enhanceApp(ctx) {
+		DefaultTheme.enhanceApp?.(ctx)
+		const { app } = ctx
 		const components = import.meta.glob('../../src/components/**/*.vue', {
 			eager: true
 		});
