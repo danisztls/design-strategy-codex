@@ -1,4 +1,4 @@
-import DefaultTheme from 'vitepress/theme';
+import DefaultTheme from 'vitepress/theme-without-fonts';
 import { Theme } from 'vitepress';
 import CustomLayout from '../../src/components/custom-layout/CustomLayout.vue';
 
