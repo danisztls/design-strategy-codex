@@ -192,13 +192,13 @@ function formatDate(input: string, locale = 'en-US'): string {
 .project-card-expanded() {
 	z-index: 10;
 	overflow: visible;
+	cursor: text;
 
 	:deep(.cdx-card) {
 		overflow: visible;
 		height: max-content;
 		border-width: 2px;
 		border-color: var(--border-color-emphasized);
-		transition: transform 200ms ease;
 	}
 
 	.project-link,
@@ -209,15 +209,16 @@ function formatDate(input: string, locale = 'en-US'): string {
 }
 
 .project-card-wrapper {
-	@media (min-width: 640px) {
+	cursor: pointer;
 
-		&:hover,
+	@media (min-width: 640px) {
 		&:focus-within {
 			.project-card-expanded();
 
 			:deep(.cdx-card) {
 				position: absolute;
 				transform: scale(1.05);
+				transition: transform 330ms ease;
 			}
 		}
 	}
@@ -228,6 +229,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 
 			:deep(.cdx-card) {
 				transform: scale(1.02);
+				transition: transform 200ms ease;
 			}
 		}
 	}
