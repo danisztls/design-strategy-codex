@@ -91,11 +91,10 @@ function formatDate(input: string, locale = 'en-US'): string {
 
 <style scoped lang="less">
 .projects-list {
-	position: relative;
+	display: grid;
 	gap: var(--spacing-75);
 
-	@media (max-width: 640px - 1px) {
-		display: grid;
+	@media (max-width: (640px - 1px)) {
 		grid-template-columns: 1fr;
 
 		.project-card-wrapper {
@@ -104,6 +103,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 	}
 
 	@media (min-width: 640px) {
+		position: relative;
 		grid-auto-rows: 1fr;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
@@ -194,25 +194,40 @@ function formatDate(input: string, locale = 'en-US'): string {
 	}
 }
 
-.project-card-wrapper {
-	&:hover, &:focus-within {
-		z-index: 10;
+.project-card-expanded() {
+	z-index: 10;
+	overflow: visible;
+
+	:deep(.cdx-card) {
 		overflow: visible;
+		height: max-content;
+		border-width: 2px;
+		border-color: var(--border-color-emphasized);
+	}
 
-		@media (min-width: 640px) {
+	.project-link,
+	.project-description,
+	.project-lead {
+		display: block;
+	}
+}
+
+.project-card-wrapper {
+	@media (min-width: 640px) {
+		&:hover,
+		&:focus-within {
+			.project-card-expanded();
 			transform: scale(1.05);
-		}
 
-		:deep(.cdx-card) {
-			overflow: visible;
-			position: absolute;
-			height: max-content;
-			border-width: 2px;
-			border-color: var(--border-color-emphasized);
+			:deep(.cdx-card) {
+				position: absolute;
+			}
 		}
+	}
 
-		.project-link, .project-description, .project-lead {
-			display: block;
+	@media (max-width: 639px) {
+		&:focus-within {
+			.project-card-expanded();
 		}
 	}
 }
