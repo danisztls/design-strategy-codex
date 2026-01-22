@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { CdxCard, CdxInfoChip } from '@wikimedia/codex';
+import { CdxInfoChip } from '@wikimedia/codex';
 
 interface TimelineItem {
 	title: string;
@@ -11,10 +11,15 @@ interface TimelineItem {
 	initiative: string;
 }
 
-const props = defineProps<{
-	list: TimelineItem[];
-	year?: string;
-}>();
+const props = withDefaults(
+	defineProps<{
+		list: TimelineItem[];
+		year: string;
+	}>(),
+	{
+		list: () => []
+	}
+);
 
 function slugify(value: string): string {
 	return value
@@ -24,28 +29,25 @@ function slugify(value: string): string {
 		.replace(/[^a-z0-9-]/g, '');
 }
 
-/**
- * Group items by year and sort descending
- */
-const groupedByYear = computed(() => {
-	const map: Record<string, TimelineItem[]> = {};
+/* Group items by year and sort descending */
+const groupedByYear = computed<Record<string, TimelineItem[]>>(() => {
+	const groups: Record<string, TimelineItem[]> = {};
 
-	(props.list as TimelineItem[]).forEach(item => {
-		const itemYear = item.date.split('-')[0];
-
-		if (!map[itemYear]) {
-			map[itemYear] = [];
+	for (const item of props.list) {
+		const itemYear = item.date?.slice(0, 4);
+		if (!itemYear || itemYear.length !== 4) {
+			continue;
 		}
 
-		map[itemYear].push(item);
-	});
-
-	// Sort items within each year by date (newest first)
-	for (const year in map) {
-		map[year].sort((a, b) => b.date.localeCompare(a.date));
+		(groups[itemYear] ??= []).push(item);
 	}
 
-	return map;
+	for (const year of Object.keys(groups)) {
+		// Sort newest to oldest within the year
+		groups[year].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
+	}
+
+	return groups;
 });
 </script>
 
@@ -63,7 +65,7 @@ const groupedByYear = computed(() => {
 			<h3 class="timeline-item-title">{{ item.title }}</h3>
 			<p class="timeline-item-description">{{ item.description }}</p>
 			<p v-if="item.lead" class="timeline-item-lead">Lead: {{ item.lead }}</p>
-			<div v-if="item.initiative" class="timeline-item-initiative"><CdxInfoChip :data-initiative="slugify(item.initiative)">{{ item.initiative }}</CdxInfoChip></div>
+			<div v-if="item.initiative" class="timeline-item-initiative" :data-initiative="slugify(item.initiative)"><CdxInfoChip>{{ item.initiative }}</CdxInfoChip></div>
 		</component>
 	</ul>
 </template>
@@ -81,7 +83,7 @@ const groupedByYear = computed(() => {
 	display: flex;
 	flex-flow: column nowrap;
 	gap: var(--spacing-35);
-	border-left: 5px solid transparent; 
+	border-left: 5px solid transparent;
 	padding-left: 15px;
 	margin-left: -15px;
 
@@ -120,42 +122,43 @@ a.timeline-item:hover {
 
 .timeline-item-initiative {
 	line-height: 1;
-}
 
-.timeline-item-initiative :deep(.cdx-info-chip) {
-	border: none;
+	&:deep(.cdx-info-chip) {
+		border: none;
+		background-color: var(--info-chip-background-color);
 
-	:deep(.cdx-info-chip__text) {
-		line-height: 1.5;
-		color: #f8f9fa;
-		padding: 0 var(--spacing-6);
-		font-weight: 600;
-		text-transform: uppercase;
-		font-size: x-small;
+		:deep(.cdx-info-chip__text) {
+			line-height: 1.5;
+			color: #f8f9fa;
+			padding: 0 var(--spacing-6);
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: x-small;
+		}
 	}
-}
 
-:deep(.cdx-info-chip[data-initiative="powered-by-people"]) {
-	background-color: #fd7865;
-}
+	&[data-initiative="powered-by-people"] {
+		--info-chip-background-color: #fd7865;
+	}
 
-:deep(.cdx-info-chip[data-initiative="online-social-behavior"]) {
-	background-color: #8d7ebd;
-}
+	&[data-initiative="online-social-behavior"] {
+		--info-chip-background-color: #8d7ebd;
+	}
 
-:deep(.cdx-info-chip[data-initiative="machine-augmentation"]) {
-	background-color: #4b77d6;
-}
+	&[data-initiative="machine-augmentation"] {
+		--info-chip-background-color: #4b77d6;
+	}
 
-:deep(.cdx-info-chip[data-initiative="sentiment--perception"]) {
-	background-color: #c690b4;
-}
+	&[data-initiative="sentiment--perception"] {
+		--info-chip-background-color: #c690b4;
+	}
 
-:deep(.cdx-info-chip[data-initiative="research--development"]) {
-	background-color: #259948;
-}
+	&[data-initiative="research--development"] {
+		--info-chip-background-color: #259948;
+	}
 
-:deep(.cdx-info-chip[data-initiative="numeric-exploration"]) {
-	background-color: #edb537;
+	&[data-initiative="numeric-exploration"] {
+		--info-chip-background-color: #edb537;
+	}
 }
 </style>

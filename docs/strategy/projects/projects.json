@@ -405,7 +405,6 @@
 		"title": "HabLatAm",
 		"description": "A collaboration between the WMF and the Berkman Klein Center for Internet and Society to research the internet habits, preferences, and beliefs of youth across Latin America.",
 		"date": "2022-04",
-		"lead": "",
 		"initiative": "Research & Development"
 	},
 	{
@@ -524,7 +523,6 @@
 		"description": "This work provides a method for visualizing and comparing topical coverage from one wiki project to another for the purpose of better understanding where knowledge gaps and subject matter expertise exist across the Free Knowledge Movement.",
 		"url": "https://meta.wikimedia.org/wiki/Research:Long_Tail_Topic_Ontology",
 		"date": "2021-06",
-		"lead": "",
 		"initiative": "Numeric Exploration"
 	},
 	{
@@ -548,7 +546,6 @@
 		"description": "A study that collects feedback on the function-builder prototype from technical users, nontechnical users, and those from outside of the Wikimedia ecosystem.",
 		"url": "/strategy/projects/wikifunctions.html",
 		"date": "2021-05",
-		"lead": "",
 		"initiative": "Research & Development"
 	},
 	{
