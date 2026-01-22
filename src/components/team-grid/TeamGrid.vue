@@ -1,40 +1,51 @@
 <script setup lang="ts">
 import { CdxImage, CdxIcon } from '@wikimedia/codex';
-import { ICONS } from '../../utils/icons'
+import { ICONS } from '../../utils/icons';
 
-const props = defineProps({
-  team: {
-    type: Array,
-    required: true
-  }
-})
+type TeamLink = {
+	link: string;
+	icon: keyof typeof ICONS;
+	ariaLabel: string;
+};
+
+type TeamMember = {
+	name: string;
+	avatar: string;
+	what: string;
+	where?: string;
+	links?: TeamLink[];
+};
+
+const props = defineProps<{
+	team: TeamMember[];
+}>();
 </script>
 
 <template>
-  <div class="team-grid">
-    <div
-      v-for="member in props.team"
-      :key="member.name"
-      class="team-card"
-    >
-      <cdx-image
-        class="team-avatar"
-        :src="member.avatar"
-        :alt="member.name"
-        loading="lazy"
-        width="200"
-        height="200"
-      />
+	<div class="team-grid">
+		<div
+			v-for="member in team"
+			:key="member.name"
+			class="team-card"
+		>
+			<CdxImage
+				class="team-avatar"
+				:src="member.avatar"
+				:alt="member.name"
+				loading="lazy"
+				width="200"
+				height="200"
+			/>
 
-      <h3 class="team-name">{{ member.name }}</h3>
-      <p :v-if="member.what" class="team-what">{{ member.what }}</p>
-      <p :v-if="member.where" class="team-where">{{ member.where }}</p>
+			<h3 class="team-name">{{ member.name }}</h3>
+			<p v-if="member.what" class="team-what">{{ member.what }}</p>
+			<p v-if="member.where" class="team-where">{{ member.where }}</p>
 
-      <div class="team-links">
+			<div class="team-links">
 		<a
 			v-for="item in member.links"
-			class="cdx-docs-link"
 			:key="item.link"
+			class="cdx-docs-link"
 			size="small"
 			weight="quiet"
 			:href="item.link"
@@ -43,11 +54,11 @@ const props = defineProps({
 			:title="item.ariaLabel"
 			:aria-label="item.ariaLabel"
 		>
-			<cdx-icon :icon="ICONS[item.icon]" />
+			<CdxIcon :icon="ICONS[item.icon]" />
 		</a>
-      </div>
-    </div>
-  </div>
+			</div>
+		</div>
+	</div>
 </template>
 
 <style scoped lang="less">
@@ -85,6 +96,7 @@ const props = defineProps({
 			aspect-ratio: 1/1;
 			object-fit: cover;
 			margin-top: 0;
+			box-sizing: content-box;
 		}
 	}
 
