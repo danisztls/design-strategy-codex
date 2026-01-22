@@ -1,12 +1,12 @@
 ---
-title: Team 
+title: Team
 aside: false
 ---
 
 <script setup>
 const team = [
 	{
-		avatar: "kumar.webp",
+		avatar: "kumar.opt.webp",
 		name: "Debra Kumar",
 		what: "Design Research Manager",
 		links: [
@@ -18,7 +18,7 @@ const team = [
 		]
 	},
 	{
-		avatar: "bethany.webp",
+		avatar: "bethany.opt.webp",
 		name: "Bethany Gerdemann",
 		what: "Program Manager",
 		where: "Design Strategy",
@@ -31,7 +31,7 @@ const team = [
 		]
 	},
 	{
-		avatar: "eli.webp",
+		avatar: "eli.opt.webp",
 		name: "Eli Asikin-Garmager",
 		what: "Design Research Principal",
 		where: "Languages & Inuka",
@@ -44,7 +44,7 @@ const team = [
 		]
 	},
 	{
-		avatar: "mike.webp",
+		avatar: "mike.opt.webp",
 		name: "Michael Raish",
 		what: "Design Research Lead",
 		where: "Core Experiences",
@@ -57,7 +57,7 @@ const team = [
 		]
 	},
 	{
-		avatar: "daisy.webp",
+		avatar: "daisy.opt.webp",
 		name: "Daisy Chen",
 		what: "Senior Design Researcher",
 		where: "Product Design",
@@ -70,7 +70,7 @@ const team = [
 		]
 	},
 	{
-		avatar: "claudia.webp",
+		avatar: "claudia.opt.webp",
 		name: "Claudia Lo",
 		what: "Senior Design Researcher",
 		where: "Anti-harassment Tools",
@@ -83,7 +83,7 @@ const team = [
 		]
 	},
 	{
-		avatar: "barnstar.webp",
+		avatar: "barnstar.opt.webp",
 		name: "Design Research",
 		what: "Contact Us",
 		links: [

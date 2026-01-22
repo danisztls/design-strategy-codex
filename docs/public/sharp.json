@@ -1,0 +1,14 @@
+{
+	"defaults": {
+		"formats": ["webp"],
+		"quality": 90
+	},
+	"rules": [
+		{
+			"src": "strategy/about/team",
+			"width": 200,
+			"height": 200,
+			"withoutEnlargement": true
+		}
+	]
+}

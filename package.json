@@ -7,16 +7,19 @@
 	"engines": {
 		"node": ">=24 <25"
 	},
+	"type": "module",
 	"scripts": {
-    	"docs:dev": "vitepress dev",
-    	"docs:build": "vitepress build",
-    	"docs:preview": "vitepress preview"
+		"docs:dev": "vitepress dev",
+		"docs:build": "vitepress build",
+		"docs:preview": "vitepress preview",
+		"optimize-images": "node scripts/sharp.js"
 	},
 	"devDependencies": {
-    	"@wikimedia/codex": "^2.3.3",
-    	"@wikimedia/codex-design-tokens": "^2.3.3",
-    	"@wikimedia/codex-icons": "^2.3.3",
-    	"less": "^4.5.1",
-    	"vitepress": "^2.0.0-alpha.15"
+		"@wikimedia/codex": "^2.3.3",
+		"@wikimedia/codex-design-tokens": "^2.3.3",
+		"@wikimedia/codex-icons": "^2.3.3",
+		"less": "^4.5.1",
+		"sharp": "^0.34.5",
+		"vitepress": "^2.0.0-alpha.15"
 	}
 }

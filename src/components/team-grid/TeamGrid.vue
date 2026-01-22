@@ -32,7 +32,6 @@ const props = defineProps<{
 				class="team-avatar"
 				:src="member.avatar"
 				:alt="member.name"
-				loading="lazy"
 				width="200"
 				height="200"
 			/>
