@@ -1,57 +1,52 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { CdxCard, CdxIcon } from '@wikimedia/codex';
-import { ICONS } from '../../utils/icons'
+import { ICONS } from '../../utils/icons';
 
 interface ProjectItem {
 	title: string;
 	description: string;
-	date: string; // YYYY-MM
+	date: string; // 'YYYY-MM' or 'YYYY'
 	lead: string;
 	initiative: string;
 	url?: string;
 }
 
 const props = defineProps<{
-	list: ProjectItem[];
+	list: readonly ProjectItem[];
 	initiative?: string;
 }>();
 
 /**
  * Filter by initiative (if provided) and sort by date descending
  */
-const filteredItems = computed(() => {
-	let list = props.list;
+const filteredItems = computed<ProjectItem[]>(() => {
+	const filtered = props.initiative
+		? props.list.filter((item) => item.initiative === props.initiative)
+		: props.list;
 
-	if (props.initiative) {
-		list = list.filter(
-			item => item.initiative === props.initiative
-		);
-	}
-
-	return [...list].sort((a, b) =>
-		b.date.localeCompare(a.date)
-	);
+	// Copy before sorting to avoid mutating props (and readonly arrays)
+	return [...filtered].sort((a, b) => b.date.localeCompare(a.date));
 });
 
 function formatDate(input: string, locale = 'en-US'): string {
-	let year: number;
-	let month: number | undefined;
-
 	const parts = input.split('-');
+	const year = Number(parts[0]);
 
-	year = Number(parts[0]);
-
-	if (parts.length >= 2) {
-		month = Number(parts[1]) - 1; // JS months are 0-based
+	if (!Number.isFinite(year)) {
+		return input;
 	}
 
-	// Year only
-	if (month === undefined || isNaN(month)) {
+	if (parts.length === 1) {
 		return year.toString();
 	}
 
-	const date = new Date(year, month, 1);
+	const monthIndex = Number(parts[1]) - 1; // JS months are 0-based
+	if (!Number.isFinite(monthIndex) || monthIndex < 0 || monthIndex > 11) {
+		return year.toString();
+	}
+
+	const date = new Date(year, monthIndex, 1);
 
 	return new Intl.DateTimeFormat(locale, {
 		month: 'short',
@@ -64,17 +59,17 @@ function formatDate(input: string, locale = 'en-US'): string {
 	<div class="projects-list">
 		<div
 			v-for="item in filteredItems"
+			:key="item.title"
 			class="project-card-wrapper"
 		>
 			<CdxCard
-				:key="item.title"
 				tabindex="0"
 			>
 
 				<template #title>
 					<span class="project-title">{{ item.title }}</span>
 					<a v-if="item.url" :href="item.url" class="project-link" target="_blank">
-						<cdx-icon :icon="ICONS['externalLink']" size="small" aria-label="Open project in new tab" tabindex="1" />
+						<CdxIcon :icon="ICONS['externalLink']" size="small" aria-label="Open project in new tab" tabindex="1" />
 					</a>
 				</template>
 
