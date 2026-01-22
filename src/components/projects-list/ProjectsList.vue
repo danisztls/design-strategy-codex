@@ -96,10 +96,6 @@ function formatDate(input: string, locale = 'en-US'): string {
 
 	@media (max-width: (640px - 1px)) {
 		grid-template-columns: 1fr;
-
-		.project-card-wrapper {
-			transition: none;
-		}
 	}
 
 	@media (min-width: 640px) {
@@ -123,7 +119,6 @@ function formatDate(input: string, locale = 'en-US'): string {
 	position: relative;
 	z-index: 0;
 	overflow: hidden;
-	transition: transform 200ms ease;
 }
 
 :deep(.cdx-card) {
@@ -203,6 +198,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 		height: max-content;
 		border-width: 2px;
 		border-color: var(--border-color-emphasized);
+		transition: transform 200ms ease;
 	}
 
 	.project-link,
@@ -214,13 +210,14 @@ function formatDate(input: string, locale = 'en-US'): string {
 
 .project-card-wrapper {
 	@media (min-width: 640px) {
+
 		&:hover,
 		&:focus-within {
 			.project-card-expanded();
-			transform: scale(1.05);
 
 			:deep(.cdx-card) {
 				position: absolute;
+				transform: scale(1.05);
 			}
 		}
 	}
@@ -228,6 +225,10 @@ function formatDate(input: string, locale = 'en-US'): string {
 	@media (max-width: 639px) {
 		&:focus-within {
 			.project-card-expanded();
+
+			:deep(.cdx-card) {
+				transform: scale(1.02);
+			}
 		}
 	}
 }
