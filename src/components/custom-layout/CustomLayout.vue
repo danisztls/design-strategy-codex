@@ -224,7 +224,7 @@ html.cdx-docs-color-mode {
 	--nav-column-gap: var(--spacing-50);
 	column-gap: var(--nav-column-gap);
 
-	@media (max-width: 640px - 1px) {
+	@media (max-width: (640px - 1px)) {
 		--nav-column-gap: var(--spacing-35);
 	}
 }
