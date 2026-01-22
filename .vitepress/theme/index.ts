@@ -4,7 +4,6 @@ import CustomLayout from '../../src/components/custom-layout/CustomLayout.vue';
 import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
 import '@wikimedia/codex/dist/codex.style.css';
 import './custom.less';
-import './syntax-highlighting-fixes.less';
 
 export default {
 	extends: DefaultTheme,
