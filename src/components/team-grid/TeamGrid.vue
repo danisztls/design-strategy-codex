@@ -34,9 +34,10 @@ const props = defineProps<{
 				:alt="member.name"
 				width="200"
 				height="200"
+				loadingPriority="eager"
 			/>
 
-			<h3 class="team-name">{{ member.name }}</h3>
+			<h2 class="team-name">{{ member.name }}</h2>
 			<p v-if="member.what" class="team-what">{{ member.what }}</p>
 			<p v-if="member.where" class="team-where">{{ member.where }}</p>
 
@@ -100,9 +101,11 @@ const props = defineProps<{
 	}
 
 	.team-name {
-		margin: var(--spacing-35) 0;
 		font-weight: var(--font-weight-bold);
 		font-size: var(--font-size-large);
+		margin: var(--spacing-35) 0;
+		padding: 0;
+		border: 0;
 	}
 
 	.team-what, .team-where {
@@ -119,8 +122,10 @@ const props = defineProps<{
 	}
 
 	a:hover {
-		color: var( --color-progressive--hover );
-		fill: var( --color-progressive--hover );
+		.cdx-icon {
+			color: var( --color-progressive--hover );
+			fill: var( --color-progressive--hover );
+		}
 	}
 
 	.vp-doc p {
