@@ -102,13 +102,11 @@ export default defineConfig({
 							]
 						},
 					]
-				},
-				{ text: 'Blog', link: '/blog/' }
+				}
 		],
 
 		nav: [
 			{ text: 'Strategy', link: '/strategy/' },
-			{ text: 'Blog', link: '/blog/' },
 			{ text: 'Codex', link: 'https://doc.wikimedia.org/codex/latest/' }
 		],
 
