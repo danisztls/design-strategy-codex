@@ -17,4 +17,4 @@ import initiatives from './initiatives/initiatives.json';
 
 ## Initiatives
 
-<LocalCardsList :list="initiatives" />
+<CdxCardsList :list="initiatives" />

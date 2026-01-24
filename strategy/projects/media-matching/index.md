@@ -22,7 +22,7 @@ Conducted via semi-structured interviews with editors recruited from English, Ja
 
 - Captions: English editors often copy image descriptions directly from Commons. This is more laborious for non-English editors, who must often either rely on machine translation or compose a new caption, because Commons file descriptions are not appropriate in most non-English Wikipedias.
 
-- Localizing maps and diagrams: The Arabic community in particular places great emphasis on translating images such as maps and scientific diagrams into Arabic. However, the tolls available to support this time-consuming and skilled work remain limited. In turn, the supply of such images that are appropriate and useful for the Arabic Wikipedia readership is also limited.
+- Cdxizing maps and diagrams: The Arabic community in particular places great emphasis on translating images such as maps and scientific diagrams into Arabic. However, the tolls available to support this time-consuming and skilled work remain limited. In turn, the supply of such images that are appropriate and useful for the Arabic Wikipedia readership is also limited.
 
 ## Findings
 
@@ -39,4 +39,4 @@ const findings = [
 ]
 </script>
 
-<LocalCardsList :list="findings" />
+<CdxCardsList :list="findings" />

@@ -44,4 +44,4 @@ const findings = [
 ]
 </script>
 
-<LocalCardsList :list="findings" />
+<CdxCardsList :list="findings" />

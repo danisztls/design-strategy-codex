@@ -26,7 +26,7 @@ export default {
 				?.replace('.vue', '');
 
 			if (name) {
-				app.component(`Local${name}`, component);
+				app.component(`Cdx${name}`, component);
 			}
 		}
 	}

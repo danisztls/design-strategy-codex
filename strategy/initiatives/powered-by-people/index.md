@@ -20,7 +20,7 @@ Unlike many for-profit products, the [twelve wikiprojects](https://www.wikimedia
 import projects from '../../projects/projects.json';
 </script>
 
-<LocalProjectsList
+<CdxProjectsList
 	:list="projects"
 	initiative="Powered by People"
 />

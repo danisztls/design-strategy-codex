@@ -102,4 +102,4 @@ const team = [
 ]
 </script>
 
-<LocalTeamGrid :team="team" />
+<CdxTeamGrid :team="team" />

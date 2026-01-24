@@ -20,7 +20,7 @@ This initiative focuses on understanding a wide range of social behaviors on the
 import projects from '../../projects/projects.json';
 </script>
 
-<LocalProjectsList
+<CdxProjectsList
 	:list="projects"
 	initiative="Online Social Behavior"
 />

@@ -20,7 +20,7 @@ The Wikimedia Foundation Product Design and Strategy team has an ongoing series 
 import projects from '../../projects/projects.json';
 </script>
 
-<LocalProjectsList
+<CdxProjectsList
 	:list="projects"
 	initiative="Sentiment & Perception"
 />

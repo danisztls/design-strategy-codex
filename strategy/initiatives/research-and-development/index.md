@@ -20,7 +20,7 @@ The Open Knowledge Movement is a radical act of social innovation. In fact, inno
 import projects from '../../projects/projects.json';
 </script>
 
-<LocalProjectsList
+<CdxProjectsList
 	:list="projects"
 	initiative="Research & Development"
 />

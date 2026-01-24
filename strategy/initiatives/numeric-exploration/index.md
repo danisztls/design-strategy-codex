@@ -20,7 +20,7 @@ In addition to it's qualitative and experimental work, the Wikimedia Foundation 
 import projects from '../../projects/projects.json';
 </script>
 
-<LocalProjectsList
+<CdxProjectsList
 	:list="projects"
 	initiative="Numeric Exploration"
 />

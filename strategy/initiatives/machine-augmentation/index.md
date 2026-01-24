@@ -20,7 +20,7 @@ In 2018, the Wikimedia Foundation Product team identified [machine augmentation]
 import projects from '../../projects/projects.json';
 </script>
 
-<LocalProjectsList
+<CdxProjectsList
 	:list="projects"
 	initiative="Machine Augmentation"
 />
