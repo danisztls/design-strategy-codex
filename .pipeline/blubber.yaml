@@ -27,7 +27,7 @@ variants:
         runs: { insecurely: false }
         copies:
             - from: local
-              source: ./production/.
+              source: ./.production/.
               destination: ./
             - from: build-vitepress
               source: /srv/app/.vitepress/dist

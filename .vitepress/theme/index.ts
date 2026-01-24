@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme-without-fonts';
-import CustomLayout from '../../src/components/custom-layout/CustomLayout.vue';
+import CustomLayout from './components/custom-layout/CustomLayout.vue';
 
 import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
 import '@wikimedia/codex/dist/codex.style.css';
@@ -10,7 +10,7 @@ export default {
 	Layout: CustomLayout,
 
 	enhanceApp({ app }) {
-		const components = import.meta.glob('../../src/components/**/*.vue', {
+		const components = import.meta.glob('./components/**/*.vue', {
 			eager: true
 		});
 

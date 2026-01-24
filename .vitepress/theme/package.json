@@ -1,0 +1,19 @@
+{
+	"name": "wikimedia-vitepress-theme",
+	"version": "1.0.0",
+	"description": "Wikimedia Codex theme for Vitepress",
+	"license": "MIT",
+	"author": "Daniel de Souza Telles <ddesouza-ctr@wikimedia.org>",
+	"private": true,
+	"engines": {
+		"node": ">=24 <25"
+	},
+	"type": "module",
+	"devDependencies": {
+		"vitepress": "^2.0.0-alpha.15",
+		"@wikimedia/codex": "^2.3.3",
+		"@wikimedia/codex-design-tokens": "^2.3.3",
+		"@wikimedia/codex-icons": "^2.3.3",
+		"less": "^4.5.1"
+	}
+}

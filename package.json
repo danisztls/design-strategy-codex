@@ -4,6 +4,7 @@
 	"description": "[Design at Wikimedia](https://design.wikimedia.org/) static site.",
 	"license": "MIT",
 	"author": "Daniel de Souza Telles <ddesouza-ctr@wikimedia.org>",
+	"private": true,
 	"engines": {
 		"node": ">=24 <25"
 	},
@@ -15,11 +16,7 @@
 		"optimize-images": "node scripts/sharp.js"
 	},
 	"devDependencies": {
-		"@wikimedia/codex": "^2.3.3",
-		"@wikimedia/codex-design-tokens": "^2.3.3",
-		"@wikimedia/codex-icons": "^2.3.3",
-		"less": "^4.5.1",
 		"sharp": "^0.34.5",
-		"vitepress": "^2.0.0-alpha.15"
+		"wikimedia-vitepress-theme": "file:.vitepress/theme"
 	}
 }

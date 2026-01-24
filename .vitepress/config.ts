@@ -27,7 +27,6 @@ _paq.push(['enableLinkTracking']);
 export default defineConfig({
 	base: '/',
 	cleanUrls: true,
-	srcDir: 'docs',
 	lang: 'en-US',
 	dir: 'ltr',
 	title: 'Design at Wikimedia Foundation',
