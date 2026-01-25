@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme-without-fonts';
-import CustomLayout from './components/custom-layout/CustomLayout.vue';
+import CustomLayout from './Layout.vue';
 import type { Component } from 'vue';
 
 import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';

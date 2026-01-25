@@ -94,10 +94,10 @@
 import { computed, ref, onMounted, onUnmounted, watch, provide } from 'vue';
 import { useRoute, useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
-import CdxDocsAppearanceMenu from '../appearance-menu/AppearanceMenu.vue';
-import CdxDocsReturnToTop from '../return-to-top/ReturnToTop.vue';
 import { CdxIcon } from '@wikimedia/codex';
-import { ICONS } from '../../utils/icons'
+import CdxDocsAppearanceMenu from './components/appearance-menu/AppearanceMenu.vue';
+import CdxDocsReturnToTop from './components/return-to-top/ReturnToTop.vue';
+import { ICONS } from './utils/icons'
 
 const { Layout } = DefaultTheme;
 const route = useRoute();
