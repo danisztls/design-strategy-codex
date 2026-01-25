@@ -3,7 +3,7 @@ title: "Online Social Behavior"
 description: "Examining the prosocial and disruptive dimensions of online culture - on and off-wiki"
 hero:
     image:
-        src: "/strategy/initiatives/online-social-behavior/hero.webp"
+        src: "/strategy/initiatives/online-social-behavior/hero.opt.webp"
         alt: "Girls distracted by their phones"
     caption: >
         <a href="https://commons.wikimedia.org/wiki/File:Distracted_by_Phones.jpg">Photo by GHCassel</a>, <a href="https://en.wikipedia.org/wiki/Creative_Commons_license#Zero_/_public_domain">Creative Commons Zero</a>, via Wikimedia Commons

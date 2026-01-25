@@ -3,7 +3,7 @@ title: "Sentiment & Perception"
 description: "Understanding how our readers and contributors perceive and engage with our products, processes and tools"
 hero:
     image:
-        src: "/strategy/initiatives/sentiment-and-perception/hero.webp"
+        src: "/strategy/initiatives/sentiment-and-perception/hero.opt.webp"
         alt: "A group of female students looking on a laptop at a school in Tapa Amanya, Oti Regionn"
     caption: >
         <a href="https://commons.wikimedia.org/wiki/File:A_group_of_female_students_looking_on_a_laptop_01.jpg">Photo by Kwameghana(Bright Kwame Ayisi)</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0</a>, via Wikimedia Commons

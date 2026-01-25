@@ -3,7 +3,7 @@ title: "Section Translation Post-Improvements Testing"
 description: "Thai Wikipedia"
 hero:
     image:
-        src: "/strategy/sectionx-thai/hero.webp"
+        src: "/strategy/sectionx-thai/hero.opt.webp"
         alt: "Section translation entry points within a Thai Wikipedia article"
 next: false
 ---

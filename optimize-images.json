@@ -1,7 +1,7 @@
 {
 	"defaults": {
 		"formats": ["webp"],
-		"quality": 90
+		"quality": 82
 	},
 	"rules": [
 		{

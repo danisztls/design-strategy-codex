@@ -3,7 +3,7 @@ title: "Product Research & Development"
 description: "Exploring longer horizon vision through design-lead experiments and collaborations with third party partners"
 hero:
     image:
-        src: "/strategy/initiatives/research-and-development/hero.webp"
+        src: "/strategy/initiatives/research-and-development/hero.opt.webp"
         alt: "3D printed Wikipedia cup"
     caption: >
         <a href="https://commons.wikimedia.org/wiki/File:3D_Printed_Puchar_Wikipedia_10_cm.stl_06.jpg">Photo by Fawaz.tairou</a>, <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY 4.0</a>, via Wikimedia Commons

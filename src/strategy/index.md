@@ -4,7 +4,7 @@ aside: false
 next: false
 hero:
     image:
-        src: "/strategy/hero.webp"
+        src: "/strategy/hero.opt.webp"
         alt: "Wikipedia the last best place on the Internet"
     caption: Photo by Margeigh Novotny 
 ---

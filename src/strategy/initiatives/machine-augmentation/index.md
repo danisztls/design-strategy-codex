@@ -3,7 +3,7 @@ title: "Machine Augmentation"
 description: "Exploring machine-in-the-loop technologies to enable knowledge equity at scale"
 hero:
     image:
-        src: "/strategy/initiatives/machine-augmentation/hero.webp"
+        src: "/strategy/initiatives/machine-augmentation/hero.opt.webp"
         alt: "Armenian Wikipedia community weekend in Aghveran, November 2018"
     caption: > 
         <a href="https://commons.wikimedia.org/wiki/File:Armenian_Wikipedia_community_weekend_in_Aghveran,_November_02.jpg">Photo by Dato (WMAM)</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.eng">CC BY-SA 4.0</a>, via Wikimedia Commons

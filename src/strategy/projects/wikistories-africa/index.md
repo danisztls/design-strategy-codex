@@ -3,7 +3,7 @@ title: "Wikistores Africa Research"
 description: "Nigeria, Kenya, South Africa"
 hero:
     image:
-        src: "/strategy/projects/wikistories-africa/hero.webp"
+        src: "/strategy/projects/wikistories-africa/hero.opt.webp"
         alt: "Four mobile views of the Wikistories Africa tool"
 next: false
 ---
