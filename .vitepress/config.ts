@@ -1,4 +1,5 @@
-import { defineConfig, DefaultTheme } from 'vitepress'
+import { defineConfig, mergeConfig, DefaultTheme } from 'vitepress'
+import { baseConfig } from './theme/config'
 
 // TODO: Enable tracking script after it is configured.
 // const isProd =
@@ -24,15 +25,11 @@ _paq.push(['enableLinkTracking']);
 `.trim()
 ]
 
-export default defineConfig({
+const siteConfig = {
 	base: '/',
-	cleanUrls: true,
-	lang: 'en-US',
-	dir: 'ltr',
 	title: 'Design at Wikimedia Foundation',
 	description: "As part of the Research group, The Design Strategy team supports Product Design at the Foundation by providing the qualitative and quantitative studies that allow Product teams to make informed and inspired decisions. From explanations of what people do and want, to evaluations of what they experience, to experiments with new and emerging technologies, the research team answers the most urgent and impactful questions that stand in the way of delivering the “sum of all knowledge, to all the world’s people, for free, forever.”",
 	// Don't show the color mode switcher; we add our own in CustomLayout.vue.
-	appearance: false,
 
 	head: [
 		[ 'link', { rel: 'icon', href: `/favicon.ico`, type: 'image/x-icon', sizes: '32x32' } ],
@@ -41,23 +38,6 @@ export default defineConfig({
 		// Tracking script (prod only)
 		...(isProd ? [trackingScript] : [])
 	],
-
-	markdown: {
-		theme: 'dracula',
-		image: {
-		  lazyLoading: true
-		}
-	},
-
-	vite: {
-		css: {
-			preprocessorOptions: {
-				less: {
-					javascriptEnabled: true
-				}
-			}
-		}
-	},
 
 	sitemap: {
 		hostname: 'https://design.wikimedia.org/'
@@ -126,40 +106,9 @@ export default defineConfig({
 				ariaLabel: 'Join our mailing list'
 			}
 		],
-
-		search: {
-			provider: 'local',
-			options: {
-				async _render(src, env, md) {
-					const html = await md.renderAsync(src, env)
-
-					if (env.frontmatter?.search === false) {
-						return ''
-					}
-
-					if (env.frontmatter?.title) {
-						return await md.renderAsync(`# ${env.frontmatter.title}`) + html
-					}
-					return html
-				}
-			}
-		}
-	} satisfies DefaultTheme.Config,
-
-	// Optimize hero LCP
-	transformHead({ pageData }) {
-		const hero = pageData.frontmatter?.hero
-		if (!hero?.image?.src) return []
-
-		return [
-			[
-				'link',
-				{
-					rel: 'preload',
-					as: 'image',
-					href: hero.image.src
-				}
-			]
-		]
 	}
-});
+}
+
+export default defineConfig(
+  mergeConfig(baseConfig, siteConfig) satisfies DefaultTheme.Config
+)
