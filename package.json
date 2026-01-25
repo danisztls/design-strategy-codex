@@ -11,12 +11,14 @@
 	"type": "module",
 	"scripts": {
 		"docs:dev": "vitepress dev",
-		"docs:build": "vitepress build",
+		"docs:build": "node scripts/generate-feed.ts && vitepress build",
 		"docs:preview": "vitepress preview",
-		"optimize-images": "node scripts/sharp.js"
+		"optimize-images": "node scripts/sharp.js",
+		"generate-feed": "node scripts/generate-feed.ts"
 	},
 	"devDependencies": {
 		"sharp": "^0.34.5",
+		"feed": "^5.2.0",
 		"wikimedia-vitepress-theme": "file:.vitepress/theme"
 	}
 }

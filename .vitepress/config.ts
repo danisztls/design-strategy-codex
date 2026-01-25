@@ -35,6 +35,8 @@ const siteConfig = {
 		[ 'link', { rel: 'icon', href: `/favicon.ico`, type: 'image/x-icon', sizes: '32x32' } ],
 		[ 'link', { rel: 'icon', href: `/favicon.svg`, type: 'image/svg+xml' } ],
 		[ 'link', { rel: 'icon', href: `/favicon-32x32.png`, type: 'image/png' } ],
+		[ 'link', { rel: 'alternate', type: 'application/rss+xml', title: 'RSS Feed', href: '/rss.xml' } ],
+		[ 'link', { rel: 'alternate', type: 'application/atom+xml', title: 'Atom Feed', href: '/atom.xml' } ],
 		// Tracking script (prod only)
 		...(isProd ? [trackingScript] : [])
 	],
@@ -104,6 +106,11 @@ const siteConfig = {
 				icon: 'message',
 				link: 'https://lists.wikimedia.org/mailman/listinfo/design',
 				ariaLabel: 'Join our mailing list'
+			},
+			{
+				icon: 'rss',
+				link: '/atom.xml',
+				ariaLabel: 'Subscribe to our feed'
 			}
 		],
 	}
