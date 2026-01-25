@@ -1,0 +1,3 @@
+[submodule ".vitepress/theme"]
+	path = .vitepress/theme
+	url = https://gitlab.wikimedia.org/dani/codex-vitepress-theme

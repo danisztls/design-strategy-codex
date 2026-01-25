@@ -17,9 +17,9 @@
 		"generate-feed": "node scripts/generate-feed.ts"
 	},
 	"devDependencies": {
-		"feed": "^5.2.0",
-		"sharp": "^0.34.5",
+		"codex-vitepress-theme": "file:.vitepress/theme",
 		"fast-glob": "^3.3.3",
-		"wikimedia-vitepress-theme": "file:.vitepress/theme"
+		"feed": "^5.2.0",
+		"sharp": "^0.34.5"
 	}
 }
