@@ -207,6 +207,13 @@ function formatDate(input: string, locale = 'en-US'): string {
 	cursor: pointer;
 
 	@media (min-width: 640px) {
+		&:hover {
+			:deep(.cdx-card) {
+				border-color: var(--border-color-emphasized);
+				transition: border 150ms ease;
+			}
+		}
+
 		&:focus-within {
 			.project-card-expanded();
 
@@ -218,7 +225,7 @@ function formatDate(input: string, locale = 'en-US'): string {
 		}
 	}
 
-	@media (max-width: 639px) {
+	@media (max-width: (640px - 1px)) {
 		&:focus-within {
 			.project-card-expanded();
 
