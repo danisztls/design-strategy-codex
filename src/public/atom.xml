@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://design.wikimedia.org</id>
+    <title>Wikimedia Design Strategy</title>
+    <updated>2026-01-25T13:27:23.691Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://design.wikimedia.org"/>
+    <link rel="self" href="https://design.wikimedia.org/atom.xml"/>
+    <subtitle>Design and user research projects at Wikimedia Foundation.</subtitle>
+    <entry>
+        <title type="html"><![CDATA[User Engagement with the Wikipedia App Explore Feed]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:User_Engagement_with_the_App_Explore_Feed</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:User_Engagement_with_the_App_Explore_Feed"/>
+        <updated>2025-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A mixed-method study examining perceptions of the Wikipedia Explore Feed and opportunities to improve engagement.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>A mixed-method study examining perceptions of the Wikipedia Explore Feed and opportunities to improve engagement.</p>
+<i>Lead: Bethany Gerdemann with Michael Raish and the Apps team</i><br/>]]></content>
+        <author>
+            <name>Bethany Gerdemann with Michael Raish and the Apps team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mapping non-emergency support structures]]></title>
+        <id>urn:feed-item:4ece0cdfbcd76cba66400098ac849d879f795ab6</id>
+        <link href=""/>
+        <updated>2025-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Documenting local help and support structures, especially for conflict resolution, across four wikis to inform recommendations for the Incident Reporting System.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>Documenting local help and support structures, especially for conflict resolution, across four wikis to inform recommendations for the Incident Reporting System.</p>
+<i>Lead: Claudia Lo with Katie Coleman, for the Product Safety and Integrity team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo with Katie Coleman, for the Product Safety and Integrity team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding User Needs for Deep Reading]]></title>
+        <id>https://meta.wikimedia.org/wiki/File:Understanding_User_Needs_for_Deep_Reading_Report.pdf</id>
+        <link href="https://meta.wikimedia.org/wiki/File:Understanding_User_Needs_for_Deep_Reading_Report.pdf"/>
+        <updated>2025-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding the "deep reading" experience on Wikipedia, to inform improvements to the reading experience, particularly around discovery and search.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Understanding the "deep reading" experience on Wikipedia, to inform improvements to the reading experience, particularly around discovery and search.</p>
+<i>Lead: Tara Rooks with Viviana Ortiz, Eli Asikin-Garmager, and Debra Kumar for the Readers team</i><br/>]]></content>
+        <author>
+            <name>Tara Rooks with Viviana Ortiz, Eli Asikin-Garmager, and Debra Kumar for the Readers team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Centralized Contributions for Moderation]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Centralized_contributions_for_moderation_activity</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Centralized_contributions_for_moderation_activity"/>
+        <updated>2025-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover if experienced editors want a centralized hub to discover and find new contribution suggestions, and if so, what should be on it to encourage its use.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Discover if experienced editors want a centralized hub to discover and find new contribution suggestions, and if so, what should be on it to encourage its use.</p>
+<i>Lead: Claudia Lo, Jahnavi Mirashi for the Moderator Tools Team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, Jahnavi Mirashi for the Moderator Tools Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Watchlist and Task Prioritization]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:(Report)_Research_findings_for_Watchlist_and_Task_Prioritization.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:(Report)_Research_findings_for_Watchlist_and_Task_Prioritization.pdf"/>
+        <updated>2025-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding how moderators and patrollers use their watchlist page and how they discover, organize and prioritize their on-wiki work.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Understanding how moderators and patrollers use their watchlist page and how they discover, organize and prioritize their on-wiki work.</p>
+<i>Lead: Daisy Chen for the Moderator Tools Team</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen for the Moderator Tools Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Peacock Check Concept Testing]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:(Editing)_Peacock_Check_exploratory_interviews.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:(Editing)_Peacock_Check_exploratory_interviews.pdf"/>
+        <updated>2025-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Conversations with 4 readers and 1 editors about the Editing team's upcoming Peacock Check feature in Visual Editor.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Conversations with 4 readers and 1 editors about the Editing team's upcoming Peacock Check feature in Visual Editor.</p>
+<i>Lead: Michael Raish with the Editing Team</i><br/>]]></content>
+        <author>
+            <name>Michael Raish with the Editing Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Collaborative Translation]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Collaborative_Translation_Research</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Collaborative_Translation_Research"/>
+        <updated>2025-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding group processes & needs around translation.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>Understanding group processes & needs around translation.</p>
+<i>Lead: Eli Asikin-Garmager and Jahnavi Mirashi</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager and Jahnavi Mirashi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reading and Editing in the iOS Wikipedia App]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Reading_and_Editing_on_the_iOS_App_-_Apr2025.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Reading_and_Editing_on_the_iOS_App_-_Apr2025.pdf"/>
+        <updated>2025-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This study explores how English and Japanese Wikipedia app users engage with reading and editing, to inform future improvements to the iOS app experience.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>This study explores how English and Japanese Wikipedia app users engage with reading and editing, to inform future improvements to the iOS app experience.</p>
+<i>Lead: Bethany Gerdemann, Mike Raish, Project Kobo K.K. with Haley Nordeen and the Mobile Apps team</i><br/>]]></content>
+        <author>
+            <name>Bethany Gerdemann, Mike Raish, Project Kobo K.K. with Haley Nordeen and the Mobile Apps team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding the usage and impact of the Flagged Revisions extension]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:FlaggedRevisions_investigation</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:FlaggedRevisions_investigation"/>
+        <updated>2025-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As part of the Research group, the Design Research team supports Product Design by delivering insights that help product teams make informed and inspired decisions.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>As part of the Research group, the Design Research team supports Product Design by delivering insights that help product teams make informed and inspired decisions.</p>
+<i>Lead: Claudia Lo, Tara Rooks for the Moderator Tools Team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, Tara Rooks for the Moderator Tools Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WikiProject Survey]]></title>
+        <id>https://meta.wikimedia.org/wiki/Campaigns/WikiProjects#Definition:_What_do_we_mean_by_WikiProject_or_other_Collaborative_editing_initatives</id>
+        <link href="https://meta.wikimedia.org/wiki/Campaigns/WikiProjects#Definition:_What_do_we_mean_by_WikiProject_or_other_Collaborative_editing_initatives"/>
+        <updated>2024-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Design, distribute, and analyze a survey of WikiProject contributors in order to identify projects for impact.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Design, distribute, and analyze a survey of WikiProject contributors in order to identify projects for impact.</p>
+<i>Lead: Michael Raish and Alex Stinson for the Campaigns team</i><br/>]]></content>
+        <author>
+            <name>Michael Raish and Alex Stinson for the Campaigns team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikipedia Administrator Experiences]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Wikipedia_Administrator_Recruitment,_Retention,_and_Attrition/Report</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Wikipedia_Administrator_Recruitment,_Retention,_and_Attrition/Report"/>
+        <updated>2024-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Causes behind human administration recruiting, retention, and departure patterns.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Causes behind human administration recruiting, retention, and departure patterns.</p>
+<i>Lead: Eli Asikin-Garmager, Yu-Ming Liou, Claudia Lo, Caroline Myrick, with Bethany Gerdemann and Daisy Chen</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, Yu-Ming Liou, Claudia Lo, Caroline Myrick, with Bethany Gerdemann and Daisy Chen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Volunteer Archetypes V2]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Volunteer_Archetypes</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Volunteer_Archetypes"/>
+        <updated>2024-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[While V1 Archetypes research engaged with both off-Wiki volunteer contributors and previous research conducted by the WMF, V2 intends to provide a strong empirical basis for Archetypes by expanding the size and number of populations engaged.]]></summary>
+        <content type="html"><![CDATA[Initiative: Numeric Exploration
+<p>While V1 Archetypes research engaged with both off-Wiki volunteer contributors and previous research conducted by the WMF, V2 intends to provide a strong empirical basis for Archetypes by expanding the size and number of populations engaged.</p>
+<i>Lead: Michael Raish, Tanja Andic, Sneha Patel, and Rita Ho</i><br/>]]></content>
+        <author>
+            <name>Michael Raish, Tanja Andic, Sneha Patel, and Rita Ho</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikipedia is an Antidote to Disinformation]]></title>
+        <id>urn:feed-item:790954f87d886b16fd4c46ebc66f5bb275f6f5d9</id>
+        <link href=""/>
+        <updated>2024-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Literature review highlighting the place of Wikipedia as a key part of the internet information ecosystem, in the fight against disinformation.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>Literature review highlighting the place of Wikipedia as a key part of the internet information ecosystem, in the fight against disinformation.</p>
+<i>Lead: Claudia Lo, Martin Gerlach, Pablo Aragón, Diego Saez-Trumper, Leila Zia for the Global Advocacy Team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, Martin Gerlach, Pablo Aragón, Diego Saez-Trumper, Leila Zia for the Global Advocacy Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Volunteer Archetypes V1]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Volunteer_Archetypes_v1-2024-07.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Volunteer_Archetypes_v1-2024-07.pdf"/>
+        <updated>2024-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Using survey methods, this project builds archetypes of non-Wikimedian volunteer internet contributors in order to support strategic decisions about whom to target for recruitment into the Movement.]]></summary>
+        <content type="html"><![CDATA[Initiative: Numeric Exploration
+<p>Using survey methods, this project builds archetypes of non-Wikimedian volunteer internet contributors in order to support strategic decisions about whom to target for recruitment into the Movement.</p>
+<i>Lead: Michael Raish, Tanja Andic, Sneha Patel, and Rita Ho</i><br/>]]></content>
+        <author>
+            <name>Michael Raish, Tanja Andic, Sneha Patel, and Rita Ho</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Patroller Work Habits Survey]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Patroller_Work_Habits_Survey_Results.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Patroller_Work_Habits_Survey_Results.pdf"/>
+        <updated>2024-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Surveying the contributions and working habits of patrollers, to better guide future efforts to aid this group.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Surveying the contributions and working habits of patrollers, to better guide future efforts to aid this group.</p>
+<i>Lead: Claudia Lo, for the Moderator Tools Team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, for the Moderator Tools Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Current Usage and Future Adoption of Wikifunctions]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Connecting_Wikifunctions_to_Wikipedia_Opportunities_and_Challenges.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Connecting_Wikifunctions_to_Wikipedia_Opportunities_and_Challenges.pdf"/>
+        <updated>2024-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This study generates a comprehensive understanding of how Wikifunctions might successfully integrate into Wikipedia.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>This study generates a comprehensive understanding of how Wikifunctions might successfully integrate into Wikipedia.</p>
+<i>Lead: Andrew Russell Green and Amin Al Hazwani, for the Abstract Wiki team</i><br/>]]></content>
+        <author>
+            <name>Andrew Russell Green and Amin Al Hazwani, for the Abstract Wiki team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cross-Wiki Uploads]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:English-Arabic-Cross-Wiki-Uploads-April2024.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:English-Arabic-Cross-Wiki-Uploads-April2024.pdf"/>
+        <updated>2024-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[User interviews of English and Arabic Wiki uploaders were conducted to understand the experience and mindsets of those who use the visual editor upload tool, and what leads them to upload copyrighted material.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>User interviews of English and Arabic Wiki uploaders were conducted to understand the experience and mindsets of those who use the visual editor upload tool, and what leads them to upload copyrighted material.</p>
+<i>Lead: Bethany Gerdemann with Eman Yahia for the Structured Content team</i><br/>]]></content>
+        <author>
+            <name>Bethany Gerdemann with Eman Yahia for the Structured Content team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikipedia Subscription]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:WMF_Wikipedia_Subscriptions_Survey_%26_Diary_Studies_Report_2024.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:WMF_Wikipedia_Subscriptions_Survey_%26_Diary_Studies_Report_2024.pdf"/>
+        <updated>2024-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[User research to study the reading and information seeking habits of internet users, and their usage of subscription services, to help inform products that can deliver Wikipedia content in novel formats.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>User research to study the reading and information seeking habits of internet users, and their usage of subscription services, to help inform products that can deliver Wikipedia content in novel formats.</p>
+<i>Lead: Gabriel Escalante and Purity Waigi, for the Inuka Team</i><br/>]]></content>
+        <author>
+            <name>Gabriel Escalante and Purity Waigi, for the Inuka Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS Navigation Refresh]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:IOS_Navigation_Refresh_Usability_Tests_(2024).pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:IOS_Navigation_Refresh_Usability_Tests_(2024).pdf"/>
+        <updated>2024-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Variant testing in English, Arabic, German, and Chinese for a redesign the iOS navigation system with the goal of ensuring a seamless user experience.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Variant testing in English, Arabic, German, and Chinese for a redesign the iOS navigation system with the goal of ensuring a seamless user experience.</p>
+<i>Lead: Olga Tichonova, with Bethany Gerdemann and Eman Yahia for the Apps team</i><br/>]]></content>
+        <author>
+            <name>Olga Tichonova, with Bethany Gerdemann and Eman Yahia for the Apps team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MinT (Machine in Translation) Research]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:MinT_(Machine_in_Translation)_Research</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:MinT_(Machine_in_Translation)_Research"/>
+        <updated>2024-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The goal of this project was to understand how to better leverage MinT to support more readers and contributors in their aims of accessing, interacting with, and contributing to Wikipedia content, as well as knowledge more generally.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>The goal of this project was to understand how to better leverage MinT to support more readers and contributors in their aims of accessing, interacting with, and contributing to Wikipedia content, as well as knowledge more generally.</p>
+<i>Lead: Eli Asikin-Garmager in collaboration with Pau Giner and Anagram Research</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager in collaboration with Pau Giner and Anagram Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Non-Editing Participation]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Non-Editing_Participation_(WMF).pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Non-Editing_Participation_(WMF).pdf"/>
+        <updated>2024-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Exploring the ways that people read on and off Wikipedia, and the expectations of new Wikipedia account holders for reading features.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Exploring the ways that people read on and off Wikipedia, and the expectations of new Wikipedia account holders for reading features.</p>
+<i>Lead: Mike Raish and Eman Yahia, for the Core Experiences teams</i><br/>]]></content>
+        <author>
+            <name>Mike Raish and Eman Yahia, for the Core Experiences teams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Edit Check]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Edit_Check_Sub-Saharan_Africa_(public_copy).pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Edit_Check_Sub-Saharan_Africa_(public_copy).pdf"/>
+        <updated>2024-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An interview study exploring the WMF Editing team's "Edit Check" tool and its reception among small- and medium-size Wikipedias in sub-Saharan Africa.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>An interview study exploring the WMF Editing team's "Edit Check" tool and its reception among small- and medium-size Wikipedias in sub-Saharan Africa.</p>
+<i>Lead: Mike Raish, Sandra Abrouk, and the Editing Team</i><br/>]]></content>
+        <author>
+            <name>Mike Raish, Sandra Abrouk, and the Editing Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Community Configuration]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Community_Configuration_interviews_with_admins.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Community_Configuration_interviews_with_admins.pdf"/>
+        <updated>2023-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Interviews with Wikipedia administrators about the WMF Growth team's "Community Configuration" platform.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Interviews with Wikipedia administrators about the WMF Growth team's "Community Configuration" platform.</p>
+<i>Lead: Mike Raish for the Growth team</i><br/>]]></content>
+        <author>
+            <name>Mike Raish for the Growth team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikimedia Preview Wordpress Plugin]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Wikipedia_Wordpress_Preview_Plugin_Report_-_User_Research.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Wikipedia_Wordpress_Preview_Plugin_Report_-_User_Research.pdf"/>
+        <updated>2023-11-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[User research to learn how site owners and site readers use and interact with the Wikimedia Preview, the Wordpress plugin.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>User research to learn how site owners and site readers use and interact with the Wikimedia Preview, the Wordpress plugin.</p>
+<i>Lead: Hureo, with Eli Asikin-Garmager, Bethany Gerdemann, and the Inuka Team</i><br/>]]></content>
+        <author>
+            <name>Hureo, with Eli Asikin-Garmager, Bethany Gerdemann, and the Inuka Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Commons Administrator Interviews]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Commons_Upload_Wizard_Improvements_Research_-_27Sep23-_Preliminary_results_Summary.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Commons_Upload_Wizard_Improvements_Research_-_27Sep23-_Preliminary_results_Summary.pdf"/>
+        <updated>2023-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Research to understand Commons Administrators workflows, the challenges they face in moderating content, and their ideas for reducing deletions.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Research to understand Commons Administrators workflows, the challenges they face in moderating content, and their ideas for reducing deletions.</p>
+<i>Lead: Bethany Gerdemann, with the Structured Content team</i><br/>]]></content>
+        <author>
+            <name>Bethany Gerdemann, with the Structured Content team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Commons Impact Metrics]]></title>
+        <id>https://upload.wikimedia.org/wikipedia/commons/archive/0/02/20231219010653%21%28Report%29_Commons_impact_metrics_Report_Dec_2023.pdf</id>
+        <link href="https://upload.wikimedia.org/wikipedia/commons/archive/0/02/20231219010653%21%28Report%29_Commons_impact_metrics_Report_Dec_2023.pdf"/>
+        <updated>2023-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding affiliates data and metrics needs in the Commons space.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Understanding affiliates data and metrics needs in the Commons space.</p>
+<i>Lead: Daisy Chen for the Data Products team</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen for the Data Products team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Campaign Event Discovery Survey]]></title>
+        <id>https://meta.wikimedia.org/wiki/Campaigns/Foundation_Product_Team/Event_Discovery</id>
+        <link href="https://meta.wikimedia.org/wiki/Campaigns/Foundation_Product_Team/Event_Discovery"/>
+        <updated>2023-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Survey on most common and most effective campaign event discoverability pathways.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Survey on most common and most effective campaign event discoverability pathways.</p>
+<i>Lead: Claudia Lo with Bethany Gerdemann and Gregory Onyeahialam, for the Campaigns team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo with Bethany Gerdemann and Gregory Onyeahialam, for the Campaigns team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident reporting system]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Findings_Report_Incident_Reporting_2023.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Findings_Report_Incident_Reporting_2023.pdf"/>
+        <updated>2023-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Research exploring current harassment reporting workflows and harassment target/responder pain points on Korean and Indonesian wikis.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>Research exploring current harassment reporting workflows and harassment target/responder pain points on Korean and Indonesian wikis.</p>
+<i>Lead: Daisy Chen. Requestors: Aishwarya Vardhana, Madalina Ana from Trust & Safety team.</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen. Requestors: Aishwarya Vardhana, Madalina Ana from Trust &amp; Safety team.</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Non Editing Participation Literature Review]]></title>
+        <id>https://upload.wikimedia.org/wikipedia/commons/1/11/NEP_WMF_Literature_Review.pdf</id>
+        <link href="https://upload.wikimedia.org/wikipedia/commons/1/11/NEP_WMF_Literature_Review.pdf"/>
+        <updated>2023-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A literature review to identify ways in which users can engage with potential forms of non-editing participation, thereby increasing their interest and involvement in the Wikis.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>A literature review to identify ways in which users can engage with potential forms of non-editing participation, thereby increasing their interest and involvement in the Wikis.</p>
+<i>Lead: Mike Raish, with YUX and the Core Experiences teams</i><br/>]]></content>
+        <author>
+            <name>Mike Raish, with YUX and the Core Experiences teams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Non Editing Participation Report]]></title>
+        <id>https://upload.wikimedia.org/wikipedia/commons/1/11/NEP_WMF_Literature_Review.pdf</id>
+        <link href="https://upload.wikimedia.org/wikipedia/commons/1/11/NEP_WMF_Literature_Review.pdf"/>
+        <updated>2023-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recommendations based on a series of interviews to discover diverse avenues for user engagement through non-editing participation features.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>Recommendations based on a series of interviews to discover diverse avenues for user engagement through non-editing participation features.</p>
+<i>Lead: Mike Raish, with YUX and the Core Experiences teams</i><br/>]]></content>
+        <author>
+            <name>Mike Raish, with YUX and the Core Experiences teams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Commons Uploader Experience]]></title>
+        <id>https://commons.wikimedia.org/wiki/Commons:WMF_support_for_Commons/Upload_Wizard_Improvements</id>
+        <link href="https://commons.wikimedia.org/wiki/Commons:WMF_support_for_Commons/Upload_Wizard_Improvements"/>
+        <updated>2023-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A project to understand the user experience of uploading images to Commons, with the purpose of improving the upload process while reducing deletion requests...]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>A project to understand the user experience of uploading images to Commons, with the purpose of improving the upload process while reducing deletion requests...</p>
+<i>Lead: Claudia Lo, with Bethany Gerdemann, Criba Research and the Structured Content team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with Bethany Gerdemann, Criba Research and the Structured Content team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IP Masking Prototype Usability Testing]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:IP_masking_usability_tests_-_WMF_Design_Research_-_En,_Ja,_Es,_Ar.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:IP_masking_usability_tests_-_WMF_Design_Research_-_En,_Ja,_Es,_Ar.pdf"/>
+        <updated>2023-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Moderated usability tests that explore the functions of an “IP Masking” prototype in English, Spanish, Arabic, and Japanese.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Moderated usability tests that explore the functions of an “IP Masking” prototype in English, Spanish, Arabic, and Japanese.</p>
+<i>Lead: Mike Raish with Naoko Sato, and the Growth & Core Experiences teams</i><br/>]]></content>
+        <author>
+            <name>Mike Raish with Naoko Sato, and the Growth &amp; Core Experiences teams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Future Learning Vectors]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Future_Learning_Vectors_(WMF).pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Future_Learning_Vectors_(WMF).pdf"/>
+        <updated>2023-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Interviews with educational, short-form video content creators about how, when, and why they use Wikipedia, in order to improve the quality and quantity of Wikipedia content that is disseminated to global audiences through learning-oriented video content.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>Interviews with educational, short-form video content creators about how, when, and why they use Wikipedia, in order to improve the quality and quantity of Wikipedia content that is disseminated to global audiences through learning-oriented video content.</p>
+<i>Lead: Mike Raish, with Shobha S V and the Core Experiences teams</i><br/>]]></content>
+        <author>
+            <name>Mike Raish, with Shobha S V and the Core Experiences teams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trust & Wikipedia]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Trust_%26_Wikipedia.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Trust_%26_Wikipedia.pdf"/>
+        <updated>2023-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An experiment to determine how embedding "trust signals" into the Wikipedia desktop interface affects understanding of how Wikipedia works and trust in its information.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>An experiment to determine how embedding "trust signals" into the Wikipedia desktop interface affects understanding of how Wikipedia works and trust in its information.</p>
+<i>Lead: Mike Raish, with Laura Stigliano and the Web team</i><br/>]]></content>
+        <author>
+            <name>Mike Raish, with Laura Stigliano and the Web team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Journey Transitions]]></title>
+        <id>https://www.mediawiki.org/wiki/Journey_transitions</id>
+        <link href="https://www.mediawiki.org/wiki/Journey_transitions"/>
+        <updated>2023-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This project explores what and whether notable moments cause users to deepen and expand their use of and/or contributions to Wikipedia.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This project explores what and whether notable moments cause users to deepen and expand their use of and/or contributions to Wikipedia.</p>
+<i>Lead: Daisy Chen with Mike Raish and the Core Experiences product group</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen with Mike Raish and the Core Experiences product group</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reading Wikipedia]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Reading_Wikipedia_-Full_Report-May_2023.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Reading_Wikipedia_-Full_Report-May_2023.pdf"/>
+        <updated>2023-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding what readers in diverse language communities think they are doing as they read Wikipedia, their motivations for reading, the navigational structures they perceive and use, and the ways in which they interact with information.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Understanding what readers in diverse language communities think they are doing as they read Wikipedia, their motivations for reading, the navigational structures they perceive and use, and the ways in which they interact with information.</p>
+<i>Lead: Mike Raish with YUX for the Core Experiences product group</i><br/>]]></content>
+        <author>
+            <name>Mike Raish with YUX for the Core Experiences product group</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Translatable Pages]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Translatable_Pages_Research</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Translatable_Pages_Research"/>
+        <updated>2023-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Developing a better understanding of the challenges users face when creating and updating translatable pages in order to improve the user experience.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>Developing a better understanding of the challenges users face when creating and updating translatable pages in order to improve the user experience.</p>
+<i>Lead: Eli Asikin-Garmager, and the Language Team</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, and the Language Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Image Suggestions for Article Sections]]></title>
+        <id>urn:feed-item:21b2a39a501c6d0060216d9c48c023385c966135</id>
+        <link href=""/>
+        <updated>2023-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Usability tests for a feature that suggests images to experienced contributors to add to an article section.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Usability tests for a feature that suggests images to experienced contributors to add to an article section.</p>
+<i>Lead: Daisy Chen, with the Structured Content team</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen, with the Structured Content team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Page Patrollers]]></title>
+        <id>https://en.wikipedia.org/wiki/Wikipedia:Page_Curation/2023_Moderator_Tools_project/Interview_research</id>
+        <link href="https://en.wikipedia.org/wiki/Wikipedia:Page_Curation/2023_Moderator_Tools_project/Interview_research"/>
+        <updated>2023-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An interview series with English Wikipedia New Page Patrollers to develop a shared understanding of how new page patrolling works on the English Wikipedia and to identify potential areas for improvement grounded in today’s patrolling practices.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>An interview series with English Wikipedia New Page Patrollers to develop a shared understanding of how new page patrolling works on the English Wikipedia and to identify potential areas for improvement grounded in today’s patrolling practices.</p>
+<i>Lead: Claudia Lo, with the Moderator Tools team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with the Moderator Tools team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikistories Early Adopters Research]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Wikistories_Early_Adopters_Research</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Wikistories_Early_Adopters_Research"/>
+        <updated>2023-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A project about Wikistory adopters, both creators and readers, focusing on their motivations and experiences creating and sharing stories.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>A project about Wikistory adopters, both creators and readers, focusing on their motivations and experiences creating and sharing stories.</p>
+<i>Lead: Eli Asikin-Garmager and Claudia Lo</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager and Claudia Lo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Momentum: Contribution, Content, & Reading in Wiki Growth]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Momentum_(Design_Strategy).pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Momentum_(Design_Strategy).pdf"/>
+        <updated>2022-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This study test some key hypotheses: that building awareness of the brand drives more people to read our content; that by growing readership the Movement itself grows as readers are converted into content contributors; that as the community grows so does the amount and diversity of content offered; and that more, and more diverse, content attracts more readers.]]></summary>
+        <content type="html"><![CDATA[Initiative: Numeric Exploration
+<p>This study test some key hypotheses: that building awareness of the brand drives more people to read our content; that by growing readership the Movement itself grows as readers are converted into content contributors; that as the community grows so does the amount and diversity of content offered; and that more, and more diverse, content attracts more readers.</p>
+<i>Lead: Jim Maddock with Michael Raish, Mikhail Popov, Isaac Johnson, and Margeigh Novotny</i><br/>]]></content>
+        <author>
+            <name>Jim Maddock with Michael Raish, Mikhail Popov, Isaac Johnson, and Margeigh Novotny</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IP Editing on Japanese Wikipedia]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:(Design_Strategy)_JaWiki_IP_Editing_Survey.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:(Design_Strategy)_JaWiki_IP_Editing_Survey.pdf"/>
+        <updated>2022-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An inquiry into why some editors don’t log in and how they might be encouraged to through a comparative study of Arabic, Bengali, Spanish, and Japanese Wikipedias.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>An inquiry into why some editors don’t log in and how they might be encouraged to through a comparative study of Arabic, Bengali, Spanish, and Japanese Wikipedias.</p>
+<i>Lead: Michael Raish and the Growth team</i><br/>]]></content>
+        <author>
+            <name>Michael Raish and the Growth team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Newcomer Positive Reinforcement]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:(GROWTH)_Positive_Reinforcement_Synthesis.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:(GROWTH)_Positive_Reinforcement_Synthesis.pdf"/>
+        <updated>2022-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cross-cultural feedback on approaches to Positive Reinforcement through review of static designs.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Cross-cultural feedback on approaches to Positive Reinforcement through review of static designs.</p>
+<i>Lead: Mary Grace Reich with Michael Raish and the Growth team</i><br/>]]></content>
+        <author>
+            <name>Mary Grace Reich with Michael Raish and the Growth team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Campaigns Event Registration Page User Testing]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Dec2022_Usabilitytest-V2DM1.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Dec2022_Usabilitytest-V2DM1.pdf"/>
+        <updated>2022-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Usability testing of the campaigns registration feature that enables organizers and participants to register for events on the Wiki platform.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Usability testing of the campaigns registration feature that enables organizers and participants to register for events on the Wiki platform.</p>
+<i>Lead: YUX with the Campaigns Team</i><br/>]]></content>
+        <author>
+            <name>YUX with the Campaigns Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikimedia Commons User Interviews and Data]]></title>
+        <id>urn:feed-item:4ccdb408f3bcf913c7890a0af5831545746c8f63</id>
+        <link href=""/>
+        <updated>2022-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A project that combines usage data and in-depth interviews with Commons users to understand the current state of the platform.]]></summary>
+        <content type="html"><![CDATA[Initiative: Numeric Exploration
+<p>A project that combines usage data and in-depth interviews with Commons users to understand the current state of the platform.</p>
+<i>Lead: Jeff Howard with Jim Maddock and Margeigh Novotny</i><br/>]]></content>
+        <author>
+            <name>Jeff Howard with Jim Maddock and Margeigh Novotny</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Future of IP-based editing]]></title>
+        <id>urn:feed-item:793a39f65ae26e1b2f3acf0da5cd511022e7c797</id>
+        <link href=""/>
+        <updated>2022-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A project that investigates the difficulties with moderating anonymous edits and how best to mitigate those issues.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>A project that investigates the difficulties with moderating anonymous edits and how best to mitigate those issues.</p>
+<i>Lead: Claudia Lo with the Anti-Harassment Tools team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo with the Anti-Harassment Tools team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HabLatAm]]></title>
+        <id>urn:feed-item:b42dc72f6cf5fbaa2074f9f323ae5dca2396a4d6</id>
+        <link href=""/>
+        <updated>2022-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A cross country study on the internet skills, habits, and behaviors of youth in Latin America.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>A cross country study on the internet skills, habits, and behaviors of youth in Latin America.</p>
+<i>Lead: Ana Chang & Eli Asikin-Garmager, with the Berkman Klein Center for Internet and Society</i><br/>]]></content>
+        <author>
+            <name>Ana Chang &amp; Eli Asikin-Garmager, with the Berkman Klein Center for Internet and Society</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Section Translation Feedback Survey]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Section_Translation_Feedback_Survey_(Final_report).pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Section_Translation_Feedback_Survey_(Final_report).pdf"/>
+        <updated>2022-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learning from the experiences of editors who used Section Translation during a Bengali Wikipedia article quality improvement competition in 2022.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>Learning from the experiences of editors who used Section Translation during a Bengali Wikipedia article quality improvement competition in 2022.</p>
+<i>Lead: Eli Asikin-Garmager with the Language team</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager with the Language team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Special Search Improvements: Spanish User Testing]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Criba_Research_report_on_special_search_improvements.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Criba_Research_report_on_special_search_improvements.pdf"/>
+        <updated>2022-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When someone searches on Wikipedia but there isn’t an article matching their search term, they arrive at “special:search,”. This project tests new concepts for this feature with Spanish readers.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>When someone searches on Wikipedia but there isn’t an article matching their search term, they arrive at “special:search,”. This project tests new concepts for this feature with Spanish readers.</p>
+<i>Lead: Mike Raish, Daisy Chen, Sneha Patel, UserTestingArabic, and Criba Research</i><br/>]]></content>
+        <author>
+            <name>Mike Raish, Daisy Chen, Sneha Patel, UserTestingArabic, and Criba Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Special Search Improvements: Arabic User Testing]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:User_research_findings_arabic_special_search_-_usertestingarabic_wmf.pptx_1.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:User_research_findings_arabic_special_search_-_usertestingarabic_wmf.pptx_1.pdf"/>
+        <updated>2022-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When someone searches on Wikipedia but there isn’t an article matching their search term, they arrive at “special:search,”. This project tests new concepts for this feature with Arabic readers.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>When someone searches on Wikipedia but there isn’t an article matching their search term, they arrive at “special:search,”. This project tests new concepts for this feature with Arabic readers.</p>
+<i>Lead: Mike Raish, Daisy Chen, Sneha Patel, UserTestingArabic, and Criba Research</i><br/>]]></content>
+        <author>
+            <name>Mike Raish, Daisy Chen, Sneha Patel, UserTestingArabic, and Criba Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Templates and Trust-o-meters: Towards a widely deployable indicator of trust in Wikipedia]]></title>
+        <id>https://dl.acm.org/doi/pdf/10.1145/3491102.3517523</id>
+        <link href="https://dl.acm.org/doi/pdf/10.1145/3491102.3517523"/>
+        <updated>2022-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This work identifies three key challenges: 1) empirically determining which metrics from community approaches most impact reader trust; 2) validating indicator placements and designs; and 3) demonstrating that such indicators can both lower trust and increase perceived trust in the system when appropriate.]]></summary>
+        <content type="html"><![CDATA[Initiative: Numeric Exploration
+<p>This work identifies three key challenges: 1) empirically determining which metrics from community approaches most impact reader trust; 2) validating indicator placements and designs; and 3) demonstrating that such indicators can both lower trust and increase perceived trust in the system when appropriate.</p>
+<i>Lead: Andrew Kuznetsov, Margeigh Novotny, Jessica Klein, Diego Saez-Trumper, Aniket Kittur</i><br/>]]></content>
+        <author>
+            <name>Andrew Kuznetsov, Margeigh Novotny, Jessica Klein, Diego Saez-Trumper, Aniket Kittur</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HabLatAm]]></title>
+        <id>urn:feed-item:f84ee98f8d76d84ccb633d90e9a6a31a371deb5e</id>
+        <link href=""/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A collaboration between the WMF and the Berkman Klein Center for Internet and Society to research the internet habits, preferences, and beliefs of youth across Latin America.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>A collaboration between the WMF and the Berkman Klein Center for Internet and Society to research the internet habits, preferences, and beliefs of youth across Latin America.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Readability on Wikipedia]]></title>
+        <id>/strategy/projects/readability-on-wp.html</id>
+        <link href="/strategy/projects/readability-on-wp.html"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A literature review of the web factors that affect text readability on the internet.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>A literature review of the web factors that affect text readability on the internet.</p>
+<i>Lead: Taryn Bipat</i><br/>]]></content>
+        <author>
+            <name>Taryn Bipat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Content Moderation in Medium-Sized Wikimedia Projects]]></title>
+        <id>/strategy/projects/content-mod-medium-wikis.html</id>
+        <link href="/strategy/projects/content-mod-medium-wikis.html"/>
+        <updated>2022-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This project aims to fill knowledge gaps in our understanding of how editors curate and moderate content on Wikimedia projects outside the largest and most well-researched communities.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This project aims to fill knowledge gaps in our understanding of how editors curate and moderate content on Wikimedia projects outside the largest and most well-researched communities.</p>
+<i>Lead: Claudia Lo, with Sam Walton and the Moderator Tools pilot team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with Sam Walton and the Moderator Tools pilot team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Event Organizers: A Study in 4 African Countries]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:UX_Research_Campaigns_Event_Organizers.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:UX_Research_Campaigns_Event_Organizers.pdf"/>
+        <updated>2022-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This exploratory research project focused on organizations in four african countries to learn about the particular challenges faced event organizers and the strategies they have developed to succeed in growing their communities.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This exploratory research project focused on organizations in four african countries to learn about the particular challenges faced event organizers and the strategies they have developed to succeed in growing their communities.</p>
+<i>Lead: YUX with the Campaigns team</i><br/>]]></content>
+        <author>
+            <name>YUX with the Campaigns team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Section Translation Post Improvements Testing]]></title>
+        <id>/strategy/projects/sectionx-thai.html</id>
+        <link href="/strategy/projects/sectionx-thai.html"/>
+        <updated>2022-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Section Translation brings translation support to mobile device editors, and this project provided usability testing after a number of initial tool improvements and at a time when it was becoming available in a greater number of wikis, including Thai Wikipedia.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>Section Translation brings translation support to mobile device editors, and this project provided usability testing after a number of initial tool improvements and at a time when it was becoming available in a greater number of wikis, including Thai Wikipedia.</p>
+<i>Lead: Eli Asikin-Garmager, with Teak Research and the Language team.</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, with Teak Research and the Language team.</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikifunctions: Usability of Bangla Prototype]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Wikifunctions-usability-bangla-report.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Wikifunctions-usability-bangla-report.pdf"/>
+        <updated>2022-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Usability testing of Wikifunctions prototype with Bangla speaking programmers and developers.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>Usability testing of Wikifunctions prototype with Bangla speaking programmers and developers.</p>
+<i>Lead: UserHub with Aishwarya Vardhana and Daisy Chen</i><br/>]]></content>
+        <author>
+            <name>UserHub with Aishwarya Vardhana and Daisy Chen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikistories Africa Research]]></title>
+        <id>/strategy/projects/wikistories-africa.html</id>
+        <link href="/strategy/projects/wikistories-africa.html"/>
+        <updated>2022-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This work provides a method for visualizing and comparing topical coverage from one wiki project to another for the purpose of better understanding where knowledge gaps and subject matter expertise exist across the Free Knowledge Movement.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>This work provides a method for visualizing and comparing topical coverage from one wiki project to another for the purpose of better understanding where knowledge gaps and subject matter expertise exist across the Free Knowledge Movement.</p>
+<i>Lead: Eli Asikin-Garmager, with Qhala Digital Consultancy, the Inuka Team, and Wikistories Team.</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, with Qhala Digital Consultancy, the Inuka Team, and Wikistories Team.</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikistories Indonesia Concept Testing]]></title>
+        <id>/strategy/projects/wikistories-indonesia.html</id>
+        <link href="/strategy/projects/wikistories-indonesia.html"/>
+        <updated>2022-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The goal of this project was to collaborate with Wikimedia Indonesia and gather feedback from Indonesian wiki editor communities on early concepts and designs for WikiStories, focusing on the experience of potential WikiStory creators.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>The goal of this project was to collaborate with Wikimedia Indonesia and gather feedback from Indonesian wiki editor communities on early concepts and designs for WikiStories, focusing on the experience of potential WikiStory creators.</p>
+<i>Lead: Eli Asikin-Garmager, with Ari Natarina.</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, with Ari Natarina.</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Communications and Mentorship]]></title>
+        <id>/strategy/projects/communications-mentorship.html</id>
+        <link href="/strategy/projects/communications-mentorship.html"/>
+        <updated>2021-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Understanding the wiki-related communications ecosystem, both on and off Wiki, that embedded community members employ for their Wiki related work.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Understanding the wiki-related communications ecosystem, both on and off Wiki, that embedded community members employ for their Wiki related work.</p>
+<i>Lead: Daisy Chen, with the Growth and Editing teams</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen, with the Growth and Editing teams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Section Translation Entry Points]]></title>
+        <id>/strategy/projects/sx-entry-points.html</id>
+        <link href="/strategy/projects/sx-entry-points.html"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Improving discoverability of translation tools on Wikipedia.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>Improving discoverability of translation tools on Wikipedia.</p>
+<i>Lead: Eli Asikin-Garmager, with Pau Giner, Anagram Research, and the Language team</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, with Pau Giner, Anagram Research, and the Language team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Digital Spaces // Topical Neighborhoods]]></title>
+        <id>/strategy/projects/digital-spaces.html</id>
+        <link href="/strategy/projects/digital-spaces.html"/>
+        <updated>2021-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This project combined conversations with WMF employees and global volunteers with a literature review to support the internal conversation around the Digital Spaces // Topical Neighborhoods proposal.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>This project combined conversations with WMF employees and global volunteers with a literature review to support the internal conversation around the Digital Spaces // Topical Neighborhoods proposal.</p>
+<i>Lead: Michael Raish</i><br/>]]></content>
+        <author>
+            <name>Michael Raish</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Media Matching]]></title>
+        <id>/strategy/projects/media-matching.html</id>
+        <link href="/strategy/projects/media-matching.html"/>
+        <updated>2021-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Conducted in support of the WMF Structured Data team, Media Matching attempted to identify barriers faced by experienced editors in English, Arabic, and Japanese Wikipedias.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>Conducted in support of the WMF Structured Data team, Media Matching attempted to identify barriers faced by experienced editors in English, Arabic, and Japanese Wikipedias.</p>
+<i>Lead: Michael Raish, with the Structured Data team, Community Ambassadors and Project Kobo</i><br/>]]></content>
+        <author>
+            <name>Michael Raish, with the Structured Data team, Community Ambassadors and Project Kobo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Targets of Harassment]]></title>
+        <id>https://meta.wikimedia.org/wiki/Universal_Code_of_Conduct/2021_consultations/Research</id>
+        <link href="https://meta.wikimedia.org/wiki/Universal_Code_of_Conduct/2021_consultations/Research"/>
+        <updated>2021-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In order to support the Universal Code of Conduct’s phase 2 drafting committee, the Wikimedia Foundation has conducted a research project focused on experiences of harassment on Wikimedia projects.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>In order to support the Universal Code of Conduct’s phase 2 drafting committee, the Wikimedia Foundation has conducted a research project focused on experiences of harassment on Wikimedia projects.</p>
+<i>Lead: Claudia Lo, with the Anti-Harassment Tools team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with the Anti-Harassment Tools team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikimail Harassment]]></title>
+        <id>/strategy/projects/wikimail.html</id>
+        <link href="/strategy/projects/wikimail.html"/>
+        <updated>2021-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An analysis of community initiatives regarding Wikimail abuse over the past five years and general perspectives on harassment.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>An analysis of community initiatives regarding Wikimail abuse over the past five years and general perspectives on harassment.</p>
+<i>Lead: Jeff Howard</i><br/>]]></content>
+        <author>
+            <name>Jeff Howard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Long Tail Topic & Influence Ontology]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Long_Tail_Topic_Ontology</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Long_Tail_Topic_Ontology"/>
+        <updated>2021-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This work provides a method for visualizing and comparing topical coverage from one wiki project to another for the purpose of better understanding where knowledge gaps and subject matter expertise exist across the Free Knowledge Movement.]]></summary>
+        <content type="html"><![CDATA[Initiative: Numeric Exploration
+<p>This work provides a method for visualizing and comparing topical coverage from one wiki project to another for the purpose of better understanding where knowledge gaps and subject matter expertise exist across the Free Knowledge Movement.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding Perspectives on Digital Education in African Contexts]]></title>
+        <id>/strategy/projects/emerging-education.html</id>
+        <link href="/strategy/projects/emerging-education.html"/>
+        <updated>2021-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Qualitative research examining the perspectives on the future of education from experts, students, teachers, and parents.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Qualitative research examining the perspectives on the future of education from experts, students, teachers, and parents.</p>
+<i>Lead: Ana Chang, with AfriqInsights</i><br/>]]></content>
+        <author>
+            <name>Ana Chang, with AfriqInsights</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Verifiability on Wikipedia]]></title>
+        <id>/strategy/projects/verifiability-on-wp.html</id>
+        <link href="/strategy/projects/verifiability-on-wp.html"/>
+        <updated>2021-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This three-language study provides foundational understanding for how editors work with available resources to meet the standards required for article quality.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>This three-language study provides foundational understanding for how editors work with available resources to meet the standards required for article quality.</p>
+<i>Lead: Ana Chang, with Sam Walton (WMF), Spiegel Institut, and Wikipedia Library team</i><br/>]]></content>
+        <author>
+            <name>Ana Chang, with Sam Walton (WMF), Spiegel Institut, and Wikipedia Library team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WikiFunctions, phases 1 & 2]]></title>
+        <id>/strategy/projects/wikifunctions.html</id>
+        <link href="/strategy/projects/wikifunctions.html"/>
+        <updated>2021-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A study that collects feedback on the function-builder prototype from technical users, nontechnical users, and those from outside of the Wikimedia ecosystem.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>A study that collects feedback on the function-builder prototype from technical users, nontechnical users, and those from outside of the Wikimedia ecosystem.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Section Translation Usability Testing]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Section_Translation_Usability_Testing_(Bengali_Wikipedia)</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Section_Translation_Usability_Testing_(Bengali_Wikipedia)"/>
+        <updated>2021-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Many Wikipedia contributors edit articles via mobile devices. Section Translation brings translation support to mobile device editors, and this project provided usability testing as the tool became available in the first wiki.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>Many Wikipedia contributors edit articles via mobile devices. Section Translation brings translation support to mobile device editors, and this project provided usability testing as the tool became available in the first wiki.</p>
+<i>Lead: Eli Asikin-Garmager, with the Language team</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, with the Language team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Table of Contents & Sticky Header]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:DIP_Collated_FInal_Reports.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:DIP_Collated_FInal_Reports.pdf"/>
+        <updated>2021-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This project tests the concept of a sticky header and the table of contents element as a part of a reader-focused desktop interface improvement initiative by the Web team.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>This project tests the concept of a sticky header and the table of contents element as a part of a reader-focused desktop interface improvement initiative by the Web team.</p>
+<i>Lead: Daisy Chen, with Criba Research, Urika Research, and Monafina F Silitonga</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen, with Criba Research, Urika Research, and Monafina F Silitonga</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wikifunctions, phases 1 & 2]]></title>
+        <id>https://design.wikimedia.org/strategy/wikifunctions.html</id>
+        <link href="https://design.wikimedia.org/strategy/wikifunctions.html"/>
+        <updated>2021-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A study that collects feedback on the function-builder prototype from technical users, nontechnical users, and those from outside of the Wikimedia ecosystem.]]></summary>
+        <content type="html"><![CDATA[Initiative: undefined
+<p>A study that collects feedback on the function-builder prototype from technical users, nontechnical users, and those from outside of the Wikimedia ecosystem.</p>
+<i>Lead: Jeff Howard</i><br/>]]></content>
+        <author>
+            <name>Jeff Howard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Taxonomy of Harassment]]></title>
+        <id>urn:feed-item:0dda0a46c6c434f13b02f7d21e469e3189d7dcb3</id>
+        <link href=""/>
+        <updated>2021-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A taxonomy of negative social interactions on Wiki projects and a methodology to prioritize those in need of intervention.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>A taxonomy of negative social interactions on Wiki projects and a methodology to prioritize those in need of intervention.</p>
+<i>Lead: Claudia Lo, with the Anti-Harassment Tools team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with the Anti-Harassment Tools team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Decision-making & Influence]]></title>
+        <id>urn:feed-item:94e079d7cc17f19c7741c662581c236993af0e5a</id>
+        <link href=""/>
+        <updated>2021-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A collaboration to map the different types of group decision-making required to manage and improve a crowd-sourced content platform like Wikipedia and understand contributor communities as discrete social groups.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>A collaboration to map the different types of group decision-making required to manage and improve a crowd-sourced content platform like Wikipedia and understand contributor communities as discrete social groups.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Usability of the Wikipedia KaiOS app]]></title>
+        <id>/strategy/projects/kaios.html</id>
+        <link href="/strategy/projects/kaios.html"/>
+        <updated>2020-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This research evaluates usability and user understanding of the basic app elements and workflows for the Wikipedia KaiOS app.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>This research evaluates usability and user understanding of the basic app elements and workflows for the Wikipedia KaiOS app.</p>
+<i>Lead: Daisy Chen, with Hureo and the Inuka team</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen, with Hureo and the Inuka team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multilingual Editor Experiences in Small Wikis]]></title>
+        <id>/strategy/projects/multilingual-editor-x.html</id>
+        <link href="/strategy/projects/multilingual-editor-x.html"/>
+        <updated>2020-11-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Supporting multilingual editors in small Wikipedias who are leveraging translation to contribute across knowledge and content gaps.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>Supporting multilingual editors in small Wikipedias who are leveraging translation to contribute across knowledge and content gaps.</p>
+<i>Lead: Eli Asikin-Garmager, with Anagram Research and the Language team</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, with Anagram Research and the Language team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Patrolling Anonymous Edits]]></title>
+        <id>https://meta.wikimedia.org/wiki/IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/IP_Info_feature#25_Mar,_2021</id>
+        <link href="https://meta.wikimedia.org/wiki/IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/IP_Info_feature#25_Mar,_2021"/>
+        <updated>2020-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A study of how patrollers handle edits by logged-out users, and what pieces of information from IP addresses are necessary for their work in maintaining the overall health and quality of Wikimedia projects.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>A study of how patrollers handle edits by logged-out users, and what pieces of information from IP addresses are necessary for their work in maintaining the overall health and quality of Wikimedia projects.</p>
+<i>Lead: Claudia Lo, with the Anti-Harassment Tools team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with the Anti-Harassment Tools team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CheckUser Improvements]]></title>
+        <id>https://meta.wikimedia.org/wiki/IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/CheckUser_Improvements</id>
+        <link href="https://meta.wikimedia.org/wiki/IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/CheckUser_Improvements"/>
+        <updated>2020-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Past research and Steward feedback surfaced many pain points in the CheckUser extension, the tool used by moderators to reverse vandalism of articles. These are multiple iterative rounds of usability tests of the enhanced tool.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>Past research and Steward feedback surfaced many pain points in the CheckUser extension, the tool used by moderators to reverse vandalism of articles. These are multiple iterative rounds of usability tests of the enhanced tool.</p>
+<i>Lead: Claudia Lo, with the Anti-Harassment Tools team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with the Anti-Harassment Tools team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trusted: Signals, Inferences & Indicators]]></title>
+        <id>urn:feed-item:05e22ee039e8982ef263e0201ab0bb91343fc75d</id>
+        <link href=""/>
+        <updated>2020-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The goal of this work is to develop systems for automatically detecting and characterizing the editorial debates behind Wikipedia articles for the purpose of surfacing indications of trustworthiness to the reader. This project is a collaboration between the Wikimedia Foundation and the CMU Human Computer Interaction Institute.]]></summary>
+        <content type="html"><![CDATA[Initiative: Numeric Exploration
+<p>The goal of this work is to develop systems for automatically detecting and characterizing the editorial debates behind Wikipedia articles for the purpose of surfacing indications of trustworthiness to the reader. This project is a collaboration between the Wikimedia Foundation and the CMU Human Computer Interaction Institute.</p>
+<i>Lead: Andrew Kuznetsov of the Carnegie Mellon Human Computer Interaction Institute, with Margeigh Novotny</i><br/>]]></content>
+        <author>
+            <name>Andrew Kuznetsov of the Carnegie Mellon Human Computer Interaction Institute, with Margeigh Novotny</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trusted: Signals, Inferences & Indicators]]></title>
+        <id>urn:feed-item:47e6e747872202d04aec7d9f273fca7f35d8f5c7</id>
+        <link href=""/>
+        <updated>2020-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers are analyzing which types of cues work best to help readers understand the true quality of an article and scraping talk pages for the signals and inferences that can drive these cues.]]></summary>
+        <content type="html"><![CDATA[Initiative: Research & Development
+<p>Researchers are analyzing which types of cues work best to help readers understand the true quality of an article and scraping talk pages for the signals and inferences that can drive these cues.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Content Moderation Explained]]></title>
+        <id>https://design.wikimedia.org/blog/2020/07/30/content-moderation-anti-vandalism-wikipedia.html</id>
+        <link href="https://design.wikimedia.org/blog/2020/07/30/content-moderation-anti-vandalism-wikipedia.html"/>
+        <updated>2020-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An overview of how a global community of volunteer moderators determine which contributions to Wikipedia are accepted and rejected.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>An overview of how a global community of volunteer moderators determine which contributions to Wikipedia are accepted and rejected.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Do News Organizations Use Wikipedia?]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:How_News_Media_Orgs_Use_Wikipedia_Working_Paper_30_June_2020.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:How_News_Media_Orgs_Use_Wikipedia_Working_Paper_30_June_2020.pdf"/>
+        <updated>2020-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A literature review that seeks to understand more about how and why media and news organizations use Wikipedia.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>A literature review that seeks to understand more about how and why media and news organizations use Wikipedia.</p>
+<i>Lead: Anna Rader</i><br/>]]></content>
+        <author>
+            <name>Anna Rader</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interpersonal Communication on Wikipedia]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Interpersonal_communication_and_coordination_in_Wikipedia_Working_Paper_30_June_2020.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Interpersonal_communication_and_coordination_in_Wikipedia_Working_Paper_30_June_2020.pdf"/>
+        <updated>2020-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A review of the available academic literature on interpersonal communication and coordination within the Wikipedia community, in particular the role of talk pages in creating and maintaining Wikipedia’s content.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>A review of the available academic literature on interpersonal communication and coordination within the Wikipedia community, in particular the role of talk pages in creating and maintaining Wikipedia’s content.</p>
+<i>Lead: Anna Rader</i><br/>]]></content>
+        <author>
+            <name>Anna Rader</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Content Moderation Explained]]></title>
+        <id>https://design.wikimedia.org/blog/2020/07/30/content-moderation-anti-vandalism-wikipedia.html</id>
+        <link href="https://design.wikimedia.org/blog/2020/07/30/content-moderation-anti-vandalism-wikipedia.html"/>
+        <updated>2020-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An overview of how a global community of volunteer moderators determine which contributions to Wikipedia are accepted and rejected.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>An overview of how a global community of volunteer moderators determine which contributions to Wikipedia are accepted and rejected.</p>
+<i>Lead: Claudia Lo, with Lucy Blackwell</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with Lucy Blackwell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Machine Translation Meets Human Perception]]></title>
+        <id>https://upload.wikimedia.org/wikipedia/commons/7/7f/MTMHP_Executive_Summary.pdf</id>
+        <link href="https://upload.wikimedia.org/wikipedia/commons/7/7f/MTMHP_Executive_Summary.pdf"/>
+        <updated>2020-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Machine Translation Meets Human Perception (MTMHP) study developed a protocol for evaluating how readers perceive and evaluate machine-translated content - across three different languages, cultural contexts, and content domains.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>The Machine Translation Meets Human Perception (MTMHP) study developed a protocol for evaluating how readers perceive and evaluate machine-translated content - across three different languages, cultural contexts, and content domains.</p>
+<i>Lead: Michael Raish, with Hureo and Bethany Gerdemann</i><br/>]]></content>
+        <author>
+            <name>Michael Raish, with Hureo and Bethany Gerdemann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android App Suggested Edits]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:(Android)_Suggested_Edits_v5_(June_2020)_Final_Report.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:(Android)_Suggested_Edits_v5_(June_2020)_Final_Report.pdf"/>
+        <updated>2020-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This project addresses user difficulties using and understanding the Contributions screens as part of the Section Editing feature.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>This project addresses user difficulties using and understanding the Contributions screens as part of the Section Editing feature.</p>
+<i>Lead: Daisy Chen, with the Android App Team</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen, with the Android App Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Free Knowledge Movement Personas]]></title>
+        <id>https://www.mediawiki.org/wiki/Personas_for_product_development</id>
+        <link href="https://www.mediawiki.org/wiki/Personas_for_product_development"/>
+        <updated>2020-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a collection of all personas developed to date for desktop and mobile readers, new and veteran contributors, institutional curators and Movement organizers.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This is a collection of all personas developed to date for desktop and mobile readers, new and veteran contributors, institutional curators and Movement organizers.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CheckUser Workflow & Tools]]></title>
+        <id>/strategy/projects/check-user.html</id>
+        <link href="/strategy/projects/check-user.html"/>
+        <updated>2020-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CheckUser is a critical tool for moderators in anti-vandalism efforts on Wikipedia. This research surfaces the pain points in the CheckUser workflow and opportunities to improve the tool.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>CheckUser is a critical tool for moderators in anti-vandalism efforts on Wikipedia. This research surfaces the pain points in the CheckUser workflow and opportunities to improve the tool.</p>
+<i>Lead: Claudia Lo, with the Anti-Harassment Tools team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with the Anti-Harassment Tools team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Content Translation Newcomer Survey]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Content_Translation_Newcomer_Survey,_India_2020</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Content_Translation_Newcomer_Survey,_India_2020"/>
+        <updated>2020-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A customizable survey that can be used to easily, quickly, and reliably collect feedback from a more diverse pool of Content Translation users.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>A customizable survey that can be used to easily, quickly, and reliably collect feedback from a more diverse pool of Content Translation users.</p>
+<i>Lead: Eli Asikin-Garmager, with Pau Giner and Amir E. Aharoni</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, with Pau Giner and Amir E. Aharoni</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Article Section Translation Study]]></title>
+        <id>/strategy/projects/section-translation.html</id>
+        <link href="/strategy/projects/section-translation.html"/>
+        <updated>2020-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An evaluation of new designs for tools that help editors translate article sections and receive translation support on mobile devices.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>An evaluation of new designs for tools that help editors translate article sections and receive translation support on mobile devices.</p>
+<i>Lead: Eli Asikin-Garmager, with the Language team and Pau Giner</i><br/>]]></content>
+        <author>
+            <name>Eli Asikin-Garmager, with the Language team and Pau Giner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Do People Edit Wikipedia?]]></title>
+        <id>/strategy/projects/why-do-people-edit-wikipedia.html</id>
+        <link href="/strategy/projects/why-do-people-edit-wikipedia.html"/>
+        <updated>2020-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This literature review examines the drivers of engagement and the motivators of sustained involvement in Wikipedia. It provides an overview of academic research on Wikipedia production and editor motivations, highlighting the themes and queries of scholarship in this area.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This literature review examines the drivers of engagement and the motivators of sustained involvement in Wikipedia. It provides an overview of academic research on Wikipedia production and editor motivations, highlighting the themes and queries of scholarship in this area.</p>
+<i>Lead: Anna Rader</i><br/>]]></content>
+        <author>
+            <name>Anna Rader</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WMF Remote Worker Experience]]></title>
+        <id>https://upload.wikimedia.org/wikipedia/commons/4/4e/Remote_Worker_Experience%2C_All-hands_2020.pdf</id>
+        <link href="https://upload.wikimedia.org/wikipedia/commons/4/4e/Remote_Worker_Experience%2C_All-hands_2020.pdf"/>
+        <updated>2020-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a lean, inward-facing research project that surfaced the challenges and highlights of working remotely for the Foundation and offered opportunities for the Foundation and non-remote staff to improve the work lives and for its globally distributed staff.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This is a lean, inward-facing research project that surfaced the challenges and highlights of working remotely for the Foundation and offered opportunities for the Foundation and non-remote staff to improve the work lives and for its globally distributed staff.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Readers’ Perceptions of Desktop Wikipedia]]></title>
+        <id>/strategy/projects/desktop-improvements.html</id>
+        <link href="/strategy/projects/desktop-improvements.html"/>
+        <updated>2020-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This study seeks to understand the experience and sentiment of new and casual readers on Wikipedia.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>This study seeks to understand the experience and sentiment of new and casual readers on Wikipedia.</p>
+<i>Lead: Daisy Chen, with Hureo and the Readers Web team</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen, with Hureo and the Readers Web team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Micro-contributions on the Android App]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Android_Microcontributions_Phase1%262_Findings_Report.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Android_Microcontributions_Phase1%262_Findings_Report.pdf"/>
+        <updated>2019-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This research studies the factors that motivate and retain Wikipedia editors who use the section editor tool on the Android app.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>This research studies the factors that motivate and retain Wikipedia editors who use the section editor tool on the Android app.</p>
+<i>Lead: Daisy Chen, with the Android team and Robin Schoenbaechler</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen, with the Android team and Robin Schoenbaechler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wiki Comparison]]></title>
+        <id>urn:feed-item:25cd76cce870637c7c26eea7654db5d109098e69</id>
+        <link href=""/>
+        <updated>2019-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This initiative, lead by Neil Shah-Quinn, established a baseline for comparing key characteristics of 732 wiki projects (number of editors, amount of content, readers, readers by platform, etc).]]></summary>
+        <content type="html"><![CDATA[Initiative: Numeric Exploration
+<p>This initiative, lead by Neil Shah-Quinn, established a baseline for comparing key characteristics of 732 wiki projects (number of editors, amount of content, readers, readers by platform, etc).</p>
+<i>Lead: Neil Shah-Quinn</i><br/>]]></content>
+        <author>
+            <name>Neil Shah-Quinn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Page Patrol]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Patrolling_on_Wikipedia</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Patrolling_on_Wikipedia"/>
+        <updated>2019-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Content integrity on Wikipedia relies on editors who patrol articles and respond to vandalism. This research brings to light the workflows of editors who patrol on Wikipedia(s) and the tools used in the course of their work.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>Content integrity on Wikipedia relies on editors who patrol articles and respond to vandalism. This research brings to light the workflows of editors who patrol on Wikipedia(s) and the tools used in the course of their work.</p>
+<i>Lead: Jonathan Morgan</i><br/>]]></content>
+        <author>
+            <name>Jonathan Morgan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Community Health Survey]]></title>
+        <id>https://meta.wikimedia.org/wiki/Community_health_initiative/Administrator_Confidence_Survey</id>
+        <link href="https://meta.wikimedia.org/wiki/Community_health_initiative/Administrator_Confidence_Survey"/>
+        <updated>2019-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An inquiry into the unique challenges faced by volunteer administrators in conflict resolution situations and what types of resources would be most beneficial to this work.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>An inquiry into the unique challenges faced by volunteer administrators in conflict resolution situations and what types of resources would be most beneficial to this work.</p>
+<i>Lead: Michael Raish, with the Anti-Harassment Tools Team</i><br/>]]></content>
+        <author>
+            <name>Michael Raish, with the Anti-Harassment Tools Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IP Masking Impact Report]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:IP_masking_impact_report</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:IP_masking_impact_report"/>
+        <updated>2019-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An examination of how edits by users who have not logged-in effect administrator workflows.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>An examination of how edits by users who have not logged-in effect administrator workflows.</p>
+<i>Lead: Claudia Lo, with the Anti-Harassment Tools Team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with the Anti-Harassment Tools Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Movement Organizers]]></title>
+        <id>movement-organizers.html</id>
+        <link href="movement-organizers.html"/>
+        <updated>2019-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Movement Organizer Study sought to understand the life cycle of contributors by documenting paths, practices, challenges, and risks faced by successful organizers throughout the Free Knowledge.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>The Movement Organizer Study sought to understand the life cycle of contributors by documenting paths, practices, challenges, and risks faced by successful organizers throughout the Free Knowledge.</p>
+<i>Lead: Abbey Ripstra, The Community Engagement Team, and Ana Chang of Concept Hatchery</i><br/>]]></content>
+        <author>
+            <name>Abbey Ripstra, The Community Engagement Team, and Ana Chang of Concept Hatchery</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Searching on Commons: Structured Data Across Wikimedia]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:(SDAW)_Search_on_Commons_Research_Report_(June_2020).pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:(SDAW)_Search_on_Commons_Research_Report_(June_2020).pdf"/>
+        <updated>2019-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This project tests usability of prototypes and captures users’ expectations and desires in their search experiences on the wikis.]]></summary>
+        <content type="html"><![CDATA[Initiative: Sentiment & Perception
+<p>This project tests usability of prototypes and captures users’ expectations and desires in their search experiences on the wikis.</p>
+<i>Lead: Daisy Chen, with the Structured Data Team</i><br/>]]></content>
+        <author>
+            <name>Daisy Chen, with the Structured Data Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ethical & Human-Centered AI]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Ethical_and_human-centered_AI</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Ethical_and_human-centered_AI"/>
+        <updated>2019-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This project identfies challenges and emerging opportunities to leverage AI technologies to further the mission of Wikimedia.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>This project identfies challenges and emerging opportunities to leverage AI technologies to further the mission of Wikimedia.</p>
+<i>Lead: Jonathan Morgan</i><br/>]]></content>
+        <author>
+            <name>Jonathan Morgan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Harassment on Arabic Wikipedia]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Arabic_Harassment_Netnography</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Arabic_Harassment_Netnography"/>
+        <updated>2019-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This study aimed to establish a baseline understanding of the frequency of harassment, trolling, and threatening communicative practices on Arabic Wikipedia, to explore the effects of these practices on editing and community health, and to guide future investigation and strategic decisions for the Anti-Harassment Tools team.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>This study aimed to establish a baseline understanding of the frequency of harassment, trolling, and threatening communicative practices on Arabic Wikipedia, to explore the effects of these practices on editing and community health, and to guide future investigation and strategic decisions for the Anti-Harassment Tools team.</p>
+<i>Lead: Mike Raish, with the Anti-Harassment Tools Team</i><br/>]]></content>
+        <author>
+            <name>Mike Raish, with the Anti-Harassment Tools Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reporting System Rubric for the Community Health Initiative]]></title>
+        <id>https://commons.wikimedia.org/wiki/File:Reporting_Systems_Rubric,_Summary.pdf</id>
+        <link href="https://commons.wikimedia.org/wiki/File:Reporting_Systems_Rubric,_Summary.pdf"/>
+        <updated>2019-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A review of best practices in reporting systems for disputes and abuse across different platforms.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>A review of best practices in reporting systems for disputes and abuse across different platforms.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steward Spambot Workflow]]></title>
+        <id>urn:feed-item:bb8e4d1d7fa6e04b8f2545272ea2e717b1d077ef</id>
+        <link href=""/>
+        <updated>2018-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An investigation into one of the most common tasks performed by stewards, global locks of suspected spambots that are active across multiple wikis.]]></summary>
+        <content type="html"><![CDATA[Initiative: Online Social Behavior
+<p>An investigation into one of the most common tasks performed by stewards, global locks of suspected spambots that are active across multiple wikis.</p>
+<i>Lead: Claudia Lo, with the Anti-Harassment Tools team</i><br/>]]></content>
+        <author>
+            <name>Claudia Lo, with the Anti-Harassment Tools team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Augmentation]]></title>
+        <id>https://www.mediawiki.org/wiki/File:Augmentation.pdf</id>
+        <link href="https://www.mediawiki.org/wiki/File:Augmentation.pdf"/>
+        <updated>2018-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a position piece developed by Wikimedia Foundation to frame the potential of machine-in-the-loop technologies in making all the world's knowledge available to all, and to ensure the process to assemble that knowledge is inclusive, balanced and safe.]]></summary>
+        <content type="html"><![CDATA[Initiative: Machine Augmentation
+<p>This is a position piece developed by Wikimedia Foundation to frame the potential of machine-in-the-loop technologies in making all the world's knowledge available to all, and to ensure the process to assemble that knowledge is inclusive, balanced and safe.</p>
+<i>Lead: Wikimedia Foundation, with David Goldberg</i><br/>]]></content>
+        <author>
+            <name>Wikimedia Foundation, with David Goldberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Contribution Workflow Taxonomy]]></title>
+        <id>https://www.mediawiki.org/wiki/Wikimedia_Product/Contribution_taxonomy</id>
+        <link href="https://www.mediawiki.org/wiki/Wikimedia_Product/Contribution_taxonomy"/>
+        <updated>2018-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This project details the workflow of contributors and assesses the level of difficulty they encounter with each step in the workflow in order to understand what contributes to editors' retention or burn-out.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This project details the workflow of contributors and assesses the level of difficulty they encounter with each step in the workflow in order to understand what contributes to editors' retention or burn-out.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Editor Experiences]]></title>
+        <id>https://www.mediawiki.org/wiki/New_Editor_Experiences</id>
+        <link href="https://www.mediawiki.org/wiki/New_Editor_Experiences"/>
+        <updated>2017-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This study sought to understand the experiences, needs and challenges of new editors on midsize Wikipedias with the goal of learning how best to support and retain them.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This study sought to understand the experiences, needs and challenges of new editors on midsize Wikipedias with the goal of learning how best to support and retain them.</p>
+<i>Lead: Wikimedia Foundation, with Reboot</i><br/>]]></content>
+        <author>
+            <name>Wikimedia Foundation, with Reboot</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Readers]]></title>
+        <id>https://meta.wikimedia.org/wiki/File:Wikimedia_Foundation_and_Reboot_New_Readers_Research_-_Nigeria_%26_India_Highlights_-_July_2016.pdf</id>
+        <link href="https://meta.wikimedia.org/wiki/File:Wikimedia_Foundation_and_Reboot_New_Readers_Research_-_Nigeria_%26_India_Highlights_-_July_2016.pdf"/>
+        <updated>2016-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This study sought to understand potential Wikimedia readers in countries where access to the internet is quickly growing.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This study sought to understand potential Wikimedia readers in countries where access to the internet is quickly growing.</p>
+<i>Lead: Wikimedia Foundation, with Reboot</i><br/>]]></content>
+        <author>
+            <name>Wikimedia Foundation, with Reboot</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Contribution Taxonomy Project]]></title>
+        <id>https://meta.wikimedia.org/wiki/Research:Contribution_Taxonomy_Project</id>
+        <link href="https://meta.wikimedia.org/wiki/Research:Contribution_Taxonomy_Project"/>
+        <updated>2012-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This project creates a taxonomy of the contributions made by Wikimedia communities, measure the contributions in that taxonomy, and elicit trends in volunteer contributions to the projects.]]></summary>
+        <content type="html"><![CDATA[Initiative: Powered by People
+<p>This project creates a taxonomy of the contributions made by Wikimedia communities, measure the contributions in that taxonomy, and elicit trends in volunteer contributions to the projects.</p>]]></content>
+    </entry>
+</feed>

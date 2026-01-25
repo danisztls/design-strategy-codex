@@ -13,8 +13,8 @@ interface Item {
 }
 
 const siteUrl = 'https://design.wikimedia.org'
-const outDir = path.resolve('public/')
-const dataFile = path.resolve('strategy/projects/projects.json')
+const outDir = path.resolve('src/public/')
+const dataFile = path.resolve('src/strategy/projects/projects.json')
 
 function parseDate(value: string): Date {
 	if (/^\d{4}-\d{2}$/.test(value)) {

@@ -1,6 +1,7 @@
 import type { DefaultTheme, UserConfig } from 'vitepress'
 
 export const baseConfig = {
+	srcDir: './src',
 	cleanUrls: true,
 	lang: 'en-US',
 	dir: 'ltr',

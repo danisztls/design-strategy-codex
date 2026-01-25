@@ -6,7 +6,7 @@ Preview at https://design-strategy-codex.pages.dev/
 
 ## Content management
 
-Content is stored at `docs/` as Markdown and JSON. Assets are stored at `docs/public/` and rendered as-is.
+Content is stored at `src/` as Markdown and JSON. Assets are stored at `src/public/` and rendered as-is.
 
 ## Development
 

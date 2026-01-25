@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import sharp from 'sharp'
 
-const PUBLIC = 'docs/public'
+const PUBLIC = './src/public'
 const CONFIG = path.join(PUBLIC, 'sharp.json')
 
 const cfg = JSON.parse(fs.readFileSync(CONFIG, 'utf8'))
