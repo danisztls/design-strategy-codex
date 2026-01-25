@@ -1,6 +1,6 @@
-import type { UserConfig } from 'vitepress'
+import type { DefaultTheme, UserConfig } from 'vitepress'
 
-export const baseConfig: UserConfig = {
+export const baseConfig = {
 	cleanUrls: true,
 	lang: 'en-US',
 	dir: 'ltr',
@@ -57,4 +57,4 @@ export const baseConfig: UserConfig = {
 			]
 		]
 	}
-}
+} satisfies UserConfig

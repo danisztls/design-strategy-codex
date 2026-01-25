@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme-without-fonts';
 import CustomLayout from './components/custom-layout/CustomLayout.vue';
+import type { Component } from 'vue';
 
 import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
 import '@wikimedia/codex/dist/codex.style.css';
@@ -12,7 +13,7 @@ export default {
 	enhanceApp({ app }) {
 		const components = import.meta.glob('./components/**/*.vue', {
 			eager: true
-		});
+		}) as Record<string, { default: Component }>;
 
 		for (const path in components) {
 			const component = components[path].default;

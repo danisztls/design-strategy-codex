@@ -1,4 +1,5 @@
-import { defineConfig, mergeConfig, DefaultTheme } from 'vitepress'
+import { defineConfig, mergeConfig } from 'vitepress'
+import type { UserConfig } from 'vitepress/theme';
 import { baseConfig } from './theme/config'
 
 // TODO: Enable tracking script after it is configured.
@@ -29,7 +30,6 @@ const siteConfig = {
 	base: '/',
 	title: 'Design at Wikimedia Foundation',
 	description: "As part of the Research group, The Design Strategy team supports Product Design at the Foundation by providing the qualitative and quantitative studies that allow Product teams to make informed and inspired decisions. From explanations of what people do and want, to evaluations of what they experience, to experiments with new and emerging technologies, the research team answers the most urgent and impactful questions that stand in the way of delivering the “sum of all knowledge, to all the world’s people, for free, forever.”",
-	// Don't show the color mode switcher; we add our own in CustomLayout.vue.
 
 	head: [
 		[ 'link', { rel: 'icon', href: `/favicon.ico`, type: 'image/x-icon', sizes: '32x32' } ],
@@ -110,5 +110,5 @@ const siteConfig = {
 }
 
 export default defineConfig(
-  mergeConfig(baseConfig, siteConfig) satisfies DefaultTheme.Config
+	mergeConfig(baseConfig, siteConfig) satisfies UserConfig
 )
