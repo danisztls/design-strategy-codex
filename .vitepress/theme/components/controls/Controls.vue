@@ -121,7 +121,6 @@
 import { defineComponent, PropType, computed, toRef, useId } from 'vue';
 import { ControlConfigWithValue, SlotConfigWithValue, PropConfigWithValue } from '../../types';
 import { CdxRadio, CdxTextInput, CdxToggleSwitch, HTMLDirection, useModelWrapper, CdxSelect } from '@wikimedia/codex';
-import CdxDocsIconLookup from '../icon-lookup/IconLookup.vue';
 
 /**
  * A table of interactive controls to configure a component demo.
@@ -135,7 +134,7 @@ import CdxDocsIconLookup from '../icon-lookup/IconLookup.vue';
  */
 export default defineComponent( {
 	name: 'CdxDocsControls',
-	components: { CdxRadio, CdxTextInput, CdxToggleSwitch, CdxDocsIconLookup, CdxSelect },
+	components: { CdxRadio, CdxTextInput, CdxToggleSwitch, CdxSelect },
 	props: {
 		controlsWithValues: {
 			type: Array as PropType<ControlConfigWithValue[]>,
