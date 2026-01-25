@@ -5,10 +5,13 @@
 	},
 	"rules": [
 		{
-			"src": "strategy/about/team",
+			"src": "src/public/strategy/about/team",
 			"width": 200,
 			"height": 200,
 			"withoutEnlargement": true
+		},
+		{
+			"src": "src/public/strategy/**"
 		}
 	]
 }

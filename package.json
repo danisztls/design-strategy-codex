@@ -13,12 +13,13 @@
 		"docs:dev": "vitepress dev",
 		"docs:build": "node scripts/generate-feed.ts && vitepress build",
 		"docs:preview": "vitepress preview",
-		"optimize-images": "node scripts/sharp.js",
+		"optimize-images": "node scripts/optimize-images.ts",
 		"generate-feed": "node scripts/generate-feed.ts"
 	},
 	"devDependencies": {
-		"sharp": "^0.34.5",
 		"feed": "^5.2.0",
+		"sharp": "^0.34.5",
+		"fast-glob": "^3.3.3",
 		"wikimedia-vitepress-theme": "file:.vitepress/theme"
 	}
 }
